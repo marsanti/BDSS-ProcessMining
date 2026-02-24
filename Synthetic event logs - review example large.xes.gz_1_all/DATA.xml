@@ -1,0 +1,128 @@
+<metadata>
+   <doi>10.4121/uuid:da6aafef-5a86-4769-acf3-04e8ae5ab4fe</doi>
+   <name>review example - large.xes.gz</name>
+   <description>Review example</description>
+   <language>English</language>
+   <log_type>Synthetic model</log_type>
+   <process_type>Explicitly structured</process_type>
+   <creation>
+   <insitute>Eindhoven University of Technology</insitute>
+   <person>Wil van der Aalst</person>
+   <place>Eindhoven</place>
+   <time>Tue Oct 12 00:00:00 CEST 2010</time>
+   </creation>
+   <source>
+   <insitute>Eindhoven University of Technology</insitute>
+   <institute_type>University</institute_type>
+   <model>Review example.cpn</model>
+   <program>CPN Tools</program>
+   </source>
+   <rights type="Public">
+   </rights>
+   <lifecycle_model>standard</lifecycle_model>
+   <number_of_traces>10000</number_of_traces>
+   <number_of_events>236360</number_of_events>
+   <events_per_trace>23.636</events_per_trace>
+   <min_events_per_trace>11</min_events_per_trace>
+   <max_events_per_trace>86</max_events_per_trace>
+   <global_attributes>
+      <trace_level>
+         <attribute key="concept:name" default="__INVALID__"/>
+      </trace_level>
+      <event_level>
+         <attribute key="concept:name" default="__INVALID__"/>
+         <attribute key="lifecycle:transition" default="complete"/>
+      </event_level>
+   </global_attributes>
+   <meta_extensions>
+      <MetaData_General prefix="meta_general" uri="http://www.xes-standard.org/meta_general.xesext">
+         <classifiers>3</classifiers>
+         <events_average>23.636</events_average>
+         <events_max>86</events_max>
+         <events_min>11</events_min>
+         <events_standard_deviation>8.851</events_standard_deviation>
+         <events_total>236360</events_total>
+         <traces_total>10000</traces_total>
+      </MetaData_General>
+      <MetaData_Concept prefix="meta_concept" uri="http://www.xes-standard.org/meta_concept.xesext">
+         <different_names_average>9.563</different_names_average>
+         <different_names_max>10</different_names_max>
+         <different_names_min>7</different_names_min>
+         <different_names_standard_deviation>0.79</different_names_standard_deviation>
+         <different_names_total>14</different_names_total>
+         <named_events_average>23.636</named_events_average>
+         <named_events_max>86</named_events_max>
+         <named_events_min>11</named_events_min>
+         <named_events_standard_deviation>8.851</named_events_standard_deviation>
+         <named_events_total>236360</named_events_total>
+      </MetaData_Concept>
+      <MetaData_LifeCycle prefix="meta_life" uri="http://www.xes-standard.org/meta_life.xesext">
+         <different_transitions_average>2.0</different_transitions_average>
+         <different_transitions_max>2</different_transitions_max>
+         <different_transitions_min>2</different_transitions_min>
+         <different_transitions_standard_deviation>0.0</different_transitions_standard_deviation>
+         <different_transitions_total>2</different_transitions_total>
+         <transition_events_average>23.636</transition_events_average>
+         <transition_events_max>86</transition_events_max>
+         <transition_events_min>11</transition_events_min>
+         <transition_events_standard_deviation>8.851</transition_events_standard_deviation>
+         <transition_events_total>236360</transition_events_total>
+      </MetaData_LifeCycle>
+      <MetaData_Organization prefix="meta_org" uri="http://www.xes-standard.org/meta_org.xesext">
+         <different_groups_average>1.0</different_groups_average>
+         <different_groups_max>1</different_groups_max>
+         <different_groups_min>1</different_groups_min>
+         <different_groups_standard_deviation>0.0</different_groups_standard_deviation>
+         <different_groups_total>1</different_groups_total>
+         <different_resources_average>6.917</different_resources_average>
+         <different_resources_max>10</different_resources_max>
+         <different_resources_min>4</different_resources_min>
+         <different_resources_standard_deviation>0.906</different_resources_standard_deviation>
+         <different_resources_total>11</different_resources_total>
+         <different_roles_average>1.0</different_roles_average>
+         <different_roles_max>1</different_roles_max>
+         <different_roles_min>1</different_roles_min>
+         <different_roles_standard_deviation>0.0</different_roles_standard_deviation>
+         <different_roles_total>1</different_roles_total>
+         <group_events_average>23.636</group_events_average>
+         <group_events_max>86</group_events_max>
+         <group_events_min>11</group_events_min>
+         <group_events_standard_deviation>8.851</group_events_standard_deviation>
+         <group_events_total>236360</group_events_total>
+         <resource_events_average>23.636</resource_events_average>
+         <resource_events_max>86</resource_events_max>
+         <resource_events_min>11</resource_events_min>
+         <resource_events_standard_deviation>8.851</resource_events_standard_deviation>
+         <resource_events_total>236360</resource_events_total>
+         <role_events_average>23.636</role_events_average>
+         <role_events_max>86</role_events_max>
+         <role_events_min>11</role_events_min>
+         <role_events_standard_deviation>8.851</role_events_standard_deviation>
+         <role_events_total>236360</role_events_total>
+      </MetaData_Organization>
+      <MetaData_Time prefix="meta_time" uri="http://www.xes-standard.org/meta_time.xesext">
+         <duration_average>2.63334875904E9</duration_average>
+         <duration_max>7.5265632E9</duration_max>
+         <duration_min>604800.0</duration_min>
+         <duration_standard_deviation>1.826477232379E9</duration_standard_deviation>
+         <duration_total>2.63334875904E13</duration_total>
+         <log_duration>7.7857632E9</log_duration>
+         <log_end_time>2252-09-21T01:00:00+02:00</log_end_time>
+         <log_start_time>2006-01-01T00:00:00+01:00</log_start_time>
+      </MetaData_Time>
+   </meta_extensions>
+   <extensions>
+      <Concept prefix="concept" uri="http://www.xes-standard.org/concept.xesext">
+         <name>review example - large</name>
+      </Concept>
+      <Lifecycle prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext">
+         <model>standard</model>
+      </Lifecycle>
+      <Organizational prefix="org" uri="http://www.xes-standard.org/org.xesext">
+      </Organizational>
+      <Semantic prefix="semantic" uri="http://www.xes-standard.org/semantic.xesext">
+      </Semantic>
+      <Time prefix="time" uri="http://www.xes-standard.org/time.xesext">
+      </Time>
+   </extensions>
+</metadata>
