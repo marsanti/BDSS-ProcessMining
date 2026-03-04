@@ -1,6 +1,8 @@
 from pm4py.objects.log.obj import EventLog, Trace, Event
 from collections import Counter
+from tqdm.notebook import tqdm
 import math
+import copy
 
     
 def compute_aligned_log(log, standard_alignments):
@@ -131,3 +133,32 @@ def calculate_trace_test_entropy(state_datasets, states, aligned_log):
         entropy += prob_to_reach_state * (sat_proportion * sat_entropy + unsat_proportion * unsat_entropy)
 
     return entropy
+
+def generate_relabeled_log(original_log, test_set):
+    """
+    Relabels the log with the trace test results.
+
+    Args:
+        original_log: The original log.
+        test_set: The set of trace tests.
+
+    Returns:
+        The relabeled log.
+    """
+    print(f"Relabeling log with {len(test_set)} tests...")
+    new_log = copy.deepcopy(original_log)
+    
+    for trace in tqdm(new_log):
+        for i, event in enumerate(trace):
+            results_vector = []
+            for test in test_set:
+                is_satified = test.check(trace, i)
+                results_vector.append(1 if is_satified else 0)
+
+            vector_str = str(results_vector).replace(" ", "")
+            original_name = event['concept:name']
+            new_name = f"{original_name}_{vector_str}"
+            event['concept:name'] = new_name
+        
+    print(f"Success! Relabeling completed.")
+    return new_log
