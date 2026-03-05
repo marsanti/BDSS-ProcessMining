@@ -1,0 +1,4612 @@
+Trace test for (John AND NOT(rejection))...
+
+Datasets associated to each state computed.
+State: ("['source:1']", 0)
+	 - Dataset size: 10000
+	 - Sat set size: 0 | Unsat set size: 10000
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_6:1']", 1)
+	 - Dataset size: 10000
+	 - Sat set size: 0 | Unsat set size: 10000
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_7:1']", 2)
+	 - Dataset size: 10000
+	 - Sat set size: 0 | Unsat set size: 10000
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_6:1']", 3)
+	 - Dataset size: 10000
+	 - Sat set size: 0 | Unsat set size: 10000
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_7:1']", 4)
+	 - Dataset size: 10000
+	 - Sat set size: 0 | Unsat set size: 10000
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_10:1', 'p_12:1', 'p_14:1']", 5)
+	 - Dataset size: 10000
+	 - Sat set size: 0 | Unsat set size: 10000
+	 - Sat entropy: 0.0000 | Unsat entropy: 2.5292
+
+State: ("['p_10:1', 'p_12:1', 'p_15:1']", 6)
+	 - Dataset size: 3353
+	 - Sat set size: 157 | Unsat set size: 3196
+	 - Sat entropy: 1.9792 | Unsat entropy: 1.9856
+
+State: ("['p_10:1', 'p_13:1', 'p_14:1']", 6)
+	 - Dataset size: 3283
+	 - Sat set size: 136 | Unsat set size: 3147
+	 - Sat entropy: 1.9800 | Unsat entropy: 1.9907
+
+State: ("['p_11:1', 'p_12:1', 'p_14:1']", 6)
+	 - Dataset size: 3364
+	 - Sat set size: 154 | Unsat set size: 3210
+	 - Sat entropy: 1.9400 | Unsat entropy: 1.9882
+
+State: ("['p_10:1', 'p_13:1', 'p_15:1']", 7)
+	 - Dataset size: 3347
+	 - Sat set size: 275 | Unsat set size: 3072
+	 - Sat entropy: 0.9121 | Unsat entropy: 0.8738
+
+State: ("['p_11:1', 'p_12:1', 'p_15:1']", 7)
+	 - Dataset size: 3276
+	 - Sat set size: 287 | Unsat set size: 2989
+	 - Sat entropy: 0.8851 | Unsat entropy: 0.8822
+
+State: ("['p_11:1', 'p_13:1', 'p_14:1']", 7)
+	 - Dataset size: 3377
+	 - Sat set size: 269 | Unsat set size: 3108
+	 - Sat entropy: 0.9041 | Unsat entropy: 0.8715
+
+State: ("['p_11:1', 'p_13:1', 'p_15:1']", 8)
+	 - Dataset size: 10000
+	 - Sat set size: 1042 | Unsat set size: 8958
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_17:1']", 9)
+	 - Dataset size: 10000
+	 - Sat set size: 1042 | Unsat set size: 8958
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_18:1']", 10)
+	 - Dataset size: 10000
+	 - Sat set size: 1042 | Unsat set size: 8958
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_17:1']", 11)
+	 - Dataset size: 10000
+	 - Sat set size: 1042 | Unsat set size: 8958
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_18:1']", 12)
+	 - Dataset size: 10000
+	 - Sat set size: 1042 | Unsat set size: 8958
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_21:1']", 13)
+	 - Dataset size: 10000
+	 - Sat set size: 1042 | Unsat set size: 8958
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_22:1']", 14)
+	 - Dataset size: 10000
+	 - Sat set size: 1042 | Unsat set size: 8958
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_21:1']", 15)
+	 - Dataset size: 10000
+	 - Sat set size: 1042 | Unsat set size: 8958
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_22:1']", 16)
+	 - Dataset size: 10000
+	 - Sat set size: 1042 | Unsat set size: 8958
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_20:1']", 17)
+	 - Dataset size: 10000
+	 - Sat set size: 1042 | Unsat set size: 8958
+	 - Sat entropy: 0.5153 | Unsat entropy: 0.3156
+
+State: ("['p_25:1', 'p_32:1', 'p_35:1']", 18)
+	 - Dataset size: 9369
+	 - Sat set size: 922 | Unsat set size: 8447
+	 - Sat entropy: 1.9712 | Unsat entropy: 1.9689
+
+State: ("['p_24:1']", 18)
+	 - Dataset size: 631
+	 - Sat set size: 120 | Unsat set size: 511
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.9738
+
+State: ("['p_25:1', 'p_32:1', 'p_36:1']", 19)
+	 - Dataset size: 2474
+	 - Sat set size: 272 | Unsat set size: 2202
+	 - Sat entropy: 0.9944 | Unsat entropy: 0.9891
+
+State: ("['p_25:1', 'p_32:1', 'p_37:1']", 19)
+	 - Dataset size: 1771
+	 - Sat set size: 170 | Unsat set size: 1601
+	 - Sat entropy: 0.7335 | Unsat entropy: 0.6415
+
+State: ("['p_25:1', 'p_33:1', 'p_35:1']", 19)
+	 - Dataset size: 3081
+	 - Sat set size: 277 | Unsat set size: 2804
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0121
+
+State: ("['p_27:1', 'p_32:1', 'p_35:1']", 19)
+	 - Dataset size: 2042
+	 - Sat set size: 203 | Unsat set size: 1839
+	 - Sat entropy: 0.6404 | Unsat entropy: 0.5558
+
+State: ("['p_40:1']", 19)
+	 - Dataset size: 327
+	 - Sat set size: 120 | Unsat set size: 207
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 19)
+	 - Dataset size: 304
+	 - Sat set size: 0 | Unsat set size: 304
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_32:1', 'p_35:1']", 19)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 20)
+	 - Dataset size: 1384
+	 - Sat set size: 148 | Unsat set size: 1236
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 20)
+	 - Dataset size: 3246
+	 - Sat set size: 305 | Unsat set size: 2941
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_32:1', 'p_35:1']", 20)
+	 - Dataset size: 3078
+	 - Sat set size: 277 | Unsat set size: 2801
+	 - Sat entropy: 0.7633 | Unsat entropy: 0.8146
+
+State: ("['p_25:1', 'p_33:1', 'p_36:1']", 20)
+	 - Dataset size: 1090
+	 - Sat set size: 124 | Unsat set size: 966
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 20)
+	 - Dataset size: 327
+	 - Sat set size: 120 | Unsat set size: 207
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_33:1', 'p_37:1']", 20)
+	 - Dataset size: 299
+	 - Sat set size: 35 | Unsat set size: 264
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_35:1']", 20)
+	 - Dataset size: 271
+	 - Sat set size: 33 | Unsat set size: 238
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 20)
+	 - Dataset size: 304
+	 - Sat set size: 0 | Unsat set size: 304
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_35:1']", 20)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 21)
+	 - Dataset size: 1384
+	 - Sat set size: 148 | Unsat set size: 1236
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 21)
+	 - Dataset size: 3246
+	 - Sat set size: 305 | Unsat set size: 2941
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_33:1', 'p_35:1']", 21)
+	 - Dataset size: 2570
+	 - Sat set size: 235 | Unsat set size: 2335
+	 - Sat entropy: 0.0396 | Unsat entropy: 0.0659
+
+State: ("['p_27:1', 'p_32:1', 'p_35:1']", 21)
+	 - Dataset size: 550
+	 - Sat set size: 57 | Unsat set size: 493
+	 - Sat entropy: 0.9998 | Unsat entropy: 0.9995
+
+State: ("['p_25:1', 'p_32:1', 'p_36:1']", 21)
+	 - Dataset size: 1090
+	 - Sat set size: 124 | Unsat set size: 966
+	 - Sat entropy: 0.9953 | Unsat entropy: 0.9966
+
+State: ("['p_40:1']", 21)
+	 - Dataset size: 327
+	 - Sat set size: 120 | Unsat set size: 207
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_32:1', 'p_37:1']", 21)
+	 - Dataset size: 528
+	 - Sat set size: 53 | Unsat set size: 475
+	 - Sat entropy: 0.9414 | Unsat entropy: 0.9965
+
+State: ("['p_43:1']", 21)
+	 - Dataset size: 304
+	 - Sat set size: 0 | Unsat set size: 304
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_32:1', 'p_35:1']", 21)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 22)
+	 - Dataset size: 1967
+	 - Sat set size: 215 | Unsat set size: 1752
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 22)
+	 - Dataset size: 3767
+	 - Sat set size: 352 | Unsat set size: 3415
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_32:1', 'p_35:1']", 22)
+	 - Dataset size: 2553
+	 - Sat set size: 234 | Unsat set size: 2319
+	 - Sat entropy: 0.9924 | Unsat entropy: 0.9555
+
+State: ("['p_25:1', 'p_33:1', 'p_36:1']", 22)
+	 - Dataset size: 507
+	 - Sat set size: 57 | Unsat set size: 450
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 22)
+	 - Dataset size: 327
+	 - Sat set size: 120 | Unsat set size: 207
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_33:1', 'p_37:1']", 22)
+	 - Dataset size: 298
+	 - Sat set size: 35 | Unsat set size: 263
+	 - Sat entropy: 0.4220 | Unsat entropy: 0.4016
+
+State: ("['p_27:1', 'p_33:1', 'p_35:1']", 22)
+	 - Dataset size: 276
+	 - Sat set size: 29 | Unsat set size: 247
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.4728
+
+State: ("['p_44:1']", 22)
+	 - Dataset size: 304
+	 - Sat set size: 0 | Unsat set size: 304
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_32:1', 'p_37:1']", 22)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 23)
+	 - Dataset size: 1967
+	 - Sat set size: 215 | Unsat set size: 1752
+	 - Sat entropy: 0.8542 | Unsat entropy: 0.9925
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 23)
+	 - Dataset size: 3767
+	 - Sat set size: 352 | Unsat set size: 3415
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_35:1']", 23)
+	 - Dataset size: 1826
+	 - Sat set size: 158 | Unsat set size: 1668
+	 - Sat entropy: 0.5822 | Unsat entropy: 0.6651
+
+State: ("['p_25:1', 'p_32:1', 'p_36:1']", 23)
+	 - Dataset size: 507
+	 - Sat set size: 57 | Unsat set size: 450
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_32:1', 'p_37:1']", 23)
+	 - Dataset size: 1252
+	 - Sat set size: 137 | Unsat set size: 1115
+	 - Sat entropy: 0.8804 | Unsat entropy: 0.9150
+
+State: ("['p_4:1']", 23)
+	 - Dataset size: 631
+	 - Sat set size: 120 | Unsat set size: 511
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_35:1']", 23)
+	 - Dataset size: 25
+	 - Sat set size: 2 | Unsat set size: 23
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.8865
+
+State: ("['p_25:1', 'p_33:1', 'p_38:1']", 23)
+	 - Dataset size: 24
+	 - Sat set size: 3 | Unsat set size: 21
+	 - Sat entropy: 0.9183 | Unsat entropy: 0.8631
+
+State: ("['p_26:1', 'p_33:1', 'p_37:1']", 23)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_36:1']", 24)
+	 - Dataset size: 1120
+	 - Sat set size: 221 | Unsat set size: 899
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 24)
+	 - Dataset size: 6125
+	 - Sat set size: 584 | Unsat set size: 5541
+	 - Sat entropy: 0.8745 | Unsat entropy: 0.9008
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 24)
+	 - Dataset size: 1354
+	 - Sat set size: 117 | Unsat set size: 1237
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['sink:1']", 24)
+	 - Dataset size: 0
+	 - Sat set size: 0 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_32:1', 'p_38:1']", 24)
+	 - Dataset size: 425
+	 - Sat set size: 42 | Unsat set size: 383
+	 - Sat entropy: 1.3001 | Unsat entropy: 1.2514
+
+State: ("['p_28:1', 'p_32:1', 'p_35:1']", 24)
+	 - Dataset size: 329
+	 - Sat set size: 56 | Unsat set size: 273
+	 - Sat entropy: 0.4985 | Unsat entropy: 0.7100
+
+State: ("['p_25:1', 'p_33:1', 'p_37:1']", 24)
+	 - Dataset size: 8
+	 - Sat set size: 2 | Unsat set size: 6
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_35:1']", 24)
+	 - Dataset size: 7
+	 - Sat set size: 0 | Unsat set size: 7
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_38:1']", 24)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_36:1']", 25)
+	 - Dataset size: 1121
+	 - Sat set size: 221 | Unsat set size: 900
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 25)
+	 - Dataset size: 4201
+	 - Sat set size: 412 | Unsat set size: 3789
+	 - Sat entropy: 0.8648 | Unsat entropy: 0.8788
+
+State: ("['p_28:1', 'p_32:1', 'p_36:1']", 25)
+	 - Dataset size: 1354
+	 - Sat set size: 218 | Unsat set size: 1136
+	 - Sat entropy: 0.4112 | Unsat entropy: 0.3509
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 25)
+	 - Dataset size: 1933
+	 - Sat set size: 294 | Unsat set size: 1639
+	 - Sat entropy: 0.2762 | Unsat entropy: 0.3716
+
+State: ("['p_25:1', 'p_32:1', 'p_36:1']", 25)
+	 - Dataset size: 89
+	 - Sat set size: 11 | Unsat set size: 78
+	 - Sat entropy: 0.4395 | Unsat entropy: 0.9694
+
+State: ("['p_25:1', 'p_32:1', 'p_37:1']", 25)
+	 - Dataset size: 294
+	 - Sat set size: 28 | Unsat set size: 266
+	 - Sat entropy: 0.6769 | Unsat entropy: 0.7634
+
+State: ("['p_27:1', 'p_32:1', 'p_35:1']", 25)
+	 - Dataset size: 288
+	 - Sat set size: 51 | Unsat set size: 237
+	 - Sat entropy: 0.9774 | Unsat entropy: 0.9943
+
+State: ("['p_25:1', 'p_33:1', 'p_38:1']", 25)
+	 - Dataset size: 47
+	 - Sat set size: 5 | Unsat set size: 42
+	 - Sat entropy: 0.7219 | Unsat entropy: 0.8296
+
+State: ("['p_28:1', 'p_33:1', 'p_35:1']", 25)
+	 - Dataset size: 42
+	 - Sat set size: 4 | Unsat set size: 38
+	 - Sat entropy: 1.0000 | Unsat entropy: 0.8680
+
+State: ("['p_24:1']", 26)
+	 - Dataset size: 1121
+	 - Sat set size: 221 | Unsat set size: 900
+	 - Sat entropy: 0.5967 | Unsat entropy: 0.9799
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 26)
+	 - Dataset size: 5292
+	 - Sat set size: 637 | Unsat set size: 4655
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 26)
+	 - Dataset size: 2365
+	 - Sat set size: 307 | Unsat set size: 2058
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 26)
+	 - Dataset size: 30
+	 - Sat set size: 2 | Unsat set size: 28
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_33:1', 'p_36:1']", 26)
+	 - Dataset size: 57
+	 - Sat set size: 10 | Unsat set size: 47
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_35:1']", 26)
+	 - Dataset size: 158
+	 - Sat set size: 23 | Unsat set size: 135
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.2285
+
+State: ("['p_28:1', 'p_33:1', 'p_37:1']", 26)
+	 - Dataset size: 128
+	 - Sat set size: 14 | Unsat set size: 114
+	 - Sat entropy: 0.7496 | Unsat entropy: 0.8442
+
+State: ("['p_25:1', 'p_33:1', 'p_37:1']", 26)
+	 - Dataset size: 76
+	 - Sat set size: 6 | Unsat set size: 70
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_36:1']", 26)
+	 - Dataset size: 93
+	 - Sat set size: 18 | Unsat set size: 75
+	 - Sat entropy: 0.9911 | Unsat entropy: 0.9937
+
+State: ("['p_25:1', 'p_32:1', 'p_38:1']", 26)
+	 - Dataset size: 35
+	 - Sat set size: 4 | Unsat set size: 31
+	 - Sat entropy: 0.8113 | Unsat entropy: 1.1357
+
+State: ("['p_28:1', 'p_32:1', 'p_35:1']", 26)
+	 - Dataset size: 13
+	 - Sat set size: 2 | Unsat set size: 11
+	 - Sat entropy: 0.0000 | Unsat entropy: 1.0958
+
+State: ("['p_26:1', 'p_32:1', 'p_37:1']", 26)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 27)
+	 - Dataset size: 557
+	 - Sat set size: 32 | Unsat set size: 525
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 27)
+	 - Dataset size: 5331
+	 - Sat set size: 640 | Unsat set size: 4691
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 27)
+	 - Dataset size: 2416
+	 - Sat set size: 317 | Unsat set size: 2099
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 27)
+	 - Dataset size: 36
+	 - Sat set size: 2 | Unsat set size: 34
+	 - Sat entropy: 0.0000 | Unsat entropy: 1.0000
+
+State: ("['p_40:1']", 27)
+	 - Dataset size: 564
+	 - Sat set size: 189 | Unsat set size: 375
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_32:1', 'p_36:1']", 27)
+	 - Dataset size: 57
+	 - Sat set size: 10 | Unsat set size: 47
+	 - Sat entropy: 0.8813 | Unsat entropy: 0.9918
+
+State: ("['p_27:1', 'p_32:1', 'p_35:1']", 27)
+	 - Dataset size: 163
+	 - Sat set size: 25 | Unsat set size: 138
+	 - Sat entropy: 0.4022 | Unsat entropy: 0.5781
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 27)
+	 - Dataset size: 96
+	 - Sat set size: 11 | Unsat set size: 85
+	 - Sat entropy: 0.4395 | Unsat entropy: 0.9774
+
+State: ("['p_25:1', 'p_32:1', 'p_37:1']", 27)
+	 - Dataset size: 80
+	 - Sat set size: 7 | Unsat set size: 73
+	 - Sat entropy: 0.5917 | Unsat entropy: 0.6447
+
+State: ("['p_28:1', 'p_32:1', 'p_36:1']", 27)
+	 - Dataset size: 42
+	 - Sat set size: 8 | Unsat set size: 34
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_33:1', 'p_38:1']", 27)
+	 - Dataset size: 25
+	 - Sat set size: 3 | Unsat set size: 22
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_37:1']", 27)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_35:1']", 27)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 28)
+	 - Dataset size: 557
+	 - Sat set size: 32 | Unsat set size: 525
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 28)
+	 - Dataset size: 5442
+	 - Sat set size: 653 | Unsat set size: 4789
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 28)
+	 - Dataset size: 2491
+	 - Sat set size: 332 | Unsat set size: 2159
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 28)
+	 - Dataset size: 19
+	 - Sat set size: 2 | Unsat set size: 17
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 28)
+	 - Dataset size: 564
+	 - Sat set size: 189 | Unsat set size: 375
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_35:1']", 28)
+	 - Dataset size: 142
+	 - Sat set size: 23 | Unsat set size: 119
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0700
+
+State: ("['p_25:1', 'p_33:1', 'p_37:1']", 28)
+	 - Dataset size: 67
+	 - Sat set size: 6 | Unsat set size: 61
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_33:1', 'p_36:1']", 28)
+	 - Dataset size: 24
+	 - Sat set size: 3 | Unsat set size: 21
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_32:1', 'p_38:1']", 28)
+	 - Dataset size: 25
+	 - Sat set size: 3 | Unsat set size: 22
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_37:1']", 28)
+	 - Dataset size: 36
+	 - Sat set size: 1 | Unsat set size: 35
+	 - Sat entropy: 0.0000 | Unsat entropy: 1.3130
+
+State: ("['p_26:1', 'p_32:1', 'p_37:1']", 28)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_35:1']", 28)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 29)
+	 - Dataset size: 557
+	 - Sat set size: 32 | Unsat set size: 525
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 29)
+	 - Dataset size: 5456
+	 - Sat set size: 653 | Unsat set size: 4803
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0270
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 29)
+	 - Dataset size: 2491
+	 - Sat set size: 332 | Unsat set size: 2159
+	 - Sat entropy: 0.9388 | Unsat entropy: 0.9838
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 29)
+	 - Dataset size: 44
+	 - Sat set size: 5 | Unsat set size: 39
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.1720
+
+State: ("['p_40:1']", 29)
+	 - Dataset size: 564
+	 - Sat set size: 189 | Unsat set size: 375
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_35:1']", 29)
+	 - Dataset size: 141
+	 - Sat set size: 23 | Unsat set size: 118
+	 - Sat entropy: 0.9656 | Unsat entropy: 0.9590
+
+State: ("['p_25:1', 'p_32:1', 'p_37:1']", 29)
+	 - Dataset size: 67
+	 - Sat set size: 6 | Unsat set size: 61
+	 - Sat entropy: 1.0000 | Unsat entropy: 0.9983
+
+State: ("['p_25:1', 'p_32:1', 'p_36:1']", 29)
+	 - Dataset size: 24
+	 - Sat set size: 3 | Unsat set size: 21
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 29)
+	 - Dataset size: 20
+	 - Sat set size: 0 | Unsat set size: 20
+	 - Sat entropy: 0.0000 | Unsat entropy: 1.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_38:1']", 29)
+	 - Dataset size: 4
+	 - Sat set size: 1 | Unsat set size: 3
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_37:1']", 29)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 30)
+	 - Dataset size: 557
+	 - Sat set size: 32 | Unsat set size: 525
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 30)
+	 - Dataset size: 5573
+	 - Sat set size: 670 | Unsat set size: 4903
+	 - Sat entropy: 0.7930 | Unsat entropy: 0.8585
+
+State: ("['p_28:1', 'p_33:1', 'p_36:1']", 30)
+	 - Dataset size: 1455
+	 - Sat set size: 288 | Unsat set size: 1167
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 30)
+	 - Dataset size: 53
+	 - Sat set size: 6 | Unsat set size: 47
+	 - Sat entropy: 0.0000 | Unsat entropy: 1.3049
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 30)
+	 - Dataset size: 1060
+	 - Sat set size: 121 | Unsat set size: 939
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 30)
+	 - Dataset size: 564
+	 - Sat set size: 189 | Unsat set size: 375
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_35:1']", 30)
+	 - Dataset size: 54
+	 - Sat set size: 12 | Unsat set size: 42
+	 - Sat entropy: 0.4138 | Unsat entropy: 0.4537
+
+State: ("['p_25:1', 'p_32:1', 'p_38:1']", 30)
+	 - Dataset size: 35
+	 - Sat set size: 3 | Unsat set size: 32
+	 - Sat entropy: 0.9183 | Unsat entropy: 0.9887
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 30)
+	 - Dataset size: 17
+	 - Sat set size: 1 | Unsat set size: 16
+	 - Sat entropy: 0.0000 | Unsat entropy: 1.0141
+
+State: ("['p_26:1', 'p_33:1', 'p_38:1']", 30)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_4:1']", 31)
+	 - Dataset size: 1121
+	 - Sat set size: 221 | Unsat set size: 900
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 31)
+	 - Dataset size: 4078
+	 - Sat set size: 517 | Unsat set size: 3561
+	 - Sat entropy: 1.0421 | Unsat entropy: 0.9921
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 31)
+	 - Dataset size: 1552
+	 - Sat set size: 257 | Unsat set size: 1295
+	 - Sat entropy: 0.2190 | Unsat entropy: 0.3465
+
+State: ("['p_26:1', 'p_33:1', 'p_36:1']", 31)
+	 - Dataset size: 1456
+	 - Sat set size: 288 | Unsat set size: 1168
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_36:1']", 31)
+	 - Dataset size: 1060
+	 - Sat set size: 193 | Unsat set size: 867
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_35:1']", 31)
+	 - Dataset size: 49
+	 - Sat set size: 11 | Unsat set size: 38
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_33:1', 'p_38:1']", 31)
+	 - Dataset size: 15
+	 - Sat set size: 1 | Unsat set size: 14
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_32:1', 'p_37:1']", 31)
+	 - Dataset size: 20
+	 - Sat set size: 2 | Unsat set size: 18
+	 - Sat entropy: 1.0000 | Unsat entropy: 0.9183
+
+State: ("['p_28:1', 'p_33:1', 'p_35:1']", 31)
+	 - Dataset size: 5
+	 - Sat set size: 1 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_38:1']", 31)
+	 - Dataset size: 9
+	 - Sat set size: 0 | Unsat set size: 9
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 31)
+	 - Dataset size: 3
+	 - Sat set size: 0 | Unsat set size: 3
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 31)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['sink:1']", 32)
+	 - Dataset size: 0
+	 - Sat set size: 0 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 32)
+	 - Dataset size: 4269
+	 - Sat set size: 589 | Unsat set size: 3680
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_24:1']", 32)
+	 - Dataset size: 1456
+	 - Sat set size: 288 | Unsat set size: 1168
+	 - Sat entropy: 0.7383 | Unsat entropy: 0.9723
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 32)
+	 - Dataset size: 74
+	 - Sat set size: 11 | Unsat set size: 63
+	 - Sat entropy: 0.4395 | Unsat entropy: 0.9016
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 32)
+	 - Dataset size: 2273
+	 - Sat set size: 359 | Unsat set size: 1914
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_37:1']", 32)
+	 - Dataset size: 90
+	 - Sat set size: 9 | Unsat set size: 81
+	 - Sat entropy: 0.9911 | Unsat entropy: 0.9510
+
+State: ("['p_27:1', 'p_33:1', 'p_35:1']", 32)
+	 - Dataset size: 49
+	 - Sat set size: 11 | Unsat set size: 38
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_32:1', 'p_38:1']", 32)
+	 - Dataset size: 15
+	 - Sat set size: 1 | Unsat set size: 14
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.9403
+
+State: ("['p_25:1', 'p_33:1', 'p_37:1']", 32)
+	 - Dataset size: 7
+	 - Sat set size: 1 | Unsat set size: 6
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_32:1', 'p_37:1']", 32)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_35:1']", 32)
+	 - Dataset size: 5
+	 - Sat set size: 1 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 32)
+	 - Dataset size: 9
+	 - Sat set size: 0 | Unsat set size: 9
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.9911
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 33)
+	 - Dataset size: 4324
+	 - Sat set size: 594 | Unsat set size: 3730
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 33)
+	 - Dataset size: 758
+	 - Sat set size: 60 | Unsat set size: 698
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 33)
+	 - Dataset size: 58
+	 - Sat set size: 10 | Unsat set size: 48
+	 - Sat entropy: 0.8813 | Unsat entropy: 0.9887
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 33)
+	 - Dataset size: 2273
+	 - Sat set size: 359 | Unsat set size: 1914
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 33)
+	 - Dataset size: 60
+	 - Sat set size: 5 | Unsat set size: 55
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.9121
+
+State: ("['p_27:1', 'p_32:1', 'p_35:1']", 33)
+	 - Dataset size: 49
+	 - Sat set size: 11 | Unsat set size: 38
+	 - Sat entropy: 0.8454 | Unsat entropy: 0.7425
+
+State: ("['p_40:1']", 33)
+	 - Dataset size: 698
+	 - Sat set size: 228 | Unsat set size: 470
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_33:1', 'p_38:1']", 33)
+	 - Dataset size: 10
+	 - Sat set size: 1 | Unsat set size: 9
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_32:1', 'p_37:1']", 33)
+	 - Dataset size: 7
+	 - Sat set size: 1 | Unsat set size: 6
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_37:1']", 33)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_35:1']", 33)
+	 - Dataset size: 5
+	 - Sat set size: 1 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_38:1']", 33)
+	 - Dataset size: 5
+	 - Sat set size: 0 | Unsat set size: 5
+	 - Sat entropy: 0.0000 | Unsat entropy: 1.5219
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 34)
+	 - Dataset size: 4405
+	 - Sat set size: 609 | Unsat set size: 3796
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 34)
+	 - Dataset size: 758
+	 - Sat set size: 60 | Unsat set size: 698
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 34)
+	 - Dataset size: 2273
+	 - Sat set size: 359 | Unsat set size: 1914
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 34)
+	 - Dataset size: 698
+	 - Sat set size: 228 | Unsat set size: 470
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_35:1']", 34)
+	 - Dataset size: 38
+	 - Sat set size: 8 | Unsat set size: 30
+	 - Sat entropy: 0.8113 | Unsat entropy: 0.4690
+
+State: ("['p_25:1', 'p_32:1', 'p_38:1']", 34)
+	 - Dataset size: 10
+	 - Sat set size: 1 | Unsat set size: 9
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 34)
+	 - Dataset size: 32
+	 - Sat set size: 3 | Unsat set size: 29
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.2164
+
+State: ("['p_28:1', 'p_33:1', 'p_37:1']", 34)
+	 - Dataset size: 20
+	 - Sat set size: 0 | Unsat set size: 20
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_33:1', 'p_37:1']", 34)
+	 - Dataset size: 7
+	 - Sat set size: 1 | Unsat set size: 6
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_32:1', 'p_37:1']", 34)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_35:1']", 34)
+	 - Dataset size: 5
+	 - Sat set size: 1 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 34)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 35)
+	 - Dataset size: 4410
+	 - Sat set size: 611 | Unsat set size: 3799
+	 - Sat entropy: 0.0317 | Unsat entropy: 0.0093
+
+State: ("['p_43:1']", 35)
+	 - Dataset size: 758
+	 - Sat set size: 60 | Unsat set size: 698
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 35)
+	 - Dataset size: 2273
+	 - Sat set size: 359 | Unsat set size: 1914
+	 - Sat entropy: 0.8377 | Unsat entropy: 0.9498
+
+State: ("['p_40:1']", 35)
+	 - Dataset size: 698
+	 - Sat set size: 228 | Unsat set size: 470
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_35:1']", 35)
+	 - Dataset size: 33
+	 - Sat set size: 6 | Unsat set size: 27
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 35)
+	 - Dataset size: 41
+	 - Sat set size: 4 | Unsat set size: 37
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 35)
+	 - Dataset size: 26
+	 - Sat set size: 1 | Unsat set size: 25
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.4022
+
+State: ("['p_25:1', 'p_32:1', 'p_37:1']", 35)
+	 - Dataset size: 7
+	 - Sat set size: 1 | Unsat set size: 6
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_37:1']", 35)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_38:1']", 35)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 36)
+	 - Dataset size: 4440
+	 - Sat set size: 615 | Unsat set size: 3825
+	 - Sat entropy: 0.7316 | Unsat entropy: 0.8340
+
+State: ("['p_44:1']", 36)
+	 - Dataset size: 758
+	 - Sat set size: 60 | Unsat set size: 698
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 36)
+	 - Dataset size: 802
+	 - Sat set size: 96 | Unsat set size: 706
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_36:1']", 36)
+	 - Dataset size: 1471
+	 - Sat set size: 341 | Unsat set size: 1130
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 36)
+	 - Dataset size: 698
+	 - Sat set size: 228 | Unsat set size: 470
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 36)
+	 - Dataset size: 66
+	 - Sat set size: 10 | Unsat set size: 56
+	 - Sat entropy: 0.4690 | Unsat entropy: 1.4426
+
+State: ("['p_25:1', 'p_32:1', 'p_38:1']", 36)
+	 - Dataset size: 7
+	 - Sat set size: 1 | Unsat set size: 6
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 36)
+	 - Dataset size: 5
+	 - Sat set size: 2 | Unsat set size: 3
+	 - Sat entropy: 1.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_38:1']", 36)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 37)
+	 - Dataset size: 3341
+	 - Sat set size: 499 | Unsat set size: 2842
+	 - Sat entropy: 1.0997 | Unsat entropy: 1.0321
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 37)
+	 - Dataset size: 1156
+	 - Sat set size: 184 | Unsat set size: 972
+	 - Sat entropy: 0.3266 | Unsat entropy: 0.4067
+
+State: ("['p_4:1']", 37)
+	 - Dataset size: 1456
+	 - Sat set size: 288 | Unsat set size: 1168
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_36:1']", 37)
+	 - Dataset size: 802
+	 - Sat set size: 146 | Unsat set size: 656
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_36:1']", 37)
+	 - Dataset size: 1472
+	 - Sat set size: 341 | Unsat set size: 1131
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_38:1']", 37)
+	 - Dataset size: 10
+	 - Sat set size: 0 | Unsat set size: 10
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_32:1', 'p_37:1']", 37)
+	 - Dataset size: 7
+	 - Sat set size: 1 | Unsat set size: 6
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.9183
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 37)
+	 - Dataset size: 4
+	 - Sat set size: 1 | Unsat set size: 3
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 38)
+	 - Dataset size: 3228
+	 - Sat set size: 469 | Unsat set size: 2759
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_37:1']", 38)
+	 - Dataset size: 90
+	 - Sat set size: 11 | Unsat set size: 79
+	 - Sat entropy: 0.9457 | Unsat entropy: 0.9005
+
+State: ("['sink:1']", 38)
+	 - Dataset size: 0
+	 - Sat set size: 0 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 38)
+	 - Dataset size: 1927
+	 - Sat set size: 339 | Unsat set size: 1588
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_24:1']", 38)
+	 - Dataset size: 1472
+	 - Sat set size: 341 | Unsat set size: 1131
+	 - Sat entropy: 0.8147 | Unsat entropy: 0.9838
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 38)
+	 - Dataset size: 62
+	 - Sat set size: 11 | Unsat set size: 51
+	 - Sat entropy: 0.4395 | Unsat entropy: 0.8472
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 38)
+	 - Dataset size: 10
+	 - Sat set size: 0 | Unsat set size: 10
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.9219
+
+State: ("['p_25:1', 'p_33:1', 'p_37:1']", 38)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 39)
+	 - Dataset size: 3262
+	 - Sat set size: 473 | Unsat set size: 2789
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 39)
+	 - Dataset size: 62
+	 - Sat set size: 7 | Unsat set size: 55
+	 - Sat entropy: 0.8631 | Unsat entropy: 0.9979
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 39)
+	 - Dataset size: 1932
+	 - Sat set size: 340 | Unsat set size: 1592
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 39)
+	 - Dataset size: 736
+	 - Sat set size: 255 | Unsat set size: 481
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 39)
+	 - Dataset size: 736
+	 - Sat set size: 86 | Unsat set size: 650
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 39)
+	 - Dataset size: 53
+	 - Sat set size: 10 | Unsat set size: 43
+	 - Sat entropy: 1.1568 | Unsat entropy: 0.4291
+
+State: ("['p_28:1', 'p_33:1', 'p_38:1']", 39)
+	 - Dataset size: 8
+	 - Sat set size: 0 | Unsat set size: 8
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.8113
+
+State: ("['p_25:1', 'p_32:1', 'p_37:1']", 39)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 40)
+	 - Dataset size: 3295
+	 - Sat set size: 479 | Unsat set size: 2816
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 40)
+	 - Dataset size: 1936
+	 - Sat set size: 342 | Unsat set size: 1594
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 40)
+	 - Dataset size: 736
+	 - Sat set size: 255 | Unsat set size: 481
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 40)
+	 - Dataset size: 736
+	 - Sat set size: 86 | Unsat set size: 650
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 40)
+	 - Dataset size: 53
+	 - Sat set size: 7 | Unsat set size: 46
+	 - Sat entropy: 0.5917 | Unsat entropy: 0.3478
+
+State: ("['p_28:1', 'p_33:1', 'p_37:1']", 40)
+	 - Dataset size: 31
+	 - Sat set size: 2 | Unsat set size: 29
+	 - Sat entropy: 1.0000 | Unsat entropy: 0.6632
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 40)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_33:1', 'p_37:1']", 40)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 41)
+	 - Dataset size: 3305
+	 - Sat set size: 481 | Unsat set size: 2824
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0154
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 41)
+	 - Dataset size: 1936
+	 - Sat set size: 342 | Unsat set size: 1594
+	 - Sat entropy: 0.7016 | Unsat entropy: 0.8849
+
+State: ("['p_40:1']", 41)
+	 - Dataset size: 736
+	 - Sat set size: 255 | Unsat set size: 481
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 41)
+	 - Dataset size: 736
+	 - Sat set size: 86 | Unsat set size: 650
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 41)
+	 - Dataset size: 49
+	 - Sat set size: 6 | Unsat set size: 43
+	 - Sat entropy: 0.6500 | Unsat entropy: 0.2714
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 41)
+	 - Dataset size: 27
+	 - Sat set size: 1 | Unsat set size: 26
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.7063
+
+State: ("['p_25:1', 'p_32:1', 'p_37:1']", 41)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 42)
+	 - Dataset size: 3309
+	 - Sat set size: 482 | Unsat set size: 2827
+	 - Sat entropy: 0.6484 | Unsat entropy: 0.7840
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 42)
+	 - Dataset size: 548
+	 - Sat set size: 65 | Unsat set size: 483
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_36:1']", 42)
+	 - Dataset size: 1388
+	 - Sat set size: 356 | Unsat set size: 1032
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 42)
+	 - Dataset size: 736
+	 - Sat set size: 255 | Unsat set size: 481
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 42)
+	 - Dataset size: 736
+	 - Sat set size: 86 | Unsat set size: 650
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 42)
+	 - Dataset size: 68
+	 - Sat set size: 11 | Unsat set size: 57
+	 - Sat entropy: 0.8659 | Unsat entropy: 1.3715
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 42)
+	 - Dataset size: 4
+	 - Sat set size: 0 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 1.0000
+
+State: ("['p_25:1', 'p_32:1', 'p_38:1']", 42)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 43)
+	 - Dataset size: 754
+	 - Sat set size: 127 | Unsat set size: 627
+	 - Sat entropy: 0.3078 | Unsat entropy: 0.4179
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 43)
+	 - Dataset size: 2614
+	 - Sat set size: 411 | Unsat set size: 2203
+	 - Sat entropy: 1.0841 | Unsat entropy: 1.0433
+
+State: ("['p_28:1', 'p_32:1', 'p_36:1']", 43)
+	 - Dataset size: 548
+	 - Sat set size: 98 | Unsat set size: 450
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_36:1']", 43)
+	 - Dataset size: 1388
+	 - Sat set size: 356 | Unsat set size: 1032
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_4:1']", 43)
+	 - Dataset size: 1472
+	 - Sat set size: 341 | Unsat set size: 1131
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_38:1']", 43)
+	 - Dataset size: 11
+	 - Sat set size: 1 | Unsat set size: 10
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.4690
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 43)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_32:1', 'p_37:1']", 43)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 44)
+	 - Dataset size: 2361
+	 - Sat set size: 372 | Unsat set size: 1989
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 44)
+	 - Dataset size: 1449
+	 - Sat set size: 248 | Unsat set size: 1201
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_24:1']", 44)
+	 - Dataset size: 1388
+	 - Sat set size: 356 | Unsat set size: 1032
+	 - Sat entropy: 0.8642 | Unsat entropy: 0.9867
+
+State: ("['sink:1']", 44)
+	 - Dataset size: 0
+	 - Sat set size: 0 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 44)
+	 - Dataset size: 49
+	 - Sat set size: 9 | Unsat set size: 40
+	 - Sat entropy: 0.9864 | Unsat entropy: 0.8414
+
+State: ("['p_28:1', 'p_33:1', 'p_37:1']", 44)
+	 - Dataset size: 60
+	 - Sat set size: 7 | Unsat set size: 53
+	 - Sat entropy: 0.5917 | Unsat entropy: 0.5095
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 44)
+	 - Dataset size: 10
+	 - Sat set size: 1 | Unsat set size: 9
+	 - Sat entropy: 0.0000 | Unsat entropy: 1.4355
+
+State: ("['p_25:1', 'p_33:1', 'p_37:1']", 44)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 45)
+	 - Dataset size: 2373
+	 - Sat set size: 374 | Unsat set size: 1999
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 45)
+	 - Dataset size: 1453
+	 - Sat set size: 249 | Unsat set size: 1204
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 45)
+	 - Dataset size: 700
+	 - Sat set size: 254 | Unsat set size: 446
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 45)
+	 - Dataset size: 688
+	 - Sat set size: 102 | Unsat set size: 586
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 45)
+	 - Dataset size: 55
+	 - Sat set size: 6 | Unsat set size: 49
+	 - Sat entropy: 0.9183 | Unsat entropy: 0.9997
+
+State: ("['p_28:1', 'p_33:1', 'p_38:1']", 45)
+	 - Dataset size: 6
+	 - Sat set size: 1 | Unsat set size: 5
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.7219
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 45)
+	 - Dataset size: 42
+	 - Sat set size: 7 | Unsat set size: 35
+	 - Sat entropy: 0.9852 | Unsat entropy: 1.0189
+
+State: ("['p_25:1', 'p_32:1', 'p_37:1']", 45)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 46)
+	 - Dataset size: 2410
+	 - Sat set size: 380 | Unsat set size: 2030
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 46)
+	 - Dataset size: 1455
+	 - Sat set size: 249 | Unsat set size: 1206
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 46)
+	 - Dataset size: 700
+	 - Sat set size: 254 | Unsat set size: 446
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 46)
+	 - Dataset size: 688
+	 - Sat set size: 102 | Unsat set size: 586
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_37:1']", 46)
+	 - Dataset size: 29
+	 - Sat set size: 4 | Unsat set size: 25
+	 - Sat entropy: 1.0000 | Unsat entropy: 0.7641
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 46)
+	 - Dataset size: 5
+	 - Sat set size: 1 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.8113
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 46)
+	 - Dataset size: 30
+	 - Sat set size: 3 | Unsat set size: 27
+	 - Sat entropy: 0.9183 | Unsat entropy: 1.1874
+
+State: ("['p_25:1', 'p_33:1', 'p_37:1']", 46)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 47)
+	 - Dataset size: 2428
+	 - Sat set size: 383 | Unsat set size: 2045
+	 - Sat entropy: 0.0471 | Unsat entropy: 0.0330
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 47)
+	 - Dataset size: 1455
+	 - Sat set size: 249 | Unsat set size: 1206
+	 - Sat entropy: 0.7544 | Unsat entropy: 0.8197
+
+State: ("['p_40:1']", 47)
+	 - Dataset size: 700
+	 - Sat set size: 254 | Unsat set size: 446
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 47)
+	 - Dataset size: 688
+	 - Sat set size: 102 | Unsat set size: 586
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 47)
+	 - Dataset size: 25
+	 - Sat set size: 3 | Unsat set size: 22
+	 - Sat entropy: 0.9183 | Unsat entropy: 0.6840
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 47)
+	 - Dataset size: 19
+	 - Sat set size: 2 | Unsat set size: 17
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.6723
+
+State: ("['p_25:1', 'p_32:1', 'p_37:1']", 47)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_38:1']", 47)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 48)
+	 - Dataset size: 2429
+	 - Sat set size: 384 | Unsat set size: 2045
+	 - Sat entropy: 0.6378 | Unsat entropy: 0.7249
+
+State: ("['p_28:1', 'p_33:1', 'p_36:1']", 48)
+	 - Dataset size: 1093
+	 - Sat set size: 255 | Unsat set size: 838
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 48)
+	 - Dataset size: 700
+	 - Sat set size: 254 | Unsat set size: 446
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 48)
+	 - Dataset size: 362
+	 - Sat set size: 54 | Unsat set size: 308
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 48)
+	 - Dataset size: 688
+	 - Sat set size: 102 | Unsat set size: 586
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 48)
+	 - Dataset size: 34
+	 - Sat set size: 4 | Unsat set size: 30
+	 - Sat entropy: 0.8113 | Unsat entropy: 1.5179
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 48)
+	 - Dataset size: 11
+	 - Sat set size: 2 | Unsat set size: 9
+	 - Sat entropy: 1.0000 | Unsat entropy: 0.9183
+
+State: ("['p_25:1', 'p_32:1', 'p_38:1']", 48)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 49)
+	 - Dataset size: 1976
+	 - Sat set size: 326 | Unsat set size: 1650
+	 - Sat entropy: 1.0566 | Unsat entropy: 1.0409
+
+State: ("['p_26:1', 'p_33:1', 'p_36:1']", 49)
+	 - Dataset size: 1093
+	 - Sat set size: 255 | Unsat set size: 838
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 49)
+	 - Dataset size: 488
+	 - Sat set size: 90 | Unsat set size: 398
+	 - Sat entropy: 0.4811 | Unsat entropy: 0.4863
+
+State: ("['p_4:1']", 49)
+	 - Dataset size: 1388
+	 - Sat set size: 356 | Unsat set size: 1032
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_36:1']", 49)
+	 - Dataset size: 362
+	 - Sat set size: 74 | Unsat set size: 288
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 49)
+	 - Dataset size: 4
+	 - Sat set size: 1 | Unsat set size: 3
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_38:1']", 49)
+	 - Dataset size: 6
+	 - Sat set size: 0 | Unsat set size: 6
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.9183
+
+State: ("['p_25:1', 'p_32:1', 'p_37:1']", 49)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 50)
+	 - Dataset size: 1096
+	 - Sat set size: 204 | Unsat set size: 892
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_24:1']", 50)
+	 - Dataset size: 1093
+	 - Sat set size: 255 | Unsat set size: 838
+	 - Sat entropy: 0.9296 | Unsat entropy: 0.9984
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 50)
+	 - Dataset size: 1658
+	 - Sat set size: 275 | Unsat set size: 1383
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['sink:1']", 50)
+	 - Dataset size: 0
+	 - Sat set size: 0 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_37:1']", 50)
+	 - Dataset size: 49
+	 - Sat set size: 7 | Unsat set size: 42
+	 - Sat entropy: 0.8631 | Unsat entropy: 0.6500
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 50)
+	 - Dataset size: 30
+	 - Sat set size: 4 | Unsat set size: 26
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.6194
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 50)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 1.0000
+
+State: ("['p_25:1', 'p_33:1', 'p_37:1']", 50)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_32:1', 'p_37:1']", 50)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 51)
+	 - Dataset size: 1096
+	 - Sat set size: 204 | Unsat set size: 892
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 51)
+	 - Dataset size: 566
+	 - Sat set size: 167 | Unsat set size: 399
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 51)
+	 - Dataset size: 1671
+	 - Sat set size: 277 | Unsat set size: 1394
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 51)
+	 - Dataset size: 527
+	 - Sat set size: 88 | Unsat set size: 439
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 51)
+	 - Dataset size: 40
+	 - Sat set size: 5 | Unsat set size: 35
+	 - Sat entropy: 0.7219 | Unsat entropy: 0.9994
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 51)
+	 - Dataset size: 27
+	 - Sat set size: 4 | Unsat set size: 23
+	 - Sat entropy: 1.0000 | Unsat entropy: 0.7554
+
+State: ("['p_25:1', 'p_32:1', 'p_37:1']", 51)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_37:1']", 51)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_38:1']", 51)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 52)
+	 - Dataset size: 1096
+	 - Sat set size: 204 | Unsat set size: 892
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 52)
+	 - Dataset size: 566
+	 - Sat set size: 167 | Unsat set size: 399
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 52)
+	 - Dataset size: 1700
+	 - Sat set size: 283 | Unsat set size: 1417
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 52)
+	 - Dataset size: 527
+	 - Sat set size: 88 | Unsat set size: 439
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_37:1']", 52)
+	 - Dataset size: 19
+	 - Sat set size: 1 | Unsat set size: 18
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.6500
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 52)
+	 - Dataset size: 20
+	 - Sat set size: 2 | Unsat set size: 18
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_33:1', 'p_37:1']", 52)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_32:1', 'p_37:1']", 52)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 53)
+	 - Dataset size: 1096
+	 - Sat set size: 204 | Unsat set size: 892
+	 - Sat entropy: 0.6385 | Unsat entropy: 0.8041
+
+State: ("['p_40:1']", 53)
+	 - Dataset size: 566
+	 - Sat set size: 167 | Unsat set size: 399
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 53)
+	 - Dataset size: 1703
+	 - Sat set size: 283 | Unsat set size: 1420
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0084
+
+State: ("['p_43:1']", 53)
+	 - Dataset size: 527
+	 - Sat set size: 88 | Unsat set size: 439
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 53)
+	 - Dataset size: 16
+	 - Sat set size: 1 | Unsat set size: 15
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 53)
+	 - Dataset size: 20
+	 - Sat set size: 2 | Unsat set size: 18
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_32:1', 'p_37:1']", 53)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_37:1']", 53)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_36:1']", 54)
+	 - Dataset size: 844
+	 - Sat set size: 219 | Unsat set size: 625
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 54)
+	 - Dataset size: 566
+	 - Sat set size: 167 | Unsat set size: 399
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 54)
+	 - Dataset size: 1702
+	 - Sat set size: 283 | Unsat set size: 1419
+	 - Sat entropy: 0.5497 | Unsat entropy: 0.7079
+
+State: ("['p_44:1']", 54)
+	 - Dataset size: 527
+	 - Sat set size: 88 | Unsat set size: 439
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 54)
+	 - Dataset size: 252
+	 - Sat set size: 33 | Unsat set size: 219
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 54)
+	 - Dataset size: 36
+	 - Sat set size: 5 | Unsat set size: 31
+	 - Sat entropy: 0.9710 | Unsat entropy: 1.3486
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 54)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_32:1', 'p_38:1']", 54)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 1.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_38:1']", 54)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_36:1']", 55)
+	 - Dataset size: 845
+	 - Sat set size: 220 | Unsat set size: 625
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_4:1']", 55)
+	 - Dataset size: 1093
+	 - Sat set size: 255 | Unsat set size: 838
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 55)
+	 - Dataset size: 1411
+	 - Sat set size: 250 | Unsat set size: 1161
+	 - Sat entropy: 1.0766 | Unsat entropy: 1.0527
+
+State: ("['p_28:1', 'p_32:1', 'p_36:1']", 55)
+	 - Dataset size: 252
+	 - Sat set size: 50 | Unsat set size: 202
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 55)
+	 - Dataset size: 313
+	 - Sat set size: 59 | Unsat set size: 254
+	 - Sat entropy: 0.3576 | Unsat entropy: 0.3392
+
+State: ("['p_28:1', 'p_33:1', 'p_38:1']", 55)
+	 - Dataset size: 14
+	 - Sat set size: 2 | Unsat set size: 12
+	 - Sat entropy: 1.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 55)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_32:1', 'p_37:1']", 55)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_33:1', 'p_38:1']", 55)
+	 - Dataset size: 2
+	 - Sat set size: 1 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_24:1']", 56)
+	 - Dataset size: 845
+	 - Sat set size: 220 | Unsat set size: 625
+	 - Sat entropy: 0.8757 | Unsat entropy: 0.9969
+
+State: ("['sink:1']", 56)
+	 - Dataset size: 0
+	 - Sat set size: 0 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 56)
+	 - Dataset size: 790
+	 - Sat set size: 163 | Unsat set size: 627
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 56)
+	 - Dataset size: 1146
+	 - Sat set size: 189 | Unsat set size: 957
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 56)
+	 - Dataset size: 34
+	 - Sat set size: 4 | Unsat set size: 30
+	 - Sat entropy: 0.8113 | Unsat entropy: 0.8366
+
+State: ("['p_28:1', 'p_33:1', 'p_37:1']", 56)
+	 - Dataset size: 20
+	 - Sat set size: 4 | Unsat set size: 16
+	 - Sat entropy: 1.0000 | Unsat entropy: 0.8113
+
+State: ("['p_25:1', 'p_33:1', 'p_37:1']", 56)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 56)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_32:1', 'p_38:1']", 56)
+	 - Dataset size: 2
+	 - Sat set size: 1 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 57)
+	 - Dataset size: 398
+	 - Sat set size: 65 | Unsat set size: 333
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 57)
+	 - Dataset size: 790
+	 - Sat set size: 163 | Unsat set size: 627
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 57)
+	 - Dataset size: 1161
+	 - Sat set size: 192 | Unsat set size: 969
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 57)
+	 - Dataset size: 447
+	 - Sat set size: 155 | Unsat set size: 292
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 57)
+	 - Dataset size: 25
+	 - Sat set size: 3 | Unsat set size: 22
+	 - Sat entropy: 0.9183 | Unsat entropy: 0.9024
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 57)
+	 - Dataset size: 15
+	 - Sat set size: 3 | Unsat set size: 12
+	 - Sat entropy: 0.9183 | Unsat entropy: 0.9799
+
+State: ("['p_25:1', 'p_32:1', 'p_37:1']", 57)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_33:1', 'p_38:1']", 57)
+	 - Dataset size: 2
+	 - Sat set size: 1 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 58)
+	 - Dataset size: 398
+	 - Sat set size: 65 | Unsat set size: 333
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 58)
+	 - Dataset size: 790
+	 - Sat set size: 163 | Unsat set size: 627
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 58)
+	 - Dataset size: 1178
+	 - Sat set size: 195 | Unsat set size: 983
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 58)
+	 - Dataset size: 447
+	 - Sat set size: 155 | Unsat set size: 292
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 58)
+	 - Dataset size: 16
+	 - Sat set size: 1 | Unsat set size: 15
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_37:1']", 58)
+	 - Dataset size: 7
+	 - Sat set size: 2 | Unsat set size: 5
+	 - Sat entropy: 1.0000 | Unsat entropy: 0.7219
+
+State: ("['p_25:1', 'p_33:1', 'p_37:1']", 58)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_32:1', 'p_38:1']", 58)
+	 - Dataset size: 2
+	 - Sat set size: 1 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 59)
+	 - Dataset size: 398
+	 - Sat set size: 65 | Unsat set size: 333
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 59)
+	 - Dataset size: 790
+	 - Sat set size: 163 | Unsat set size: 627
+	 - Sat entropy: 0.4825 | Unsat entropy: 0.6735
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 59)
+	 - Dataset size: 1180
+	 - Sat set size: 196 | Unsat set size: 984
+	 - Sat entropy: 0.0821 | Unsat entropy: 0.0116
+
+State: ("['p_40:1']", 59)
+	 - Dataset size: 447
+	 - Sat set size: 155 | Unsat set size: 292
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 59)
+	 - Dataset size: 18
+	 - Sat set size: 2 | Unsat set size: 16
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.3373
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 59)
+	 - Dataset size: 5
+	 - Sat set size: 1 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.8113
+
+State: ("['p_25:1', 'p_32:1', 'p_37:1']", 59)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 60)
+	 - Dataset size: 398
+	 - Sat set size: 65 | Unsat set size: 333
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_36:1']", 60)
+	 - Dataset size: 662
+	 - Sat set size: 179 | Unsat set size: 483
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 60)
+	 - Dataset size: 1179
+	 - Sat set size: 194 | Unsat set size: 985
+	 - Sat entropy: 0.4946 | Unsat entropy: 0.6682
+
+State: ("['p_41:1']", 60)
+	 - Dataset size: 447
+	 - Sat set size: 155 | Unsat set size: 292
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 60)
+	 - Dataset size: 128
+	 - Sat set size: 17 | Unsat set size: 111
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 60)
+	 - Dataset size: 21
+	 - Sat set size: 3 | Unsat set size: 18
+	 - Sat entropy: 0.9183 | Unsat entropy: 0.8031
+
+State: ("['p_25:1', 'p_32:1', 'p_38:1']", 60)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 60)
+	 - Dataset size: 3
+	 - Sat set size: 2 | Unsat set size: 1
+	 - Sat entropy: 1.0000 | Unsat entropy: 0.0000
+
+State: ("['p_4:1']", 61)
+	 - Dataset size: 845
+	 - Sat set size: 220 | Unsat set size: 625
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_36:1']", 61)
+	 - Dataset size: 662
+	 - Sat set size: 179 | Unsat set size: 483
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 61)
+	 - Dataset size: 196
+	 - Sat set size: 35 | Unsat set size: 161
+	 - Sat entropy: 0.5127 | Unsat entropy: 0.4799
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 61)
+	 - Dataset size: 1003
+	 - Sat set size: 175 | Unsat set size: 828
+	 - Sat entropy: 1.0833 | Unsat entropy: 1.1172
+
+State: ("['p_28:1', 'p_32:1', 'p_36:1']", 61)
+	 - Dataset size: 128
+	 - Sat set size: 25 | Unsat set size: 103
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_38:1']", 61)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_32:1', 'p_37:1']", 61)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 61)
+	 - Dataset size: 2
+	 - Sat set size: 1 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 61)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['sink:1']", 62)
+	 - Dataset size: 0
+	 - Sat set size: 0 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_24:1']", 62)
+	 - Dataset size: 662
+	 - Sat set size: 179 | Unsat set size: 483
+	 - Sat entropy: 0.8833 | Unsat entropy: 0.9913
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 62)
+	 - Dataset size: 739
+	 - Sat set size: 134 | Unsat set size: 605
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 62)
+	 - Dataset size: 551
+	 - Sat set size: 96 | Unsat set size: 455
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 62)
+	 - Dataset size: 21
+	 - Sat set size: 3 | Unsat set size: 18
+	 - Sat entropy: 0.9183 | Unsat entropy: 1.2516
+
+State: ("['p_28:1', 'p_33:1', 'p_37:1']", 62)
+	 - Dataset size: 18
+	 - Sat set size: 4 | Unsat set size: 14
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.7496
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 62)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_32:1', 'p_37:1']", 62)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_33:1', 'p_37:1']", 62)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 63)
+	 - Dataset size: 340
+	 - Sat set size: 125 | Unsat set size: 215
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 63)
+	 - Dataset size: 743
+	 - Sat set size: 134 | Unsat set size: 609
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 63)
+	 - Dataset size: 322
+	 - Sat set size: 54 | Unsat set size: 268
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 63)
+	 - Dataset size: 561
+	 - Sat set size: 98 | Unsat set size: 463
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 63)
+	 - Dataset size: 10
+	 - Sat set size: 1 | Unsat set size: 9
+	 - Sat entropy: 0.0000 | Unsat entropy: 1.2244
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 63)
+	 - Dataset size: 15
+	 - Sat set size: 4 | Unsat set size: 11
+	 - Sat entropy: 0.8113 | Unsat entropy: 0.8454
+
+State: ("['p_28:1', 'p_33:1', 'p_38:1']", 63)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_37:1']", 63)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_32:1', 'p_37:1']", 63)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 64)
+	 - Dataset size: 340
+	 - Sat set size: 125 | Unsat set size: 215
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 64)
+	 - Dataset size: 756
+	 - Sat set size: 137 | Unsat set size: 619
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 64)
+	 - Dataset size: 322
+	 - Sat set size: 54 | Unsat set size: 268
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 64)
+	 - Dataset size: 562
+	 - Sat set size: 98 | Unsat set size: 464
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 64)
+	 - Dataset size: 7
+	 - Sat set size: 1 | Unsat set size: 6
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.6500
+
+State: ("['p_28:1', 'p_33:1', 'p_37:1']", 64)
+	 - Dataset size: 4
+	 - Sat set size: 1 | Unsat set size: 3
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.9183
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 64)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_32:1', 'p_37:1']", 64)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_33:1', 'p_37:1']", 64)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 65)
+	 - Dataset size: 340
+	 - Sat set size: 125 | Unsat set size: 215
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 65)
+	 - Dataset size: 758
+	 - Sat set size: 137 | Unsat set size: 621
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 65)
+	 - Dataset size: 322
+	 - Sat set size: 54 | Unsat set size: 268
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 65)
+	 - Dataset size: 562
+	 - Sat set size: 98 | Unsat set size: 464
+	 - Sat entropy: 0.6880 | Unsat entropy: 0.5375
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 65)
+	 - Dataset size: 7
+	 - Sat set size: 1 | Unsat set size: 6
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_37:1']", 65)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_32:1', 'p_37:1']", 65)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 65)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 66)
+	 - Dataset size: 340
+	 - Sat set size: 125 | Unsat set size: 215
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 66)
+	 - Dataset size: 758
+	 - Sat set size: 137 | Unsat set size: 621
+	 - Sat entropy: 0.4526 | Unsat entropy: 0.6212
+
+State: ("['p_44:1']", 66)
+	 - Dataset size: 322
+	 - Sat set size: 54 | Unsat set size: 268
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_36:1']", 66)
+	 - Dataset size: 487
+	 - Sat set size: 111 | Unsat set size: 376
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 66)
+	 - Dataset size: 75
+	 - Sat set size: 18 | Unsat set size: 57
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 66)
+	 - Dataset size: 10
+	 - Sat set size: 3 | Unsat set size: 7
+	 - Sat entropy: 0.9183 | Unsat entropy: 1.3788
+
+State: ("['p_26:1', 'p_33:1', 'p_38:1']", 66)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_32:1', 'p_38:1']", 66)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_4:1']", 67)
+	 - Dataset size: 662
+	 - Sat set size: 179 | Unsat set size: 483
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 67)
+	 - Dataset size: 655
+	 - Sat set size: 126 | Unsat set size: 529
+	 - Sat entropy: 1.1385 | Unsat entropy: 1.0232
+
+State: ("['p_26:1', 'p_33:1', 'p_36:1']", 67)
+	 - Dataset size: 488
+	 - Sat set size: 111 | Unsat set size: 377
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_36:1']", 67)
+	 - Dataset size: 75
+	 - Sat set size: 23 | Unsat set size: 52
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 67)
+	 - Dataset size: 112
+	 - Sat set size: 20 | Unsat set size: 92
+	 - Sat entropy: 0.6098 | Unsat entropy: 0.4262
+
+State: ("['p_28:1', 'p_33:1', 'p_38:1']", 67)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_32:1', 'p_37:1']", 67)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['sink:1']", 68)
+	 - Dataset size: 0
+	 - Sat set size: 0 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 68)
+	 - Dataset size: 343
+	 - Sat set size: 85 | Unsat set size: 258
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_24:1']", 68)
+	 - Dataset size: 488
+	 - Sat set size: 111 | Unsat set size: 377
+	 - Sat entropy: 0.8545 | Unsat entropy: 0.9938
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 68)
+	 - Dataset size: 481
+	 - Sat set size: 78 | Unsat set size: 403
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_37:1']", 68)
+	 - Dataset size: 11
+	 - Sat set size: 3 | Unsat set size: 8
+	 - Sat entropy: 0.9183 | Unsat entropy: 0.9544
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 68)
+	 - Dataset size: 7
+	 - Sat set size: 3 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 1.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 68)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_33:1', 'p_37:1']", 68)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 69)
+	 - Dataset size: 343
+	 - Sat set size: 85 | Unsat set size: 258
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 69)
+	 - Dataset size: 237
+	 - Sat set size: 31 | Unsat set size: 206
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 69)
+	 - Dataset size: 251
+	 - Sat set size: 80 | Unsat set size: 171
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 69)
+	 - Dataset size: 490
+	 - Sat set size: 82 | Unsat set size: 408
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 69)
+	 - Dataset size: 7
+	 - Sat set size: 2 | Unsat set size: 5
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.7219
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 69)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_38:1']", 69)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_32:1', 'p_37:1']", 69)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 70)
+	 - Dataset size: 343
+	 - Sat set size: 85 | Unsat set size: 258
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 70)
+	 - Dataset size: 237
+	 - Sat set size: 31 | Unsat set size: 206
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 70)
+	 - Dataset size: 251
+	 - Sat set size: 80 | Unsat set size: 171
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 70)
+	 - Dataset size: 493
+	 - Sat set size: 82 | Unsat set size: 411
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_37:1']", 70)
+	 - Dataset size: 7
+	 - Sat set size: 2 | Unsat set size: 5
+	 - Sat entropy: 1.0000 | Unsat entropy: 0.7219
+
+State: ("['p_25:1', 'p_33:1', 'p_37:1']", 70)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 71)
+	 - Dataset size: 343
+	 - Sat set size: 85 | Unsat set size: 258
+	 - Sat entropy: 0.2738 | Unsat entropy: 0.7401
+
+State: ("['p_43:1']", 71)
+	 - Dataset size: 237
+	 - Sat set size: 31 | Unsat set size: 206
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 71)
+	 - Dataset size: 251
+	 - Sat set size: 80 | Unsat set size: 171
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 71)
+	 - Dataset size: 495
+	 - Sat set size: 83 | Unsat set size: 412
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 71)
+	 - Dataset size: 5
+	 - Sat set size: 1 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_32:1', 'p_37:1']", 71)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_36:1']", 72)
+	 - Dataset size: 285
+	 - Sat set size: 97 | Unsat set size: 188
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 72)
+	 - Dataset size: 237
+	 - Sat set size: 31 | Unsat set size: 206
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 72)
+	 - Dataset size: 251
+	 - Sat set size: 80 | Unsat set size: 171
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 72)
+	 - Dataset size: 495
+	 - Sat set size: 83 | Unsat set size: 412
+	 - Sat entropy: 0.4952 | Unsat entropy: 0.5333
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 72)
+	 - Dataset size: 58
+	 - Sat set size: 4 | Unsat set size: 54
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 72)
+	 - Dataset size: 5
+	 - Sat set size: 1 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.8113
+
+State: ("['p_25:1', 'p_32:1', 'p_38:1']", 72)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_36:1']", 73)
+	 - Dataset size: 285
+	 - Sat set size: 97 | Unsat set size: 188
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_4:1']", 73)
+	 - Dataset size: 488
+	 - Sat set size: 111 | Unsat set size: 377
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 73)
+	 - Dataset size: 436
+	 - Sat set size: 74 | Unsat set size: 362
+	 - Sat entropy: 0.9995 | Unsat entropy: 1.0382
+
+State: ("['p_28:1', 'p_32:1', 'p_36:1']", 73)
+	 - Dataset size: 58
+	 - Sat set size: 6 | Unsat set size: 52
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_38:1']", 73)
+	 - Dataset size: 2
+	 - Sat set size: 1 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 73)
+	 - Dataset size: 62
+	 - Sat set size: 13 | Unsat set size: 49
+	 - Sat entropy: 0.3912 | Unsat entropy: 0.8773
+
+State: ("['p_25:1', 'p_33:1', 'p_38:1']", 73)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_24:1']", 74)
+	 - Dataset size: 285
+	 - Sat set size: 97 | Unsat set size: 188
+	 - Sat entropy: 0.8072 | Unsat entropy: 0.9948
+
+State: ("['sink:1']", 74)
+	 - Dataset size: 0
+	 - Sat set size: 0 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 74)
+	 - Dataset size: 260
+	 - Sat set size: 44 | Unsat set size: 216
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 74)
+	 - Dataset size: 283
+	 - Sat set size: 48 | Unsat set size: 235
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 74)
+	 - Dataset size: 3
+	 - Sat set size: 0 | Unsat set size: 3
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_32:1', 'p_37:1']", 74)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_37:1']", 74)
+	 - Dataset size: 8
+	 - Sat set size: 0 | Unsat set size: 8
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.5436
+
+State: ("['p_25:1', 'p_32:1', 'p_38:1']", 74)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 74)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 75)
+	 - Dataset size: 159
+	 - Sat set size: 73 | Unsat set size: 86
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 75)
+	 - Dataset size: 260
+	 - Sat set size: 44 | Unsat set size: 216
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 75)
+	 - Dataset size: 284
+	 - Sat set size: 48 | Unsat set size: 236
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 75)
+	 - Dataset size: 126
+	 - Sat set size: 24 | Unsat set size: 102
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 75)
+	 - Dataset size: 3
+	 - Sat set size: 0 | Unsat set size: 3
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_37:1']", 75)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 75)
+	 - Dataset size: 7
+	 - Sat set size: 0 | Unsat set size: 7
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.9852
+
+State: ("['p_25:1', 'p_33:1', 'p_38:1']", 75)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_38:1']", 75)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 76)
+	 - Dataset size: 159
+	 - Sat set size: 73 | Unsat set size: 86
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 76)
+	 - Dataset size: 260
+	 - Sat set size: 44 | Unsat set size: 216
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 76)
+	 - Dataset size: 288
+	 - Sat set size: 48 | Unsat set size: 240
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 76)
+	 - Dataset size: 126
+	 - Sat set size: 24 | Unsat set size: 102
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 76)
+	 - Dataset size: 4
+	 - Sat set size: 1 | Unsat set size: 3
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_32:1', 'p_37:1']", 76)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_37:1']", 76)
+	 - Dataset size: 3
+	 - Sat set size: 0 | Unsat set size: 3
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_25:1', 'p_32:1', 'p_38:1']", 76)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 77)
+	 - Dataset size: 159
+	 - Sat set size: 73 | Unsat set size: 86
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 77)
+	 - Dataset size: 260
+	 - Sat set size: 44 | Unsat set size: 216
+	 - Sat entropy: 0.5746 | Unsat entropy: 0.6392
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 77)
+	 - Dataset size: 288
+	 - Sat set size: 48 | Unsat set size: 240
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 77)
+	 - Dataset size: 126
+	 - Sat set size: 24 | Unsat set size: 102
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 77)
+	 - Dataset size: 5
+	 - Sat set size: 1 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_37:1']", 77)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 77)
+	 - Dataset size: 3
+	 - Sat set size: 0 | Unsat set size: 3
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 78)
+	 - Dataset size: 159
+	 - Sat set size: 73 | Unsat set size: 86
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_36:1']", 78)
+	 - Dataset size: 219
+	 - Sat set size: 49 | Unsat set size: 170
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 78)
+	 - Dataset size: 288
+	 - Sat set size: 48 | Unsat set size: 240
+	 - Sat entropy: 0.2499 | Unsat entropy: 0.5551
+
+State: ("['p_44:1']", 78)
+	 - Dataset size: 126
+	 - Sat set size: 24 | Unsat set size: 102
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 78)
+	 - Dataset size: 8
+	 - Sat set size: 2 | Unsat set size: 6
+	 - Sat entropy: 0.0000 | Unsat entropy: 1.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 78)
+	 - Dataset size: 41
+	 - Sat set size: 6 | Unsat set size: 35
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_38:1']", 78)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_4:1']", 79)
+	 - Dataset size: 285
+	 - Sat set size: 97 | Unsat set size: 188
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_36:1']", 79)
+	 - Dataset size: 222
+	 - Sat set size: 50 | Unsat set size: 172
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 79)
+	 - Dataset size: 260
+	 - Sat set size: 48 | Unsat set size: 212
+	 - Sat entropy: 1.2069 | Unsat entropy: 1.0773
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 79)
+	 - Dataset size: 36
+	 - Sat set size: 3 | Unsat set size: 33
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.6136
+
+State: ("['p_28:1', 'p_32:1', 'p_36:1']", 79)
+	 - Dataset size: 41
+	 - Sat set size: 11 | Unsat set size: 30
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['sink:1']", 80)
+	 - Dataset size: 0
+	 - Sat set size: 0 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_24:1']", 80)
+	 - Dataset size: 222
+	 - Sat set size: 50 | Unsat set size: 172
+	 - Sat entropy: 0.9427 | Unsat entropy: 0.9902
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 80)
+	 - Dataset size: 175
+	 - Sat set size: 27 | Unsat set size: 148
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 80)
+	 - Dataset size: 152
+	 - Sat set size: 33 | Unsat set size: 119
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 80)
+	 - Dataset size: 5
+	 - Sat set size: 2 | Unsat set size: 3
+	 - Sat entropy: 1.0000 | Unsat entropy: 0.9183
+
+State: ("['p_28:1', 'p_33:1', 'p_37:1']", 80)
+	 - Dataset size: 5
+	 - Sat set size: 0 | Unsat set size: 5
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 81)
+	 - Dataset size: 114
+	 - Sat set size: 18 | Unsat set size: 96
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 81)
+	 - Dataset size: 108
+	 - Sat set size: 32 | Unsat set size: 76
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 81)
+	 - Dataset size: 177
+	 - Sat set size: 28 | Unsat set size: 149
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 81)
+	 - Dataset size: 152
+	 - Sat set size: 33 | Unsat set size: 119
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 81)
+	 - Dataset size: 5
+	 - Sat set size: 0 | Unsat set size: 5
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.7219
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 81)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 1.0000
+
+State: ("['p_44:1']", 82)
+	 - Dataset size: 114
+	 - Sat set size: 18 | Unsat set size: 96
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 82)
+	 - Dataset size: 108
+	 - Sat set size: 32 | Unsat set size: 76
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 82)
+	 - Dataset size: 179
+	 - Sat set size: 28 | Unsat set size: 151
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 82)
+	 - Dataset size: 152
+	 - Sat set size: 33 | Unsat set size: 119
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_37:1']", 82)
+	 - Dataset size: 4
+	 - Sat set size: 0 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.8113
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 82)
+	 - Dataset size: 2
+	 - Sat set size: 1 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 83)
+	 - Dataset size: 114
+	 - Sat set size: 18 | Unsat set size: 96
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 83)
+	 - Dataset size: 108
+	 - Sat set size: 32 | Unsat set size: 76
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 83)
+	 - Dataset size: 181
+	 - Sat set size: 28 | Unsat set size: 153
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 83)
+	 - Dataset size: 152
+	 - Sat set size: 33 | Unsat set size: 119
+	 - Sat entropy: 0.5328 | Unsat entropy: 0.5917
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 83)
+	 - Dataset size: 3
+	 - Sat set size: 0 | Unsat set size: 3
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 83)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 84)
+	 - Dataset size: 114
+	 - Sat set size: 18 | Unsat set size: 96
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 84)
+	 - Dataset size: 108
+	 - Sat set size: 32 | Unsat set size: 76
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 84)
+	 - Dataset size: 181
+	 - Sat set size: 28 | Unsat set size: 153
+	 - Sat entropy: 0.4912 | Unsat entropy: 0.5770
+
+State: ("['p_28:1', 'p_33:1', 'p_36:1']", 84)
+	 - Dataset size: 131
+	 - Sat set size: 35 | Unsat set size: 96
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 84)
+	 - Dataset size: 21
+	 - Sat set size: 4 | Unsat set size: 17
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 84)
+	 - Dataset size: 4
+	 - Sat set size: 1 | Unsat set size: 3
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.9183
+
+State: ("['p_4:1']", 85)
+	 - Dataset size: 222
+	 - Sat set size: 50 | Unsat set size: 172
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 85)
+	 - Dataset size: 158
+	 - Sat set size: 26 | Unsat set size: 132
+	 - Sat entropy: 1.1688 | Unsat entropy: 1.0108
+
+State: ("['p_26:1', 'p_33:1', 'p_36:1']", 85)
+	 - Dataset size: 131
+	 - Sat set size: 35 | Unsat set size: 96
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 85)
+	 - Dataset size: 26
+	 - Sat set size: 5 | Unsat set size: 21
+	 - Sat entropy: 0.7219 | Unsat entropy: 0.7025
+
+State: ("['p_28:1', 'p_32:1', 'p_36:1']", 85)
+	 - Dataset size: 21
+	 - Sat set size: 5 | Unsat set size: 16
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_38:1']", 85)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['sink:1']", 86)
+	 - Dataset size: 0
+	 - Sat set size: 0 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 86)
+	 - Dataset size: 80
+	 - Sat set size: 15 | Unsat set size: 65
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_24:1']", 86)
+	 - Dataset size: 131
+	 - Sat set size: 35 | Unsat set size: 96
+	 - Sat entropy: 0.9710 | Unsat entropy: 0.9997
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 86)
+	 - Dataset size: 118
+	 - Sat set size: 19 | Unsat set size: 99
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_37:1']", 86)
+	 - Dataset size: 5
+	 - Sat set size: 1 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 1.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 86)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 86)
+	 - Dataset size: 2
+	 - Sat set size: 1 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 87)
+	 - Dataset size: 80
+	 - Sat set size: 15 | Unsat set size: 65
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 87)
+	 - Dataset size: 68
+	 - Sat set size: 21 | Unsat set size: 47
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 87)
+	 - Dataset size: 121
+	 - Sat set size: 20 | Unsat set size: 101
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 87)
+	 - Dataset size: 63
+	 - Sat set size: 14 | Unsat set size: 49
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_38:1']", 87)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 87)
+	 - Dataset size: 2
+	 - Sat set size: 1 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 87)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 88)
+	 - Dataset size: 80
+	 - Sat set size: 15 | Unsat set size: 65
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 88)
+	 - Dataset size: 68
+	 - Sat set size: 21 | Unsat set size: 47
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 88)
+	 - Dataset size: 123
+	 - Sat set size: 21 | Unsat set size: 102
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 88)
+	 - Dataset size: 63
+	 - Sat set size: 14 | Unsat set size: 49
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 88)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_37:1']", 88)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 89)
+	 - Dataset size: 80
+	 - Sat set size: 15 | Unsat set size: 65
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.6194
+
+State: ("['p_40:1']", 89)
+	 - Dataset size: 68
+	 - Sat set size: 21 | Unsat set size: 47
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 89)
+	 - Dataset size: 123
+	 - Sat set size: 21 | Unsat set size: 102
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 89)
+	 - Dataset size: 63
+	 - Sat set size: 14 | Unsat set size: 49
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 89)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 89)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_36:1']", 90)
+	 - Dataset size: 70
+	 - Sat set size: 20 | Unsat set size: 50
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 90)
+	 - Dataset size: 68
+	 - Sat set size: 21 | Unsat set size: 47
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 90)
+	 - Dataset size: 123
+	 - Sat set size: 21 | Unsat set size: 102
+	 - Sat entropy: 0.4537 | Unsat entropy: 0.3966
+
+State: ("['p_44:1']", 90)
+	 - Dataset size: 63
+	 - Sat set size: 14 | Unsat set size: 49
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 90)
+	 - Dataset size: 10
+	 - Sat set size: 0 | Unsat set size: 10
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 90)
+	 - Dataset size: 3
+	 - Sat set size: 0 | Unsat set size: 3
+	 - Sat entropy: 0.0000 | Unsat entropy: 1.5850
+
+State: ("['p_26:1', 'p_33:1', 'p_36:1']", 91)
+	 - Dataset size: 70
+	 - Sat set size: 20 | Unsat set size: 50
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_4:1']", 91)
+	 - Dataset size: 131
+	 - Sat set size: 35 | Unsat set size: 96
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 91)
+	 - Dataset size: 114
+	 - Sat set size: 19 | Unsat set size: 95
+	 - Sat entropy: 0.8997 | Unsat entropy: 1.1255
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 91)
+	 - Dataset size: 11
+	 - Sat set size: 4 | Unsat set size: 7
+	 - Sat entropy: 1.0000 | Unsat entropy: 0.5917
+
+State: ("['p_28:1', 'p_32:1', 'p_36:1']", 91)
+	 - Dataset size: 10
+	 - Sat set size: 1 | Unsat set size: 9
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_38:1']", 91)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_24:1']", 92)
+	 - Dataset size: 70
+	 - Sat set size: 20 | Unsat set size: 50
+	 - Sat entropy: 0.9341 | Unsat entropy: 0.9988
+
+State: ("['sink:1']", 92)
+	 - Dataset size: 0
+	 - Sat set size: 0 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 92)
+	 - Dataset size: 61
+	 - Sat set size: 7 | Unsat set size: 54
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 92)
+	 - Dataset size: 69
+	 - Sat set size: 15 | Unsat set size: 54
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_37:1']", 92)
+	 - Dataset size: 3
+	 - Sat set size: 2 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 92)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 1.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 92)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 93)
+	 - Dataset size: 33
+	 - Sat set size: 7 | Unsat set size: 26
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 93)
+	 - Dataset size: 61
+	 - Sat set size: 7 | Unsat set size: 54
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 93)
+	 - Dataset size: 70
+	 - Sat set size: 15 | Unsat set size: 55
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 93)
+	 - Dataset size: 37
+	 - Sat set size: 13 | Unsat set size: 24
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 93)
+	 - Dataset size: 3
+	 - Sat set size: 2 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 93)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_38:1']", 93)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 94)
+	 - Dataset size: 33
+	 - Sat set size: 7 | Unsat set size: 26
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 94)
+	 - Dataset size: 61
+	 - Sat set size: 7 | Unsat set size: 54
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 94)
+	 - Dataset size: 72
+	 - Sat set size: 17 | Unsat set size: 55
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 94)
+	 - Dataset size: 37
+	 - Sat set size: 13 | Unsat set size: 24
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 94)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_37:1']", 94)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 95)
+	 - Dataset size: 33
+	 - Sat set size: 7 | Unsat set size: 26
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 95)
+	 - Dataset size: 61
+	 - Sat set size: 7 | Unsat set size: 54
+	 - Sat entropy: 0.5917 | Unsat entropy: 0.5033
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 95)
+	 - Dataset size: 72
+	 - Sat set size: 17 | Unsat set size: 55
+	 - Sat entropy: 0.3228 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 95)
+	 - Dataset size: 37
+	 - Sat set size: 13 | Unsat set size: 24
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 95)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 95)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 96)
+	 - Dataset size: 33
+	 - Sat set size: 7 | Unsat set size: 26
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_36:1']", 96)
+	 - Dataset size: 54
+	 - Sat set size: 10 | Unsat set size: 44
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 96)
+	 - Dataset size: 71
+	 - Sat set size: 16 | Unsat set size: 55
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.3760
+
+State: ("['p_41:1']", 96)
+	 - Dataset size: 37
+	 - Sat set size: 13 | Unsat set size: 24
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 96)
+	 - Dataset size: 7
+	 - Sat set size: 1 | Unsat set size: 6
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 96)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 96)
+	 - Dataset size: 3
+	 - Sat set size: 0 | Unsat set size: 3
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.9183
+
+State: ("['p_4:1']", 97)
+	 - Dataset size: 70
+	 - Sat set size: 20 | Unsat set size: 50
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_36:1']", 97)
+	 - Dataset size: 54
+	 - Sat set size: 10 | Unsat set size: 44
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 97)
+	 - Dataset size: 69
+	 - Sat set size: 16 | Unsat set size: 53
+	 - Sat entropy: 0.9544 | Unsat entropy: 1.1874
+
+State: ("['p_28:1', 'p_32:1', 'p_36:1']", 97)
+	 - Dataset size: 7
+	 - Sat set size: 1 | Unsat set size: 6
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 97)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 97)
+	 - Dataset size: 5
+	 - Sat set size: 1 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.8113
+
+State: ("['sink:1']", 98)
+	 - Dataset size: 0
+	 - Sat set size: 0 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_24:1']", 98)
+	 - Dataset size: 54
+	 - Sat set size: 10 | Unsat set size: 44
+	 - Sat entropy: 0.4690 | Unsat entropy: 0.9760
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 98)
+	 - Dataset size: 34
+	 - Sat set size: 8 | Unsat set size: 26
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 98)
+	 - Dataset size: 45
+	 - Sat set size: 11 | Unsat set size: 34
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 98)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 1.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_37:1']", 98)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 99)
+	 - Dataset size: 27
+	 - Sat set size: 1 | Unsat set size: 26
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 99)
+	 - Dataset size: 35
+	 - Sat set size: 8 | Unsat set size: 27
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 99)
+	 - Dataset size: 45
+	 - Sat set size: 11 | Unsat set size: 34
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 99)
+	 - Dataset size: 27
+	 - Sat set size: 9 | Unsat set size: 18
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 99)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 99)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 100)
+	 - Dataset size: 27
+	 - Sat set size: 1 | Unsat set size: 26
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 100)
+	 - Dataset size: 36
+	 - Sat set size: 8 | Unsat set size: 28
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 100)
+	 - Dataset size: 45
+	 - Sat set size: 11 | Unsat set size: 34
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 100)
+	 - Dataset size: 27
+	 - Sat set size: 9 | Unsat set size: 18
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_37:1']", 100)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 101)
+	 - Dataset size: 27
+	 - Sat set size: 1 | Unsat set size: 26
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 101)
+	 - Dataset size: 36
+	 - Sat set size: 8 | Unsat set size: 28
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 101)
+	 - Dataset size: 45
+	 - Sat set size: 11 | Unsat set size: 34
+	 - Sat entropy: 0.4395 | Unsat entropy: 0.6723
+
+State: ("['p_40:1']", 101)
+	 - Dataset size: 27
+	 - Sat set size: 9 | Unsat set size: 18
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 101)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 102)
+	 - Dataset size: 27
+	 - Sat set size: 1 | Unsat set size: 26
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 102)
+	 - Dataset size: 36
+	 - Sat set size: 8 | Unsat set size: 28
+	 - Sat entropy: 0.5436 | Unsat entropy: 0.2223
+
+State: ("['p_28:1', 'p_33:1', 'p_36:1']", 102)
+	 - Dataset size: 38
+	 - Sat set size: 11 | Unsat set size: 27
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 102)
+	 - Dataset size: 7
+	 - Sat set size: 1 | Unsat set size: 6
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 102)
+	 - Dataset size: 27
+	 - Sat set size: 9 | Unsat set size: 18
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 102)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_4:1']", 103)
+	 - Dataset size: 54
+	 - Sat set size: 10 | Unsat set size: 44
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 103)
+	 - Dataset size: 34
+	 - Sat set size: 7 | Unsat set size: 27
+	 - Sat entropy: 0.9852 | Unsat entropy: 0.9087
+
+State: ("['p_26:1', 'p_33:1', 'p_36:1']", 103)
+	 - Dataset size: 38
+	 - Sat set size: 11 | Unsat set size: 27
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_36:1']", 103)
+	 - Dataset size: 7
+	 - Sat set size: 1 | Unsat set size: 6
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 103)
+	 - Dataset size: 2
+	 - Sat set size: 1 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_38:1']", 103)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['sink:1']", 104)
+	 - Dataset size: 0
+	 - Sat set size: 0 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 104)
+	 - Dataset size: 27
+	 - Sat set size: 5 | Unsat set size: 22
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_24:1']", 104)
+	 - Dataset size: 38
+	 - Sat set size: 11 | Unsat set size: 27
+	 - Sat entropy: 0.9940 | Unsat entropy: 0.9990
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 104)
+	 - Dataset size: 15
+	 - Sat set size: 4 | Unsat set size: 11
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 104)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 105)
+	 - Dataset size: 27
+	 - Sat set size: 5 | Unsat set size: 22
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 105)
+	 - Dataset size: 19
+	 - Sat set size: 5 | Unsat set size: 14
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 105)
+	 - Dataset size: 19
+	 - Sat set size: 6 | Unsat set size: 13
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 105)
+	 - Dataset size: 15
+	 - Sat set size: 4 | Unsat set size: 11
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 105)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 106)
+	 - Dataset size: 27
+	 - Sat set size: 5 | Unsat set size: 22
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 106)
+	 - Dataset size: 19
+	 - Sat set size: 5 | Unsat set size: 14
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 106)
+	 - Dataset size: 19
+	 - Sat set size: 6 | Unsat set size: 13
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 106)
+	 - Dataset size: 15
+	 - Sat set size: 4 | Unsat set size: 11
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 106)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 107)
+	 - Dataset size: 27
+	 - Sat set size: 5 | Unsat set size: 22
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 107)
+	 - Dataset size: 19
+	 - Sat set size: 5 | Unsat set size: 14
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 107)
+	 - Dataset size: 19
+	 - Sat set size: 6 | Unsat set size: 13
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 107)
+	 - Dataset size: 15
+	 - Sat set size: 4 | Unsat set size: 11
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.8454
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 107)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 108)
+	 - Dataset size: 27
+	 - Sat set size: 5 | Unsat set size: 22
+	 - Sat entropy: 0.7219 | Unsat entropy: 0.6840
+
+State: ("['p_41:1']", 108)
+	 - Dataset size: 19
+	 - Sat set size: 5 | Unsat set size: 14
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 108)
+	 - Dataset size: 19
+	 - Sat set size: 6 | Unsat set size: 13
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_36:1']", 108)
+	 - Dataset size: 12
+	 - Sat set size: 4 | Unsat set size: 8
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 108)
+	 - Dataset size: 3
+	 - Sat set size: 0 | Unsat set size: 3
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 108)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 109)
+	 - Dataset size: 24
+	 - Sat set size: 4 | Unsat set size: 20
+	 - Sat entropy: 1.0000 | Unsat entropy: 1.3610
+
+State: ("['p_4:1']", 109)
+	 - Dataset size: 38
+	 - Sat set size: 11 | Unsat set size: 27
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_36:1']", 109)
+	 - Dataset size: 12
+	 - Sat set size: 4 | Unsat set size: 8
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 109)
+	 - Dataset size: 5
+	 - Sat set size: 1 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.8113
+
+State: ("['p_28:1', 'p_32:1', 'p_36:1']", 109)
+	 - Dataset size: 3
+	 - Sat set size: 0 | Unsat set size: 3
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 110)
+	 - Dataset size: 16
+	 - Sat set size: 3 | Unsat set size: 13
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['sink:1']", 110)
+	 - Dataset size: 0
+	 - Sat set size: 0 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 110)
+	 - Dataset size: 13
+	 - Sat set size: 2 | Unsat set size: 11
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_24:1']", 110)
+	 - Dataset size: 12
+	 - Sat set size: 4 | Unsat set size: 8
+	 - Sat entropy: 1.0000 | Unsat entropy: 1.0000
+
+State: ("['p_26:1', 'p_32:1', 'p_37:1']", 110)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 110)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 1.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 111)
+	 - Dataset size: 16
+	 - Sat set size: 3 | Unsat set size: 13
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 111)
+	 - Dataset size: 14
+	 - Sat set size: 2 | Unsat set size: 12
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 111)
+	 - Dataset size: 6
+	 - Sat set size: 2 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 111)
+	 - Dataset size: 6
+	 - Sat set size: 2 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_37:1']", 111)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 111)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 112)
+	 - Dataset size: 17
+	 - Sat set size: 3 | Unsat set size: 14
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 112)
+	 - Dataset size: 14
+	 - Sat set size: 2 | Unsat set size: 12
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 112)
+	 - Dataset size: 6
+	 - Sat set size: 2 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 112)
+	 - Dataset size: 6
+	 - Sat set size: 2 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_32:1', 'p_37:1']", 112)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 113)
+	 - Dataset size: 17
+	 - Sat set size: 3 | Unsat set size: 14
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 113)
+	 - Dataset size: 14
+	 - Sat set size: 2 | Unsat set size: 12
+	 - Sat entropy: 1.0000 | Unsat entropy: 0.4138
+
+State: ("['p_43:1']", 113)
+	 - Dataset size: 6
+	 - Sat set size: 2 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 113)
+	 - Dataset size: 6
+	 - Sat set size: 2 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_37:1']", 113)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 114)
+	 - Dataset size: 17
+	 - Sat set size: 3 | Unsat set size: 14
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.3712
+
+State: ("['p_28:1', 'p_33:1', 'p_36:1']", 114)
+	 - Dataset size: 12
+	 - Sat set size: 1 | Unsat set size: 11
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 114)
+	 - Dataset size: 6
+	 - Sat set size: 2 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 114)
+	 - Dataset size: 6
+	 - Sat set size: 2 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 114)
+	 - Dataset size: 2
+	 - Sat set size: 1 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_38:1']", 114)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 115)
+	 - Dataset size: 16
+	 - Sat set size: 3 | Unsat set size: 13
+	 - Sat entropy: 0.0000 | Unsat entropy: 1.1401
+
+State: ("['p_26:1', 'p_33:1', 'p_36:1']", 115)
+	 - Dataset size: 13
+	 - Sat set size: 1 | Unsat set size: 12
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_4:1']", 115)
+	 - Dataset size: 12
+	 - Sat set size: 4 | Unsat set size: 8
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 115)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_36:1']", 115)
+	 - Dataset size: 2
+	 - Sat set size: 1 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 116)
+	 - Dataset size: 13
+	 - Sat set size: 3 | Unsat set size: 10
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_24:1']", 116)
+	 - Dataset size: 13
+	 - Sat set size: 1 | Unsat set size: 12
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.9799
+
+State: ("['sink:1']", 116)
+	 - Dataset size: 0
+	 - Sat set size: 0 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 116)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 116)
+	 - Dataset size: 5
+	 - Sat set size: 1 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 117)
+	 - Dataset size: 13
+	 - Sat set size: 3 | Unsat set size: 10
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 117)
+	 - Dataset size: 6
+	 - Sat set size: 1 | Unsat set size: 5
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 117)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 117)
+	 - Dataset size: 7
+	 - Sat set size: 0 | Unsat set size: 7
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 117)
+	 - Dataset size: 5
+	 - Sat set size: 1 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 118)
+	 - Dataset size: 13
+	 - Sat set size: 3 | Unsat set size: 10
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 118)
+	 - Dataset size: 6
+	 - Sat set size: 1 | Unsat set size: 5
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 118)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 118)
+	 - Dataset size: 7
+	 - Sat set size: 0 | Unsat set size: 7
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 118)
+	 - Dataset size: 5
+	 - Sat set size: 1 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 119)
+	 - Dataset size: 13
+	 - Sat set size: 3 | Unsat set size: 10
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 119)
+	 - Dataset size: 6
+	 - Sat set size: 1 | Unsat set size: 5
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 119)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 119)
+	 - Dataset size: 7
+	 - Sat set size: 0 | Unsat set size: 7
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 119)
+	 - Dataset size: 5
+	 - Sat set size: 1 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 1.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 120)
+	 - Dataset size: 13
+	 - Sat set size: 3 | Unsat set size: 10
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.4690
+
+State: ("['p_41:1']", 120)
+	 - Dataset size: 6
+	 - Sat set size: 1 | Unsat set size: 5
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_38:1']", 120)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 120)
+	 - Dataset size: 7
+	 - Sat set size: 0 | Unsat set size: 7
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 120)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_36:1']", 120)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 121)
+	 - Dataset size: 13
+	 - Sat set size: 3 | Unsat set size: 10
+	 - Sat entropy: 0.9183 | Unsat entropy: 1.2955
+
+State: ("['p_4:1']", 121)
+	 - Dataset size: 13
+	 - Sat set size: 1 | Unsat set size: 12
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_36:1']", 121)
+	 - Dataset size: 2
+	 - Sat set size: 1 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_36:1']", 121)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 121)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 122)
+	 - Dataset size: 8
+	 - Sat set size: 1 | Unsat set size: 7
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['sink:1']", 122)
+	 - Dataset size: 0
+	 - Sat set size: 0 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_38:1']", 122)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 122)
+	 - Dataset size: 7
+	 - Sat set size: 3 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_24:1']", 122)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 123)
+	 - Dataset size: 9
+	 - Sat set size: 1 | Unsat set size: 8
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 123)
+	 - Dataset size: 7
+	 - Sat set size: 3 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 123)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 123)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 124)
+	 - Dataset size: 9
+	 - Sat set size: 1 | Unsat set size: 8
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 124)
+	 - Dataset size: 7
+	 - Sat set size: 3 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 124)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 124)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 125)
+	 - Dataset size: 9
+	 - Sat set size: 1 | Unsat set size: 8
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 125)
+	 - Dataset size: 7
+	 - Sat set size: 3 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 125)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 125)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 126)
+	 - Dataset size: 9
+	 - Sat set size: 1 | Unsat set size: 8
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_36:1']", 126)
+	 - Dataset size: 7
+	 - Sat set size: 3 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 126)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 126)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 127)
+	 - Dataset size: 9
+	 - Sat set size: 1 | Unsat set size: 8
+	 - Sat entropy: 0.0000 | Unsat entropy: 1.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_36:1']", 127)
+	 - Dataset size: 7
+	 - Sat set size: 3 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_4:1']", 127)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 128)
+	 - Dataset size: 5
+	 - Sat set size: 1 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 128)
+	 - Dataset size: 4
+	 - Sat set size: 0 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_24:1']", 128)
+	 - Dataset size: 7
+	 - Sat set size: 3 | Unsat set size: 4
+	 - Sat entropy: 0.9183 | Unsat entropy: 1.0000
+
+State: ("['sink:1']", 128)
+	 - Dataset size: 0
+	 - Sat set size: 0 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 129)
+	 - Dataset size: 5
+	 - Sat set size: 1 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 129)
+	 - Dataset size: 4
+	 - Sat set size: 0 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 129)
+	 - Dataset size: 4
+	 - Sat set size: 2 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 129)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 130)
+	 - Dataset size: 5
+	 - Sat set size: 1 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 130)
+	 - Dataset size: 4
+	 - Sat set size: 0 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 130)
+	 - Dataset size: 4
+	 - Sat set size: 2 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 130)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 131)
+	 - Dataset size: 5
+	 - Sat set size: 1 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 131)
+	 - Dataset size: 4
+	 - Sat set size: 0 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 131)
+	 - Dataset size: 4
+	 - Sat set size: 2 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 131)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_36:1']", 132)
+	 - Dataset size: 5
+	 - Sat set size: 1 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 132)
+	 - Dataset size: 4
+	 - Sat set size: 0 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 132)
+	 - Dataset size: 4
+	 - Sat set size: 2 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 132)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_36:1']", 133)
+	 - Dataset size: 5
+	 - Sat set size: 1 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 133)
+	 - Dataset size: 4
+	 - Sat set size: 0 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 1.0000
+
+State: ("['p_4:1']", 133)
+	 - Dataset size: 7
+	 - Sat set size: 3 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_24:1']", 134)
+	 - Dataset size: 5
+	 - Sat set size: 1 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 1.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 134)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 134)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['sink:1']", 134)
+	 - Dataset size: 0
+	 - Sat set size: 0 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 135)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 135)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 135)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 135)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 136)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 136)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 136)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 136)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 137)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 137)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 137)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 137)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 138)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_36:1']", 138)
+	 - Dataset size: 2
+	 - Sat set size: 1 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 138)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 138)
+	 - Dataset size: 3
+	 - Sat set size: 1 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_4:1']", 139)
+	 - Dataset size: 5
+	 - Sat set size: 1 | Unsat set size: 4
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_36:1']", 139)
+	 - Dataset size: 2
+	 - Sat set size: 1 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 139)
+	 - Dataset size: 2
+	 - Sat set size: 0 | Unsat set size: 2
+	 - Sat entropy: 0.0000 | Unsat entropy: 1.0000
+
+State: ("['sink:1']", 140)
+	 - Dataset size: 0
+	 - Sat set size: 0 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_24:1']", 140)
+	 - Dataset size: 2
+	 - Sat set size: 1 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 140)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 140)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 141)
+	 - Dataset size: 2
+	 - Sat set size: 1 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 141)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 141)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 142)
+	 - Dataset size: 2
+	 - Sat set size: 1 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 142)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 142)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_40:1']", 143)
+	 - Dataset size: 2
+	 - Sat set size: 1 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 143)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 143)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_41:1']", 144)
+	 - Dataset size: 2
+	 - Sat set size: 1 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_36:1']", 144)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 144)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_4:1']", 145)
+	 - Dataset size: 2
+	 - Sat set size: 1 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_36:1']", 145)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_32:1', 'p_37:1']", 145)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['sink:1']", 146)
+	 - Dataset size: 0
+	 - Sat set size: 0 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_24:1']", 146)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 146)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 147)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 147)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 148)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 148)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 149)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 149)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 150)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 150)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_4:1']", 151)
+	 - Dataset size: 1
+	 - Sat set size: 0 | Unsat set size: 1
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 151)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['sink:1']", 152)
+	 - Dataset size: 0
+	 - Sat set size: 0 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 152)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 153)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 154)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 155)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 156)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 157)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 158)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 159)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 160)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_37:1']", 161)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_37:1']", 162)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_38:1']", 163)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 164)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 165)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_32:1', 'p_36:1']", 166)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_27:1', 'p_33:1', 'p_36:1']", 167)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_28:1', 'p_33:1', 'p_36:1']", 168)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_26:1', 'p_33:1', 'p_36:1']", 169)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_24:1']", 170)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 171)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 172)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_43:1']", 173)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_44:1']", 174)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['p_4:1']", 175)
+	 - Dataset size: 1
+	 - Sat set size: 1 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+State: ("['sink:1']", 176)
+	 - Dataset size: 0
+	 - Sat set size: 0 | Unsat set size: 0
+	 - Sat entropy: 0.0000 | Unsat entropy: 0.0000
+
+--------------------------------
+- Trace test entropy: 0.6791
+- Information gain: 0.0040
+--------------------------------
