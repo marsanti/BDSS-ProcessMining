@@ -1,0 +1,6107 @@
+MDP generated with 984 states.
+State: (['source:1'], 0)
+  - Domain size: 10000
+  - Outgoing transitions: 
+	(tau_1, None) -> ['p_3:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_3:1'], 1)
+  - Domain size: 10000
+  - Outgoing transitions: 
+	(init_loop_3, None) -> ['p_6:1']: 0.1572
+	(init_loop_38, None) -> ['p_44:1']: 0.8428
+  - Entropy: 0.6276
+
+State: (['p_6:1'], 2)
+  - Domain size: 1572
+  - Outgoing transitions: 
+	(4aec808a-a17f-4dc6-9306-8ef5dadb54be, 'invite reviewers_[0]') -> ['p_7:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_44:1'], 2)
+  - Domain size: 8428
+  - Outgoing transitions: 
+	(0dd5ca9d-8ea5-423c-be2e-6a3fa9199d85, 'invite reviewers_[1]') -> ['p_45:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_7:1'], 3)
+  - Domain size: 1572
+  - Outgoing transitions: 
+	(skip_5, None) -> ['p_6:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_45:1'], 3)
+  - Domain size: 8428
+  - Outgoing transitions: 
+	(skip_40, None) -> ['p_44:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_6:1'], 4)
+  - Domain size: 1572
+  - Outgoing transitions: 
+	(4aec808a-a17f-4dc6-9306-8ef5dadb54be, 'invite reviewers_[0]') -> ['p_7:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_44:1'], 4)
+  - Domain size: 8428
+  - Outgoing transitions: 
+	(0dd5ca9d-8ea5-423c-be2e-6a3fa9199d85, 'invite reviewers_[1]') -> ['p_45:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_7:1'], 5)
+  - Domain size: 1572
+  - Outgoing transitions: 
+	(skip_6, None) -> ['p_10:1', 'p_12:1', 'p_14:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_45:1'], 5)
+  - Domain size: 8428
+  - Outgoing transitions: 
+	(skip_41, None) -> ['p_48:1', 'p_50:1', 'p_52:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_10:1', 'p_12:1', 'p_14:1'], 6)
+  - Domain size: 1572
+  - Outgoing transitions: 
+	(a5a36a7b-c599-434c-aaf7-9d04009362a0, 'get review 3_[0]') -> ['p_10:1', 'p_13:1', 'p_14:1']: 0.2182
+	(8218cf51-8428-409f-abe3-1c41870126d5, 'get review 1_[0]') -> ['p_11:1', 'p_12:1', 'p_14:1']: 0.2258
+	(72d7fba3-dd7c-41d6-8c14-5979a82a5ee5, 'time-out 3_[0]') -> ['p_10:1', 'p_13:1', 'p_14:1']: 0.1310
+	(da7d03d7-7dfc-4fb3-a147-2b5e74561532, 'time-out 1_[0]') -> ['p_11:1', 'p_12:1', 'p_14:1']: 0.1120
+	(8b707d20-5ff7-49c0-bb01-7aab1019afec, 'time-out 2_[0]') -> ['p_10:1', 'p_12:1', 'p_15:1']: 0.1450
+	(d6ba6ad7-31cf-4dcf-8612-53db6da36eb6, 'get review 2_[0]') -> ['p_10:1', 'p_12:1', 'p_15:1']: 0.1679
+  - Entropy: 2.5382
+
+State: (['p_48:1', 'p_50:1', 'p_52:1'], 6)
+  - Domain size: 8428
+  - Outgoing transitions: 
+	(c077da7b-1611-47a1-afd7-376bdcdeff40, 'time-out 1_[1]') -> ['p_48:1', 'p_50:1', 'p_53:1']: 0.1206
+	(40dd16f2-bccc-4b50-8bf3-a06bb89572ff, 'get review 3_[1]') -> ['p_49:1', 'p_50:1', 'p_52:1']: 0.2106
+	(49a9b2b5-7a8a-4da6-9147-50e8a7ccaacd, 'get review 2_[1]') -> ['p_48:1', 'p_51:1', 'p_52:1']: 0.2262
+	(c9ea4d0a-90b7-494b-b576-a55aa36acc5b, 'time-out 3_[1]') -> ['p_49:1', 'p_50:1', 'p_52:1']: 0.1221
+	(a3797ad7-0566-415b-ad88-8e2fa1500ad4, 'time-out 2_[1]') -> ['p_48:1', 'p_51:1', 'p_52:1']: 0.1146
+	(ae4fece7-598c-4c53-8e24-d757ea4de79b, 'get review 1_[1]') -> ['p_48:1', 'p_50:1', 'p_53:1']: 0.2060
+  - Entropy: 2.5244
+
+State: (['p_10:1', 'p_13:1', 'p_14:1'], 7)
+  - Domain size: 549
+  - Outgoing transitions: 
+	(8218cf51-8428-409f-abe3-1c41870126d5, 'get review 1_[0]') -> ['p_11:1', 'p_13:1', 'p_14:1']: 0.3279
+	(da7d03d7-7dfc-4fb3-a147-2b5e74561532, 'time-out 1_[0]') -> ['p_11:1', 'p_13:1', 'p_14:1']: 0.2332
+	(8b707d20-5ff7-49c0-bb01-7aab1019afec, 'time-out 2_[0]') -> ['p_10:1', 'p_13:1', 'p_15:1']: 0.2477
+	(d6ba6ad7-31cf-4dcf-8612-53db6da36eb6, 'get review 2_[0]') -> ['p_10:1', 'p_13:1', 'p_15:1']: 0.1913
+  - Entropy: 1.9724
+
+State: (['p_48:1', 'p_50:1', 'p_53:1'], 7)
+  - Domain size: 2752
+  - Outgoing transitions: 
+	(40dd16f2-bccc-4b50-8bf3-a06bb89572ff, 'get review 3_[1]') -> ['p_49:1', 'p_50:1', 'p_53:1']: 0.2725
+	(49a9b2b5-7a8a-4da6-9147-50e8a7ccaacd, 'get review 2_[1]') -> ['p_48:1', 'p_51:1', 'p_53:1']: 0.3005
+	(a3797ad7-0566-415b-ad88-8e2fa1500ad4, 'time-out 2_[1]') -> ['p_48:1', 'p_51:1', 'p_53:1']: 0.2198
+	(c9ea4d0a-90b7-494b-b576-a55aa36acc5b, 'time-out 3_[1]') -> ['p_49:1', 'p_50:1', 'p_53:1']: 0.2071
+  - Entropy: 1.9833
+
+State: (['p_49:1', 'p_50:1', 'p_52:1'], 7)
+  - Domain size: 2804
+  - Outgoing transitions: 
+	(c077da7b-1611-47a1-afd7-376bdcdeff40, 'time-out 1_[1]') -> ['p_49:1', 'p_50:1', 'p_53:1']: 0.2200
+	(ae4fece7-598c-4c53-8e24-d757ea4de79b, 'get review 1_[1]') -> ['p_49:1', 'p_50:1', 'p_53:1']: 0.2910
+	(49a9b2b5-7a8a-4da6-9147-50e8a7ccaacd, 'get review 2_[1]') -> ['p_49:1', 'p_51:1', 'p_52:1']: 0.2860
+	(a3797ad7-0566-415b-ad88-8e2fa1500ad4, 'time-out 2_[1]') -> ['p_49:1', 'p_51:1', 'p_52:1']: 0.2029
+  - Entropy: 1.9823
+
+State: (['p_48:1', 'p_51:1', 'p_52:1'], 7)
+  - Domain size: 2872
+  - Outgoing transitions: 
+	(40dd16f2-bccc-4b50-8bf3-a06bb89572ff, 'get review 3_[1]') -> ['p_49:1', 'p_51:1', 'p_52:1']: 0.2740
+	(ae4fece7-598c-4c53-8e24-d757ea4de79b, 'get review 1_[1]') -> ['p_48:1', 'p_51:1', 'p_53:1']: 0.2886
+	(c9ea4d0a-90b7-494b-b576-a55aa36acc5b, 'time-out 3_[1]') -> ['p_49:1', 'p_51:1', 'p_52:1']: 0.2159
+	(c077da7b-1611-47a1-afd7-376bdcdeff40, 'time-out 1_[1]') -> ['p_48:1', 'p_51:1', 'p_53:1']: 0.2214
+  - Entropy: 1.9883
+
+State: (['p_11:1', 'p_12:1', 'p_14:1'], 7)
+  - Domain size: 531
+  - Outgoing transitions: 
+	(72d7fba3-dd7c-41d6-8c14-5979a82a5ee5, 'time-out 3_[0]') -> ['p_11:1', 'p_13:1', 'p_14:1']: 0.2768
+	(8b707d20-5ff7-49c0-bb01-7aab1019afec, 'time-out 2_[0]') -> ['p_11:1', 'p_12:1', 'p_15:1']: 0.2655
+	(a5a36a7b-c599-434c-aaf7-9d04009362a0, 'get review 3_[0]') -> ['p_11:1', 'p_13:1', 'p_14:1']: 0.2618
+	(d6ba6ad7-31cf-4dcf-8612-53db6da36eb6, 'get review 2_[0]') -> ['p_11:1', 'p_12:1', 'p_15:1']: 0.1959
+  - Entropy: 1.9878
+
+State: (['p_10:1', 'p_12:1', 'p_15:1'], 7)
+  - Domain size: 492
+  - Outgoing transitions: 
+	(8218cf51-8428-409f-abe3-1c41870126d5, 'get review 1_[0]') -> ['p_11:1', 'p_12:1', 'p_15:1']: 0.2480
+	(a5a36a7b-c599-434c-aaf7-9d04009362a0, 'get review 3_[0]') -> ['p_10:1', 'p_13:1', 'p_15:1']: 0.3171
+	(da7d03d7-7dfc-4fb3-a147-2b5e74561532, 'time-out 1_[0]') -> ['p_11:1', 'p_12:1', 'p_15:1']: 0.2297
+	(72d7fba3-dd7c-41d6-8c14-5979a82a5ee5, 'time-out 3_[0]') -> ['p_10:1', 'p_13:1', 'p_15:1']: 0.2053
+  - Entropy: 1.9807
+
+State: (['p_11:1', 'p_13:1', 'p_14:1'], 8)
+  - Domain size: 594
+  - Outgoing transitions: 
+	(8b707d20-5ff7-49c0-bb01-7aab1019afec, 'time-out 2_[0]') -> ['p_11:1', 'p_13:1', 'p_15:1']: 0.7896
+	(d6ba6ad7-31cf-4dcf-8612-53db6da36eb6, 'get review 2_[0]') -> ['p_11:1', 'p_13:1', 'p_15:1']: 0.2104
+  - Entropy: 0.7423
+
+State: (['p_49:1', 'p_50:1', 'p_53:1'], 8)
+  - Domain size: 2753
+  - Outgoing transitions: 
+	(49a9b2b5-7a8a-4da6-9147-50e8a7ccaacd, 'get review 2_[1]') -> ['p_49:1', 'p_51:1', 'p_53:1']: 0.3153
+	(a3797ad7-0566-415b-ad88-8e2fa1500ad4, 'time-out 2_[1]') -> ['p_49:1', 'p_51:1', 'p_53:1']: 0.6847
+  - Entropy: 0.8992
+
+State: (['p_49:1', 'p_51:1', 'p_52:1'], 8)
+  - Domain size: 2778
+  - Outgoing transitions: 
+	(c077da7b-1611-47a1-afd7-376bdcdeff40, 'time-out 1_[1]') -> ['p_49:1', 'p_51:1', 'p_53:1']: 0.6865
+	(ae4fece7-598c-4c53-8e24-d757ea4de79b, 'get review 1_[1]') -> ['p_49:1', 'p_51:1', 'p_53:1']: 0.3135
+  - Entropy: 0.8972
+
+State: (['p_48:1', 'p_51:1', 'p_53:1'], 8)
+  - Domain size: 2897
+  - Outgoing transitions: 
+	(c9ea4d0a-90b7-494b-b576-a55aa36acc5b, 'time-out 3_[1]') -> ['p_49:1', 'p_51:1', 'p_53:1']: 0.7035
+	(40dd16f2-bccc-4b50-8bf3-a06bb89572ff, 'get review 3_[1]') -> ['p_49:1', 'p_51:1', 'p_53:1']: 0.2965
+  - Entropy: 0.8770
+
+State: (['p_10:1', 'p_13:1', 'p_15:1'], 8)
+  - Domain size: 498
+  - Outgoing transitions: 
+	(da7d03d7-7dfc-4fb3-a147-2b5e74561532, 'time-out 1_[0]') -> ['p_11:1', 'p_13:1', 'p_15:1']: 0.7691
+	(8218cf51-8428-409f-abe3-1c41870126d5, 'get review 1_[0]') -> ['p_11:1', 'p_13:1', 'p_15:1']: 0.2309
+  - Entropy: 0.7796
+
+State: (['p_11:1', 'p_12:1', 'p_15:1'], 8)
+  - Domain size: 480
+  - Outgoing transitions: 
+	(72d7fba3-dd7c-41d6-8c14-5979a82a5ee5, 'time-out 3_[0]') -> ['p_11:1', 'p_13:1', 'p_15:1']: 0.7188
+	(a5a36a7b-c599-434c-aaf7-9d04009362a0, 'get review 3_[0]') -> ['p_11:1', 'p_13:1', 'p_15:1']: 0.2812
+  - Entropy: 0.8571
+
+State: (['p_11:1', 'p_13:1', 'p_15:1'], 9)
+  - Domain size: 1572
+  - Outgoing transitions: 
+	(tauJoin_8, None) -> ['p_17:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_49:1', 'p_51:1', 'p_53:1'], 9)
+  - Domain size: 8428
+  - Outgoing transitions: 
+	(tauJoin_43, None) -> ['p_55:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_17:1'], 10)
+  - Domain size: 1572
+  - Outgoing transitions: 
+	(914fc514-d6ac-4006-8686-fccb40ec22f6, 'collect reviews_[0]') -> ['p_18:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_55:1'], 10)
+  - Domain size: 8428
+  - Outgoing transitions: 
+	(4dd3cb0a-f565-492b-afa1-a2e3ea3229c5, 'collect reviews_[1]') -> ['p_56:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_18:1'], 11)
+  - Domain size: 1572
+  - Outgoing transitions: 
+	(skip_11, None) -> ['p_17:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_56:1'], 11)
+  - Domain size: 8428
+  - Outgoing transitions: 
+	(skip_46, None) -> ['p_55:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_17:1'], 12)
+  - Domain size: 1572
+  - Outgoing transitions: 
+	(914fc514-d6ac-4006-8686-fccb40ec22f6, 'collect reviews_[0]') -> ['p_18:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_55:1'], 12)
+  - Domain size: 8428
+  - Outgoing transitions: 
+	(4dd3cb0a-f565-492b-afa1-a2e3ea3229c5, 'collect reviews_[1]') -> ['p_56:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_18:1'], 13)
+  - Domain size: 1572
+  - Outgoing transitions: 
+	(skip_12, None) -> ['p_21:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_56:1'], 13)
+  - Domain size: 8428
+  - Outgoing transitions: 
+	(skip_47, None) -> ['p_59:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_21:1'], 14)
+  - Domain size: 1572
+  - Outgoing transitions: 
+	(db1e2060-1589-402a-ab72-e5ed778402f5, 'decide_[0]') -> ['p_22:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_59:1'], 14)
+  - Domain size: 8428
+  - Outgoing transitions: 
+	(87bde8cb-caa9-4af8-8fa9-6636422c968e, 'decide_[1]') -> ['p_60:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_22:1'], 15)
+  - Domain size: 1572
+  - Outgoing transitions: 
+	(skip_15, None) -> ['p_21:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_60:1'], 15)
+  - Domain size: 8428
+  - Outgoing transitions: 
+	(skip_50, None) -> ['p_59:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_21:1'], 16)
+  - Domain size: 1572
+  - Outgoing transitions: 
+	(db1e2060-1589-402a-ab72-e5ed778402f5, 'decide_[0]') -> ['p_22:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_59:1'], 16)
+  - Domain size: 8428
+  - Outgoing transitions: 
+	(87bde8cb-caa9-4af8-8fa9-6636422c968e, 'decide_[1]') -> ['p_60:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_22:1'], 17)
+  - Domain size: 1572
+  - Outgoing transitions: 
+	(skip_16, None) -> ['p_20:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_60:1'], 17)
+  - Domain size: 8428
+  - Outgoing transitions: 
+	(skip_51, None) -> ['p_58:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_20:1'], 18)
+  - Domain size: 1572
+  - Outgoing transitions: 
+	(tauSplit_18, None) -> ['p_25:1', 'p_30:1', 'p_37:1']: 0.8066
+	(skip_17, None) -> ['p_24:1']: 0.1934
+  - Entropy: 0.7085
+
+State: (['p_58:1'], 18)
+  - Domain size: 8428
+  - Outgoing transitions: 
+	(tauSplit_53, None) -> ['p_65:1', 'p_70:1', 'p_73:1']: 0.9612
+	(skip_52, None) -> ['p_62:1']: 0.0388
+  - Entropy: 0.2368
+
+State: (['p_25:1', 'p_30:1', 'p_37:1'], 19)
+  - Domain size: 1268
+  - Outgoing transitions: 
+	(skip_20, None) -> ['p_26:1', 'p_30:1', 'p_37:1']: 0.3967
+	(init_loop_21, None) -> ['p_27:1', 'p_30:1', 'p_37:1']: 0.2311
+	(init_loop_26, None) -> ['p_25:1', 'p_32:1', 'p_37:1']: 0.1759
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_25:1', 'p_30:1', 'p_38:1']: 0.1956
+	(skip_25, None) -> ['p_25:1', 'p_31:1', 'p_37:1']: 0.0008
+  - Entropy: 1.9271
+
+State: (['p_65:1', 'p_70:1', 'p_73:1'], 19)
+  - Domain size: 8101
+  - Outgoing transitions: 
+	(init_loop_64, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.4787
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_73:1']: 0.2780
+	(skip_63, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.2433
+  - Entropy: 1.5183
+
+State: (['p_62:1'], 19)
+  - Domain size: 327
+  - Outgoing transitions: 
+	(init_loop_72, None) -> ['p_81:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_24:1'], 19)
+  - Domain size: 304
+  - Outgoing transitions: 
+	(init_loop_34, None) -> ['p_40:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_30:1', 'p_37:1'], 20)
+  - Domain size: 503
+  - Outgoing transitions: 
+	(init_loop_26, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 0.7992
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_30:1', 'p_38:1']: 0.2008
+  - Entropy: 0.7235
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 20)
+  - Domain size: 3878
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_73:1'], 20)
+  - Domain size: 2252
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_73:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 20)
+  - Domain size: 1971
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 20)
+  - Domain size: 327
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_30:1', 'p_37:1'], 20)
+  - Domain size: 293
+  - Outgoing transitions: 
+	(init_loop_26, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 0.7372
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_30:1', 'p_38:1']: 0.2628
+  - Entropy: 0.8309
+
+State: (['p_25:1', 'p_32:1', 'p_37:1'], 20)
+  - Domain size: 223
+  - Outgoing transitions: 
+	(init_loop_21, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 0.8027
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_25:1', 'p_32:1', 'p_38:1']: 0.1973
+  - Entropy: 0.7165
+
+State: (['p_40:1'], 20)
+  - Domain size: 304
+  - Outgoing transitions: 
+	(ff6bc783-4906-450b-8218-a3119922fc85, 'reject_[0]') -> ['p_41:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_25:1', 'p_30:1', 'p_38:1'], 20)
+  - Domain size: 248
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_25:1', 'p_30:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_25:1', 'p_31:1', 'p_37:1'], 20)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(init_loop_21, None) -> ['p_27:1', 'p_31:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 21)
+  - Domain size: 402
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 21)
+  - Domain size: 3878
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_73:1'], 21)
+  - Domain size: 2252
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_73:1']: 0.6696
+	(init_loop_64, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.3304
+  - Entropy: 0.9153
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 21)
+  - Domain size: 1971
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 21)
+  - Domain size: 327
+  - Outgoing transitions: 
+	(skip_74, None) -> ['p_81:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 21)
+  - Domain size: 395
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_41:1'], 21)
+  - Domain size: 304
+  - Outgoing transitions: 
+	(skip_36, None) -> ['p_40:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_30:1', 'p_38:1'], 21)
+  - Domain size: 101
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_26:1', 'p_30:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_25:1', 'p_32:1', 'p_38:1'], 21)
+  - Domain size: 44
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_25:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_25:1', 'p_30:1', 'p_37:1'], 21)
+  - Domain size: 248
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_25:1', 'p_30:1', 'p_38:1']: 0.7540
+	(init_loop_21, None) -> ['p_27:1', 'p_30:1', 'p_37:1']: 0.1774
+	(init_loop_26, None) -> ['p_25:1', 'p_32:1', 'p_37:1']: 0.0685
+  - Entropy: 1.0148
+
+State: (['p_27:1', 'p_30:1', 'p_38:1'], 21)
+  - Domain size: 77
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_30:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_31:1', 'p_37:1'], 21)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_31:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_38:1'], 22)
+  - Domain size: 402
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 22)
+  - Domain size: 4622
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_73:1'], 22)
+  - Domain size: 1508
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_73:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 22)
+  - Domain size: 1971
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 22)
+  - Domain size: 327
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_38:1'], 22)
+  - Domain size: 395
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_40:1'], 22)
+  - Domain size: 304
+  - Outgoing transitions: 
+	(ff6bc783-4906-450b-8218-a3119922fc85, 'reject_[0]') -> ['p_41:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_30:1', 'p_37:1'], 22)
+  - Domain size: 101
+  - Outgoing transitions: 
+	(init_loop_26, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 0.8020
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_30:1', 'p_38:1']: 0.1980
+  - Entropy: 0.7179
+
+State: (['p_25:1', 'p_32:1', 'p_37:1'], 22)
+  - Domain size: 61
+  - Outgoing transitions: 
+	(init_loop_21, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 0.5738
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_25:1', 'p_32:1', 'p_38:1']: 0.4262
+  - Entropy: 0.9842
+
+State: (['p_25:1', 'p_30:1', 'p_38:1'], 22)
+  - Domain size: 187
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_25:1', 'p_30:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_30:1', 'p_37:1'], 22)
+  - Domain size: 121
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_30:1', 'p_38:1']: 0.6281
+	(init_loop_26, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 0.3719
+  - Entropy: 0.9521
+
+State: (['p_27:1', 'p_31:1', 'p_38:1'], 22)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_31:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 23)
+  - Domain size: 483
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 23)
+  - Domain size: 4622
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_73:1'], 23)
+  - Domain size: 1508
+  - Outgoing transitions: 
+	(init_loop_64, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.7924
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_73:1']: 0.2076
+  - Entropy: 0.7368
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 23)
+  - Domain size: 1971
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.6098
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_71:1', 'p_74:1']: 0.3902
+  - Entropy: 0.9649
+
+State: (['p_82:1'], 23)
+  - Domain size: 327
+  - Outgoing transitions: 
+	(skip_75, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 23)
+  - Domain size: 475
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_41:1'], 23)
+  - Domain size: 304
+  - Outgoing transitions: 
+	(skip_37, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_25:1', 'p_30:1', 'p_37:1'], 23)
+  - Domain size: 187
+  - Outgoing transitions: 
+	(init_loop_21, None) -> ['p_27:1', 'p_30:1', 'p_37:1']: 0.6257
+	(init_loop_26, None) -> ['p_25:1', 'p_32:1', 'p_37:1']: 0.3743
+  - Entropy: 0.9539
+
+State: (['p_25:1', 'p_32:1', 'p_38:1'], 23)
+  - Domain size: 26
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_25:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_30:1', 'p_38:1'], 23)
+  - Domain size: 76
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_30:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_30:1', 'p_38:1'], 23)
+  - Domain size: 20
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_26:1', 'p_30:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_31:1', 'p_37:1'], 23)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_31:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_38:1'], 24)
+  - Domain size: 483
+  - Outgoing transitions: 
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_26:1', 'p_33:1', 'p_38:1']: 0.7267
+	(skip_32, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 0.2733
+  - Entropy: 0.8461
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 24)
+  - Domain size: 5817
+  - Outgoing transitions: 
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_65:1', 'p_70:1', 'p_76:1']: 0.6914
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_75:1']: 0.3086
+  - Entropy: 0.8915
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 24)
+  - Domain size: 1202
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 24)
+  - Domain size: 631
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_74:1'], 24)
+  - Domain size: 769
+  - Outgoing transitions: 
+	(tauJoin_54, None) -> ['p_62:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_70:1', 'p_73:1'], 24)
+  - Domain size: 313
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_73:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_38:1'], 24)
+  - Domain size: 475
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_30:1', 'p_37:1'], 24)
+  - Domain size: 193
+  - Outgoing transitions: 
+	(init_loop_26, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 0.3990
+	(7ef13a04-90f8-4183-947b-c3ae6801583e, 'time-out X_[0]') -> ['p_28:1', 'p_30:1', 'p_37:1']: 0.6010
+  - Entropy: 0.9703
+
+State: (['p_25:1', 'p_32:1', 'p_37:1'], 24)
+  - Domain size: 96
+  - Outgoing transitions: 
+	(init_loop_21, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 0.9479
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_25:1', 'p_33:1', 'p_37:1']: 0.0521
+  - Entropy: 0.2952
+
+State: (['p_26:1', 'p_30:1', 'p_37:1'], 24)
+  - Domain size: 20
+  - Outgoing transitions: 
+	(init_loop_26, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_31:1', 'p_38:1'], 24)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(7ef13a04-90f8-4183-947b-c3ae6801583e, 'time-out X_[0]') -> ['p_28:1', 'p_31:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_33:1', 'p_38:1'], 25)
+  - Domain size: 351
+  - Outgoing transitions: 
+	(skip_29, None) -> ['p_26:1', 'p_31:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_76:1'], 25)
+  - Domain size: 4022
+  - Outgoing transitions: 
+	(skip_66, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.6721
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_76:1']: 0.0987
+	(skip_67, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.2292
+  - Entropy: 1.2022
+
+State: (['p_66:1', 'p_70:1', 'p_74:1'], 25)
+  - Domain size: 1202
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_70:1', 'p_75:1'], 25)
+  - Domain size: 1795
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.9994
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_66:1', 'p_71:1', 'p_75:1']: 0.0006
+  - Entropy: 0.0068
+
+State: (['sink:1'], 25)
+  - Domain size: 631
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_62:1'], 25)
+  - Domain size: 769
+  - Outgoing transitions: 
+	(init_loop_72, None) -> ['p_81:1']: 0.7334
+	(init_loop_68, None) -> ['p_78:1']: 0.2666
+  - Entropy: 0.8365
+
+State: (['p_65:1', 'p_70:1', 'p_73:1'], 25)
+  - Domain size: 313
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_73:1']: 0.9201
+	(init_loop_64, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.0799
+  - Entropy: 0.4017
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 25)
+  - Domain size: 643
+  - Outgoing transitions: 
+	(7ef13a04-90f8-4183-947b-c3ae6801583e, 'time-out X_[0]') -> ['p_28:1', 'p_32:1', 'p_37:1']: 0.7667
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_27:1', 'p_33:1', 'p_37:1']: 0.2333
+  - Entropy: 0.7837
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 25)
+  - Domain size: 152
+  - Outgoing transitions: 
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_26:1', 'p_33:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_30:1', 'p_37:1'], 25)
+  - Domain size: 116
+  - Outgoing transitions: 
+	(skip_23, None) -> ['p_27:1', 'p_30:1', 'p_37:1']: 0.5862
+	(skip_24, None) -> ['p_26:1', 'p_30:1', 'p_37:1']: 0.4138
+  - Entropy: 0.9784
+
+State: (['p_25:1', 'p_33:1', 'p_37:1'], 25)
+  - Domain size: 5
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_25:1', 'p_33:1', 'p_38:1']: 0.2000
+	(skip_28, None) -> ['p_25:1', 'p_32:1', 'p_37:1']: 0.8000
+  - Entropy: 0.7219
+
+State: (['p_28:1', 'p_31:1', 'p_38:1'], 25)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_24, None) -> ['p_26:1', 'p_31:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_31:1', 'p_38:1'], 26)
+  - Domain size: 352
+  - Outgoing transitions: 
+	(tauJoin_19, None) -> ['p_24:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 26)
+  - Domain size: 4522
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 26)
+  - Domain size: 2124
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_76:1'], 26)
+  - Domain size: 397
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_76:1']: 0.4836
+	(skip_66, None) -> ['p_65:1', 'p_71:1', 'p_75:1']: 0.5164
+  - Entropy: 0.9992
+
+State: (['p_81:1'], 26)
+  - Domain size: 564
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_73:1'], 26)
+  - Domain size: 288
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_73:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 26)
+  - Domain size: 205
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_37:1'], 26)
+  - Domain size: 493
+  - Outgoing transitions: 
+	(skip_24, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 0.3996
+	(skip_23, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 0.5984
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_28:1', 'p_32:1', 'p_38:1']: 0.0020
+  - Entropy: 0.9903
+
+State: (['p_26:1', 'p_33:1', 'p_37:1'], 26)
+  - Domain size: 152
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_33:1', 'p_37:1'], 26)
+  - Domain size: 150
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 0.8867
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_33:1', 'p_38:1']: 0.1133
+  - Entropy: 0.5099
+
+State: (['p_27:1', 'p_30:1', 'p_37:1'], 26)
+  - Domain size: 68
+  - Outgoing transitions: 
+	(init_loop_26, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 0.8676
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_30:1', 'p_38:1']: 0.1324
+  - Entropy: 0.5639
+
+State: (['p_25:1', 'p_33:1', 'p_38:1'], 26)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_25:1', 'p_33:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_30:1', 'p_37:1'], 26)
+  - Domain size: 48
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_30:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_25:1', 'p_32:1', 'p_37:1'], 26)
+  - Domain size: 4
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_25:1', 'p_32:1', 'p_38:1']: 0.5000
+	(init_loop_21, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 0.5000
+  - Entropy: 1.0000
+
+State: (['p_66:1', 'p_71:1', 'p_75:1'], 26)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_66:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_24:1'], 27)
+  - Domain size: 352
+  - Outgoing transitions: 
+	(init_loop_34, None) -> ['p_40:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 27)
+  - Domain size: 4727
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 27)
+  - Domain size: 2124
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_76:1'], 27)
+  - Domain size: 192
+  - Outgoing transitions: 
+	(skip_66, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 27)
+  - Domain size: 564
+  - Outgoing transitions: 
+	(skip_74, None) -> ['p_81:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_73:1'], 27)
+  - Domain size: 288
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_73:1']: 0.9479
+	(init_loop_64, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.0521
+  - Entropy: 0.2952
+
+State: (['p_79:1'], 27)
+  - Domain size: 205
+  - Outgoing transitions: 
+	(skip_70, None) -> ['p_78:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 27)
+  - Domain size: 349
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 27)
+  - Domain size: 489
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_25:1', 'p_33:1', 'p_37:1'], 27)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_25:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_30:1', 'p_38:1'], 27)
+  - Domain size: 48
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_26:1', 'p_30:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_33:1', 'p_38:1'], 27)
+  - Domain size: 17
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_33:1', 'p_37:1']: 0.6471
+	(skip_28, None) -> ['p_27:1', 'p_32:1', 'p_38:1']: 0.3529
+  - Entropy: 0.9367
+
+State: (['p_27:1', 'p_30:1', 'p_38:1'], 27)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_30:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_25:1', 'p_32:1', 'p_38:1'], 27)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_25:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_70:1', 'p_75:1'], 27)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_66:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_38:1'], 27)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_28:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_40:1'], 28)
+  - Domain size: 352
+  - Outgoing transitions: 
+	(ff6bc783-4906-450b-8218-a3119922fc85, 'reject_[0]') -> ['p_41:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 28)
+  - Domain size: 4934
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 28)
+  - Domain size: 2124
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 28)
+  - Domain size: 564
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_73:1'], 28)
+  - Domain size: 273
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_73:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 28)
+  - Domain size: 205
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_38:1'], 28)
+  - Domain size: 349
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_38:1'], 28)
+  - Domain size: 495
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_25:1', 'p_32:1', 'p_37:1'], 28)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(init_loop_21, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 0.6667
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_25:1', 'p_32:1', 'p_38:1']: 0.3333
+  - Entropy: 0.9183
+
+State: (['p_26:1', 'p_30:1', 'p_37:1'], 28)
+  - Domain size: 48
+  - Outgoing transitions: 
+	(init_loop_26, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 0.7917
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_30:1', 'p_38:1']: 0.2083
+  - Entropy: 0.7383
+
+State: (['p_27:1', 'p_33:1', 'p_37:1'], 28)
+  - Domain size: 11
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_30:1', 'p_37:1'], 28)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_30:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_75:1'], 28)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_66:1', 'p_71:1', 'p_76:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_37:1'], 28)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_28:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_41:1'], 29)
+  - Domain size: 352
+  - Outgoing transitions: 
+	(skip_36, None) -> ['p_40:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 29)
+  - Domain size: 4934
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 29)
+  - Domain size: 2124
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_71:1', 'p_74:1']: 0.5320
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.4680
+  - Entropy: 0.9970
+
+State: (['p_82:1'], 29)
+  - Domain size: 564
+  - Outgoing transitions: 
+	(skip_75, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_73:1'], 29)
+  - Domain size: 273
+  - Outgoing transitions: 
+	(init_loop_64, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.8242
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_73:1']: 0.1758
+  - Entropy: 0.6709
+
+State: (['p_79:1'], 29)
+  - Domain size: 205
+  - Outgoing transitions: 
+	(skip_71, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 29)
+  - Domain size: 387
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 29)
+  - Domain size: 508
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_30:1', 'p_38:1'], 29)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_30:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_30:1', 'p_38:1'], 29)
+  - Domain size: 10
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_26:1', 'p_30:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_76:1'], 29)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_67, None) -> ['p_66:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_38:1'], 29)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_28:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_25:1', 'p_32:1', 'p_38:1'], 29)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_25:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_40:1'], 30)
+  - Domain size: 352
+  - Outgoing transitions: 
+	(ff6bc783-4906-450b-8218-a3119922fc85, 'reject_[0]') -> ['p_41:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 30)
+  - Domain size: 5159
+  - Outgoing transitions: 
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_65:1', 'p_70:1', 'p_76:1']: 0.7077
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_75:1']: 0.2923
+  - Entropy: 0.8717
+
+State: (['p_66:1', 'p_71:1', 'p_74:1'], 30)
+  - Domain size: 1131
+  - Outgoing transitions: 
+	(tauJoin_54, None) -> ['p_62:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 30)
+  - Domain size: 994
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 30)
+  - Domain size: 769
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_38:1'], 30)
+  - Domain size: 387
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 0.1602
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_26:1', 'p_33:1', 'p_38:1']: 0.8398
+  - Entropy: 0.6348
+
+State: (['p_27:1', 'p_32:1', 'p_38:1'], 30)
+  - Domain size: 508
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_70:1', 'p_73:1'], 30)
+  - Domain size: 48
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_73:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_30:1', 'p_37:1'], 30)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(7ef13a04-90f8-4183-947b-c3ae6801583e, 'time-out X_[0]') -> ['p_28:1', 'p_30:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_30:1', 'p_37:1'], 30)
+  - Domain size: 10
+  - Outgoing transitions: 
+	(init_loop_26, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_37:1'], 30)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_28:1', 'p_33:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_25:1', 'p_32:1', 'p_37:1'], 30)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(init_loop_21, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_41:1'], 31)
+  - Domain size: 352
+  - Outgoing transitions: 
+	(skip_37, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_76:1'], 31)
+  - Domain size: 3651
+  - Outgoing transitions: 
+	(skip_66, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.7193
+	(skip_67, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.2807
+  - Entropy: 0.8565
+
+State: (['p_66:1', 'p_70:1', 'p_75:1'], 31)
+  - Domain size: 1508
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.9993
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_66:1', 'p_71:1', 'p_75:1']: 0.0007
+  - Entropy: 0.0080
+
+State: (['p_62:1'], 31)
+  - Domain size: 1131
+  - Outgoing transitions: 
+	(init_loop_68, None) -> ['p_78:1']: 0.3828
+	(init_loop_72, None) -> ['p_81:1']: 0.6172
+  - Entropy: 0.9600
+
+State: (['p_66:1', 'p_70:1', 'p_74:1'], 31)
+  - Domain size: 994
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['sink:1'], 31)
+  - Domain size: 769
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 31)
+  - Domain size: 72
+  - Outgoing transitions: 
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_26:1', 'p_33:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 31)
+  - Domain size: 509
+  - Outgoing transitions: 
+	(7ef13a04-90f8-4183-947b-c3ae6801583e, 'time-out X_[0]') -> ['p_28:1', 'p_32:1', 'p_37:1']: 0.8468
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_27:1', 'p_33:1', 'p_37:1']: 0.1532
+  - Entropy: 0.6179
+
+State: (['p_26:1', 'p_33:1', 'p_38:1'], 31)
+  - Domain size: 325
+  - Outgoing transitions: 
+	(skip_29, None) -> ['p_26:1', 'p_31:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_73:1'], 31)
+  - Domain size: 48
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_73:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_30:1', 'p_37:1'], 31)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(skip_23, None) -> ['p_27:1', 'p_30:1', 'p_37:1']: 0.4444
+	(skip_24, None) -> ['p_26:1', 'p_30:1', 'p_37:1']: 0.5556
+  - Entropy: 0.9911
+
+State: (['p_28:1', 'p_33:1', 'p_37:1'], 31)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_28:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 32)
+  - Domain size: 352
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 32)
+  - Domain size: 4133
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 32)
+  - Domain size: 433
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 32)
+  - Domain size: 2019
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_33:1', 'p_37:1'], 32)
+  - Domain size: 72
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_37:1'], 32)
+  - Domain size: 432
+  - Outgoing transitions: 
+	(skip_23, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 0.5509
+	(skip_24, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 0.4444
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_28:1', 'p_32:1', 'p_38:1']: 0.0046
+  - Entropy: 1.0297
+
+State: (['p_26:1', 'p_31:1', 'p_38:1'], 32)
+  - Domain size: 325
+  - Outgoing transitions: 
+	(tauJoin_19, None) -> ['p_24:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 32)
+  - Domain size: 698
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_73:1'], 32)
+  - Domain size: 48
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_73:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_33:1', 'p_37:1'], 32)
+  - Domain size: 78
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 0.8846
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_33:1', 'p_38:1']: 0.1154
+  - Entropy: 0.5159
+
+State: (['p_66:1', 'p_71:1', 'p_75:1'], 32)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_66:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_30:1', 'p_37:1'], 32)
+  - Domain size: 4
+  - Outgoing transitions: 
+	(init_loop_26, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 0.7500
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_30:1', 'p_38:1']: 0.2500
+  - Entropy: 0.8113
+
+State: (['p_26:1', 'p_30:1', 'p_37:1'], 32)
+  - Domain size: 5
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_30:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['sink:1'], 33)
+  - Domain size: 352
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 33)
+  - Domain size: 4133
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 33)
+  - Domain size: 433
+  - Outgoing transitions: 
+	(skip_70, None) -> ['p_78:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 33)
+  - Domain size: 2019
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 33)
+  - Domain size: 264
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 33)
+  - Domain size: 310
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_24:1'], 33)
+  - Domain size: 325
+  - Outgoing transitions: 
+	(init_loop_34, None) -> ['p_40:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 33)
+  - Domain size: 698
+  - Outgoing transitions: 
+	(skip_74, None) -> ['p_81:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_73:1'], 33)
+  - Domain size: 48
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_73:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_70:1', 'p_75:1'], 33)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_66:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_30:1', 'p_38:1'], 33)
+  - Domain size: 5
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_26:1', 'p_30:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_33:1', 'p_38:1'], 33)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_33:1', 'p_37:1']: 0.6667
+	(skip_28, None) -> ['p_27:1', 'p_32:1', 'p_38:1']: 0.3333
+  - Entropy: 0.9183
+
+State: (['p_28:1', 'p_32:1', 'p_38:1'], 33)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_28:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_30:1', 'p_38:1'], 33)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_30:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 34)
+  - Domain size: 4133
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 34)
+  - Domain size: 433
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 34)
+  - Domain size: 2019
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_38:1'], 34)
+  - Domain size: 264
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_38:1'], 34)
+  - Domain size: 313
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_40:1'], 34)
+  - Domain size: 325
+  - Outgoing transitions: 
+	(ff6bc783-4906-450b-8218-a3119922fc85, 'reject_[0]') -> ['p_41:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 34)
+  - Domain size: 698
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_73:1'], 34)
+  - Domain size: 48
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_73:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_75:1'], 34)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_66:1', 'p_71:1', 'p_76:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_30:1', 'p_37:1'], 34)
+  - Domain size: 5
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_30:1', 'p_38:1']: 0.8000
+	(init_loop_26, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 0.2000
+  - Entropy: 0.7219
+
+State: (['p_27:1', 'p_33:1', 'p_37:1'], 34)
+  - Domain size: 6
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_37:1'], 34)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_28:1', 'p_32:1', 'p_38:1']: 0.5000
+	(skip_23, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 0.5000
+  - Entropy: 1.0000
+
+State: (['p_27:1', 'p_30:1', 'p_37:1'], 34)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_30:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 35)
+  - Domain size: 4133
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 35)
+  - Domain size: 433
+  - Outgoing transitions: 
+	(skip_71, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 35)
+  - Domain size: 2019
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.3829
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_71:1', 'p_74:1']: 0.6171
+  - Entropy: 0.9600
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 35)
+  - Domain size: 265
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 35)
+  - Domain size: 320
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_41:1'], 35)
+  - Domain size: 325
+  - Outgoing transitions: 
+	(skip_36, None) -> ['p_40:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 35)
+  - Domain size: 698
+  - Outgoing transitions: 
+	(skip_75, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_73:1'], 35)
+  - Domain size: 48
+  - Outgoing transitions: 
+	(init_loop_64, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_76:1'], 35)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_67, None) -> ['p_66:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_30:1', 'p_38:1'], 35)
+  - Domain size: 4
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_26:1', 'p_30:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_38:1'], 35)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_28:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_30:1', 'p_38:1'], 35)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_30:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 36)
+  - Domain size: 4181
+  - Outgoing transitions: 
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_65:1', 'p_70:1', 'p_76:1']: 0.7319
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_75:1']: 0.2681
+  - Entropy: 0.8388
+
+State: (['p_4:1'], 36)
+  - Domain size: 1131
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 36)
+  - Domain size: 773
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_74:1'], 36)
+  - Domain size: 1247
+  - Outgoing transitions: 
+	(tauJoin_54, None) -> ['p_62:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_38:1'], 36)
+  - Domain size: 265
+  - Outgoing transitions: 
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_26:1', 'p_33:1', 'p_38:1']: 0.8491
+	(skip_32, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 0.1509
+  - Entropy: 0.6122
+
+State: (['p_27:1', 'p_32:1', 'p_38:1'], 36)
+  - Domain size: 320
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_40:1'], 36)
+  - Domain size: 325
+  - Outgoing transitions: 
+	(ff6bc783-4906-450b-8218-a3119922fc85, 'reject_[0]') -> ['p_41:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_30:1', 'p_37:1'], 36)
+  - Domain size: 4
+  - Outgoing transitions: 
+	(init_loop_26, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_37:1'], 36)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_28:1', 'p_33:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_30:1', 'p_37:1'], 36)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(7ef13a04-90f8-4183-947b-c3ae6801583e, 'time-out X_[0]') -> ['p_28:1', 'p_30:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_76:1'], 37)
+  - Domain size: 3060
+  - Outgoing transitions: 
+	(skip_66, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.6614
+	(skip_67, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.3294
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_76:1']: 0.0092
+  - Entropy: 0.9841
+
+State: (['p_66:1', 'p_70:1', 'p_75:1'], 37)
+  - Domain size: 1121
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['sink:1'], 37)
+  - Domain size: 1131
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_70:1', 'p_74:1'], 37)
+  - Domain size: 773
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_62:1'], 37)
+  - Domain size: 1247
+  - Outgoing transitions: 
+	(init_loop_72, None) -> ['p_81:1']: 0.5902
+	(init_loop_68, None) -> ['p_78:1']: 0.4098
+  - Entropy: 0.9764
+
+State: (['p_26:1', 'p_33:1', 'p_38:1'], 37)
+  - Domain size: 225
+  - Outgoing transitions: 
+	(skip_29, None) -> ['p_26:1', 'p_31:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 37)
+  - Domain size: 320
+  - Outgoing transitions: 
+	(7ef13a04-90f8-4183-947b-c3ae6801583e, 'time-out X_[0]') -> ['p_28:1', 'p_32:1', 'p_37:1']: 0.8625
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_27:1', 'p_33:1', 'p_37:1']: 0.1375
+  - Entropy: 0.5777
+
+State: (['p_41:1'], 37)
+  - Domain size: 325
+  - Outgoing transitions: 
+	(skip_37, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 37)
+  - Domain size: 44
+  - Outgoing transitions: 
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_26:1', 'p_33:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_33:1', 'p_37:1'], 37)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_28:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_30:1', 'p_37:1'], 37)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_23, None) -> ['p_27:1', 'p_30:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 38)
+  - Domain size: 3145
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 38)
+  - Domain size: 1781
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 38)
+  - Domain size: 736
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 38)
+  - Domain size: 511
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_31:1', 'p_38:1'], 38)
+  - Domain size: 225
+  - Outgoing transitions: 
+	(tauJoin_19, None) -> ['p_24:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_37:1'], 38)
+  - Domain size: 277
+  - Outgoing transitions: 
+	(skip_24, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 0.4224
+	(skip_23, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 0.5740
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_28:1', 'p_32:1', 'p_38:1']: 0.0036
+  - Entropy: 1.0142
+
+State: (['p_4:1'], 38)
+  - Domain size: 325
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_33:1', 'p_37:1'], 38)
+  - Domain size: 44
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 0.9545
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_33:1', 'p_38:1']: 0.0455
+  - Entropy: 0.2668
+
+State: (['p_65:1', 'p_71:1', 'p_76:1'], 38)
+  - Domain size: 28
+  - Outgoing transitions: 
+	(skip_66, None) -> ['p_65:1', 'p_71:1', 'p_75:1']: 0.2857
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_76:1']: 0.7143
+  - Entropy: 0.8631
+
+State: (['p_26:1', 'p_33:1', 'p_37:1'], 38)
+  - Domain size: 44
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_30:1', 'p_37:1'], 38)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(init_loop_26, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 39)
+  - Domain size: 3153
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 39)
+  - Domain size: 1781
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 39)
+  - Domain size: 736
+  - Outgoing transitions: 
+	(skip_74, None) -> ['p_81:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 39)
+  - Domain size: 511
+  - Outgoing transitions: 
+	(skip_70, None) -> ['p_78:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_24:1'], 39)
+  - Domain size: 225
+  - Outgoing transitions: 
+	(init_loop_34, None) -> ['p_40:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 39)
+  - Domain size: 161
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['sink:1'], 39)
+  - Domain size: 325
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 39)
+  - Domain size: 202
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_76:1'], 39)
+  - Domain size: 20
+  - Outgoing transitions: 
+	(skip_66, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_33:1', 'p_38:1'], 39)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_33:1', 'p_37:1']: 0.5000
+	(skip_28, None) -> ['p_27:1', 'p_32:1', 'p_38:1']: 0.5000
+  - Entropy: 1.0000
+
+State: (['p_28:1', 'p_32:1', 'p_38:1'], 39)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_28:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 40)
+  - Domain size: 3173
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 40)
+  - Domain size: 1781
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 40)
+  - Domain size: 736
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 40)
+  - Domain size: 511
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_40:1'], 40)
+  - Domain size: 225
+  - Outgoing transitions: 
+	(ff6bc783-4906-450b-8218-a3119922fc85, 'reject_[0]') -> ['p_41:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_38:1'], 40)
+  - Domain size: 161
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_38:1'], 40)
+  - Domain size: 203
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_33:1', 'p_37:1'], 40)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_37:1'], 40)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_23, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 41)
+  - Domain size: 3173
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 41)
+  - Domain size: 1781
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.2965
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_71:1', 'p_74:1']: 0.7035
+  - Entropy: 0.8769
+
+State: (['p_82:1'], 41)
+  - Domain size: 736
+  - Outgoing transitions: 
+	(skip_75, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 41)
+  - Domain size: 511
+  - Outgoing transitions: 
+	(skip_71, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_41:1'], 41)
+  - Domain size: 225
+  - Outgoing transitions: 
+	(skip_36, None) -> ['p_40:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 41)
+  - Domain size: 161
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 41)
+  - Domain size: 205
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 42)
+  - Domain size: 3173
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_75:1']: 0.2383
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_65:1', 'p_70:1', 'p_76:1']: 0.7617
+  - Entropy: 0.7921
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 42)
+  - Domain size: 528
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_74:1'], 42)
+  - Domain size: 1253
+  - Outgoing transitions: 
+	(tauJoin_54, None) -> ['p_62:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 42)
+  - Domain size: 1247
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_40:1'], 42)
+  - Domain size: 225
+  - Outgoing transitions: 
+	(ff6bc783-4906-450b-8218-a3119922fc85, 'reject_[0]') -> ['p_41:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_38:1'], 42)
+  - Domain size: 161
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 0.1615
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_26:1', 'p_33:1', 'p_38:1']: 0.8385
+  - Entropy: 0.6379
+
+State: (['p_27:1', 'p_32:1', 'p_38:1'], 42)
+  - Domain size: 205
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_70:1', 'p_75:1'], 43)
+  - Domain size: 756
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_76:1'], 43)
+  - Domain size: 2417
+  - Outgoing transitions: 
+	(skip_67, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.3372
+	(skip_66, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.6417
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_76:1']: 0.0211
+  - Entropy: 1.0570
+
+State: (['p_66:1', 'p_70:1', 'p_74:1'], 43)
+  - Domain size: 528
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_62:1'], 43)
+  - Domain size: 1253
+  - Outgoing transitions: 
+	(init_loop_72, None) -> ['p_81:1']: 0.5587
+	(init_loop_68, None) -> ['p_78:1']: 0.4413
+  - Entropy: 0.9900
+
+State: (['sink:1'], 43)
+  - Domain size: 1247
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_41:1'], 43)
+  - Domain size: 225
+  - Outgoing transitions: 
+	(skip_37, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 43)
+  - Domain size: 26
+  - Outgoing transitions: 
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_26:1', 'p_33:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_33:1', 'p_38:1'], 43)
+  - Domain size: 135
+  - Outgoing transitions: 
+	(skip_29, None) -> ['p_26:1', 'p_31:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 43)
+  - Domain size: 205
+  - Outgoing transitions: 
+	(7ef13a04-90f8-4183-947b-c3ae6801583e, 'time-out X_[0]') -> ['p_28:1', 'p_32:1', 'p_37:1']: 0.8829
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_27:1', 'p_33:1', 'p_37:1']: 0.1171
+  - Entropy: 0.5209
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 44)
+  - Domain size: 2307
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 44)
+  - Domain size: 1343
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 44)
+  - Domain size: 700
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 44)
+  - Domain size: 553
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 44)
+  - Domain size: 225
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_33:1', 'p_37:1'], 44)
+  - Domain size: 26
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_31:1', 'p_38:1'], 44)
+  - Domain size: 135
+  - Outgoing transitions: 
+	(tauJoin_19, None) -> ['p_24:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_37:1'], 44)
+  - Domain size: 181
+  - Outgoing transitions: 
+	(skip_24, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 0.4751
+	(skip_23, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 0.5138
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_28:1', 'p_32:1', 'p_38:1']: 0.0110
+  - Entropy: 1.0755
+
+State: (['p_65:1', 'p_71:1', 'p_76:1'], 44)
+  - Domain size: 51
+  - Outgoing transitions: 
+	(skip_66, None) -> ['p_65:1', 'p_71:1', 'p_75:1']: 0.4706
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_76:1']: 0.5294
+  - Entropy: 0.9975
+
+State: (['p_27:1', 'p_33:1', 'p_37:1'], 44)
+  - Domain size: 24
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 0.9583
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_33:1', 'p_38:1']: 0.0417
+  - Entropy: 0.2499
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 45)
+  - Domain size: 2331
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 45)
+  - Domain size: 1343
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 45)
+  - Domain size: 700
+  - Outgoing transitions: 
+	(skip_74, None) -> ['p_81:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 45)
+  - Domain size: 553
+  - Outgoing transitions: 
+	(skip_70, None) -> ['p_78:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['sink:1'], 45)
+  - Domain size: 225
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 45)
+  - Domain size: 112
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_24:1'], 45)
+  - Domain size: 135
+  - Outgoing transitions: 
+	(init_loop_34, None) -> ['p_40:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 45)
+  - Domain size: 116
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_76:1'], 45)
+  - Domain size: 27
+  - Outgoing transitions: 
+	(skip_66, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_38:1'], 45)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_28:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_33:1', 'p_38:1'], 45)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_33:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 46)
+  - Domain size: 2358
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 46)
+  - Domain size: 1343
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 46)
+  - Domain size: 700
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 46)
+  - Domain size: 553
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_38:1'], 46)
+  - Domain size: 112
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_40:1'], 46)
+  - Domain size: 135
+  - Outgoing transitions: 
+	(ff6bc783-4906-450b-8218-a3119922fc85, 'reject_[0]') -> ['p_41:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_38:1'], 46)
+  - Domain size: 116
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_37:1'], 46)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_28:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_33:1', 'p_37:1'], 46)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 47)
+  - Domain size: 2358
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 47)
+  - Domain size: 1343
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_71:1', 'p_74:1']: 0.7394
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.2606
+  - Entropy: 0.8277
+
+State: (['p_82:1'], 47)
+  - Domain size: 700
+  - Outgoing transitions: 
+	(skip_75, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 47)
+  - Domain size: 553
+  - Outgoing transitions: 
+	(skip_71, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 47)
+  - Domain size: 112
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_41:1'], 47)
+  - Domain size: 135
+  - Outgoing transitions: 
+	(skip_36, None) -> ['p_40:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 47)
+  - Domain size: 117
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_38:1'], 47)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_28:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 48)
+  - Domain size: 2358
+  - Outgoing transitions: 
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_65:1', 'p_70:1', 'p_76:1']: 0.7990
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_75:1']: 0.2010
+  - Entropy: 0.7240
+
+State: (['p_66:1', 'p_71:1', 'p_74:1'], 48)
+  - Domain size: 993
+  - Outgoing transitions: 
+	(tauJoin_54, None) -> ['p_62:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 48)
+  - Domain size: 1253
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 48)
+  - Domain size: 350
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_38:1'], 48)
+  - Domain size: 112
+  - Outgoing transitions: 
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_26:1', 'p_33:1', 'p_38:1']: 0.8929
+	(skip_32, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 0.1071
+  - Entropy: 0.4912
+
+State: (['p_40:1'], 48)
+  - Domain size: 135
+  - Outgoing transitions: 
+	(ff6bc783-4906-450b-8218-a3119922fc85, 'reject_[0]') -> ['p_41:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_38:1'], 48)
+  - Domain size: 117
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_37:1'], 48)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_28:1', 'p_33:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_76:1'], 49)
+  - Domain size: 1884
+  - Outgoing transitions: 
+	(skip_67, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.3620
+	(skip_66, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.6380
+  - Entropy: 0.9443
+
+State: (['p_62:1'], 49)
+  - Domain size: 993
+  - Outgoing transitions: 
+	(init_loop_72, None) -> ['p_81:1']: 0.5700
+	(init_loop_68, None) -> ['p_78:1']: 0.4300
+  - Entropy: 0.9858
+
+State: (['p_66:1', 'p_70:1', 'p_75:1'], 49)
+  - Domain size: 474
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.9979
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_66:1', 'p_71:1', 'p_75:1']: 0.0021
+  - Entropy: 0.0218
+
+State: (['sink:1'], 49)
+  - Domain size: 1253
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_70:1', 'p_74:1'], 49)
+  - Domain size: 350
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_33:1', 'p_38:1'], 49)
+  - Domain size: 100
+  - Outgoing transitions: 
+	(skip_29, None) -> ['p_26:1', 'p_31:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_41:1'], 49)
+  - Domain size: 135
+  - Outgoing transitions: 
+	(skip_37, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 49)
+  - Domain size: 117
+  - Outgoing transitions: 
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_27:1', 'p_33:1', 'p_37:1']: 0.1111
+	(7ef13a04-90f8-4183-947b-c3ae6801583e, 'time-out X_[0]') -> ['p_28:1', 'p_32:1', 'p_37:1']: 0.8889
+  - Entropy: 0.5033
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 49)
+  - Domain size: 12
+  - Outgoing transitions: 
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_26:1', 'p_33:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_33:1', 'p_37:1'], 49)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_28:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 50)
+  - Domain size: 1032
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 50)
+  - Domain size: 566
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 50)
+  - Domain size: 1675
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 50)
+  - Domain size: 427
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_31:1', 'p_38:1'], 50)
+  - Domain size: 100
+  - Outgoing transitions: 
+	(tauJoin_19, None) -> ['p_24:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 50)
+  - Domain size: 135
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_33:1', 'p_37:1'], 50)
+  - Domain size: 13
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 0.8462
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_33:1', 'p_38:1']: 0.1538
+  - Entropy: 0.6194
+
+State: (['p_28:1', 'p_32:1', 'p_37:1'], 50)
+  - Domain size: 106
+  - Outgoing transitions: 
+	(skip_23, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 0.4906
+	(skip_24, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 0.4906
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_28:1', 'p_32:1', 'p_38:1']: 0.0189
+  - Entropy: 1.1162
+
+State: (['p_26:1', 'p_33:1', 'p_37:1'], 50)
+  - Domain size: 12
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_75:1'], 50)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_66:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 51)
+  - Domain size: 1032
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 51)
+  - Domain size: 566
+  - Outgoing transitions: 
+	(skip_74, None) -> ['p_81:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 51)
+  - Domain size: 1675
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 51)
+  - Domain size: 427
+  - Outgoing transitions: 
+	(skip_70, None) -> ['p_78:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_24:1'], 51)
+  - Domain size: 100
+  - Outgoing transitions: 
+	(init_loop_34, None) -> ['p_40:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['sink:1'], 51)
+  - Domain size: 135
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 51)
+  - Domain size: 63
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 51)
+  - Domain size: 64
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_38:1'], 51)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_28:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_33:1', 'p_38:1'], 51)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_33:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_70:1', 'p_75:1'], 51)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_66:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 52)
+  - Domain size: 1032
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 52)
+  - Domain size: 566
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 52)
+  - Domain size: 1675
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 52)
+  - Domain size: 427
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_40:1'], 52)
+  - Domain size: 100
+  - Outgoing transitions: 
+	(ff6bc783-4906-450b-8218-a3119922fc85, 'reject_[0]') -> ['p_41:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_38:1'], 52)
+  - Domain size: 63
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_38:1'], 52)
+  - Domain size: 64
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_37:1'], 52)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_28:1', 'p_32:1', 'p_38:1']: 0.5000
+	(skip_23, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 0.5000
+  - Entropy: 1.0000
+
+State: (['p_27:1', 'p_33:1', 'p_37:1'], 52)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_75:1'], 52)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_66:1', 'p_71:1', 'p_76:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 53)
+  - Domain size: 1032
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_71:1', 'p_74:1']: 0.7636
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.2364
+  - Entropy: 0.7891
+
+State: (['p_82:1'], 53)
+  - Domain size: 566
+  - Outgoing transitions: 
+	(skip_75, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 53)
+  - Domain size: 1675
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 53)
+  - Domain size: 427
+  - Outgoing transitions: 
+	(skip_71, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_41:1'], 53)
+  - Domain size: 100
+  - Outgoing transitions: 
+	(skip_36, None) -> ['p_40:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 53)
+  - Domain size: 66
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 53)
+  - Domain size: 64
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_38:1'], 53)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_28:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_76:1'], 53)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_67, None) -> ['p_66:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_74:1'], 54)
+  - Domain size: 789
+  - Outgoing transitions: 
+	(tauJoin_54, None) -> ['p_62:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 54)
+  - Domain size: 993
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 54)
+  - Domain size: 1675
+  - Outgoing transitions: 
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_65:1', 'p_70:1', 'p_76:1']: 0.8054
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_75:1']: 0.1946
+  - Entropy: 0.7111
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 54)
+  - Domain size: 244
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_40:1'], 54)
+  - Domain size: 100
+  - Outgoing transitions: 
+	(ff6bc783-4906-450b-8218-a3119922fc85, 'reject_[0]') -> ['p_41:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_38:1'], 54)
+  - Domain size: 66
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_38:1'], 54)
+  - Domain size: 64
+  - Outgoing transitions: 
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_26:1', 'p_33:1', 'p_38:1']: 0.8750
+	(skip_32, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 0.1250
+  - Entropy: 0.5436
+
+State: (['p_28:1', 'p_32:1', 'p_37:1'], 54)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_28:1', 'p_33:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_62:1'], 55)
+  - Domain size: 789
+  - Outgoing transitions: 
+	(init_loop_68, None) -> ['p_78:1']: 0.4335
+	(init_loop_72, None) -> ['p_81:1']: 0.5665
+  - Entropy: 0.9872
+
+State: (['sink:1'], 55)
+  - Domain size: 993
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_76:1'], 55)
+  - Domain size: 1349
+  - Outgoing transitions: 
+	(skip_67, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.3907
+	(skip_66, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.6093
+  - Entropy: 0.9652
+
+State: (['p_66:1', 'p_70:1', 'p_74:1'], 55)
+  - Domain size: 244
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_41:1'], 55)
+  - Domain size: 100
+  - Outgoing transitions: 
+	(skip_37, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_70:1', 'p_75:1'], 55)
+  - Domain size: 326
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 55)
+  - Domain size: 66
+  - Outgoing transitions: 
+	(7ef13a04-90f8-4183-947b-c3ae6801583e, 'time-out X_[0]') -> ['p_28:1', 'p_32:1', 'p_37:1']: 0.9545
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_27:1', 'p_33:1', 'p_37:1']: 0.0455
+  - Entropy: 0.2668
+
+State: (['p_26:1', 'p_33:1', 'p_38:1'], 55)
+  - Domain size: 56
+  - Outgoing transitions: 
+	(skip_29, None) -> ['p_26:1', 'p_31:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_33:1', 'p_37:1'], 55)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_28:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 55)
+  - Domain size: 8
+  - Outgoing transitions: 
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_26:1', 'p_33:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 56)
+  - Domain size: 342
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 56)
+  - Domain size: 771
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 56)
+  - Domain size: 1148
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 56)
+  - Domain size: 447
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 56)
+  - Domain size: 100
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_37:1'], 56)
+  - Domain size: 64
+  - Outgoing transitions: 
+	(skip_23, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 0.6250
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_28:1', 'p_32:1', 'p_38:1']: 0.0312
+	(skip_24, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 0.3438
+  - Entropy: 1.1096
+
+State: (['p_26:1', 'p_31:1', 'p_38:1'], 56)
+  - Domain size: 56
+  - Outgoing transitions: 
+	(tauJoin_19, None) -> ['p_24:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_33:1', 'p_37:1'], 56)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_33:1', 'p_37:1'], 56)
+  - Domain size: 8
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 57)
+  - Domain size: 342
+  - Outgoing transitions: 
+	(skip_70, None) -> ['p_78:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 57)
+  - Domain size: 771
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 57)
+  - Domain size: 1148
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 57)
+  - Domain size: 447
+  - Outgoing transitions: 
+	(skip_74, None) -> ['p_81:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['sink:1'], 57)
+  - Domain size: 100
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 57)
+  - Domain size: 43
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_24:1'], 57)
+  - Domain size: 56
+  - Outgoing transitions: 
+	(init_loop_34, None) -> ['p_40:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_38:1'], 57)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_23, None) -> ['p_27:1', 'p_32:1', 'p_38:1']: 0.5000
+	(skip_32, None) -> ['p_28:1', 'p_32:1', 'p_37:1']: 0.5000
+  - Entropy: 1.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 57)
+  - Domain size: 30
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 58)
+  - Domain size: 342
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 58)
+  - Domain size: 771
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 58)
+  - Domain size: 1148
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 58)
+  - Domain size: 447
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_38:1'], 58)
+  - Domain size: 44
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_40:1'], 58)
+  - Domain size: 56
+  - Outgoing transitions: 
+	(ff6bc783-4906-450b-8218-a3119922fc85, 'reject_[0]') -> ['p_41:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_38:1'], 58)
+  - Domain size: 30
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_37:1'], 58)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_28:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 59)
+  - Domain size: 342
+  - Outgoing transitions: 
+	(skip_71, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 59)
+  - Domain size: 771
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_71:1', 'p_74:1']: 0.8236
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.1764
+  - Entropy: 0.6721
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 59)
+  - Domain size: 1148
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 59)
+  - Domain size: 447
+  - Outgoing transitions: 
+	(skip_75, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 59)
+  - Domain size: 44
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_41:1'], 59)
+  - Domain size: 56
+  - Outgoing transitions: 
+	(skip_36, None) -> ['p_40:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 59)
+  - Domain size: 30
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_38:1'], 59)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_28:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 60)
+  - Domain size: 789
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_74:1'], 60)
+  - Domain size: 635
+  - Outgoing transitions: 
+	(tauJoin_54, None) -> ['p_62:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 60)
+  - Domain size: 1148
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_75:1']: 0.1699
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_65:1', 'p_70:1', 'p_76:1']: 0.8301
+  - Entropy: 0.6574
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 60)
+  - Domain size: 136
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_38:1'], 60)
+  - Domain size: 44
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_40:1'], 60)
+  - Domain size: 56
+  - Outgoing transitions: 
+	(ff6bc783-4906-450b-8218-a3119922fc85, 'reject_[0]') -> ['p_41:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_38:1'], 60)
+  - Domain size: 30
+  - Outgoing transitions: 
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_26:1', 'p_33:1', 'p_38:1']: 0.9000
+	(skip_32, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 0.1000
+  - Entropy: 0.4690
+
+State: (['p_28:1', 'p_32:1', 'p_37:1'], 60)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_28:1', 'p_33:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['sink:1'], 61)
+  - Domain size: 789
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_62:1'], 61)
+  - Domain size: 635
+  - Outgoing transitions: 
+	(init_loop_72, None) -> ['p_81:1']: 0.5354
+	(init_loop_68, None) -> ['p_78:1']: 0.4646
+  - Entropy: 0.9964
+
+State: (['p_66:1', 'p_70:1', 'p_75:1'], 61)
+  - Domain size: 195
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.9949
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_66:1', 'p_71:1', 'p_75:1']: 0.0051
+  - Entropy: 0.0464
+
+State: (['p_65:1', 'p_70:1', 'p_76:1'], 61)
+  - Domain size: 953
+  - Outgoing transitions: 
+	(skip_67, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.4176
+	(skip_66, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.5824
+  - Entropy: 0.9803
+
+State: (['p_66:1', 'p_70:1', 'p_74:1'], 61)
+  - Domain size: 136
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 61)
+  - Domain size: 44
+  - Outgoing transitions: 
+	(7ef13a04-90f8-4183-947b-c3ae6801583e, 'time-out X_[0]') -> ['p_28:1', 'p_32:1', 'p_37:1']: 0.9318
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_27:1', 'p_33:1', 'p_37:1']: 0.0682
+  - Entropy: 0.3591
+
+State: (['p_41:1'], 61)
+  - Domain size: 56
+  - Outgoing transitions: 
+	(skip_37, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_33:1', 'p_38:1'], 61)
+  - Domain size: 27
+  - Outgoing transitions: 
+	(skip_29, None) -> ['p_26:1', 'p_31:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 61)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_26:1', 'p_33:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_33:1', 'p_37:1'], 61)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_28:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 62)
+  - Domain size: 340
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 62)
+  - Domain size: 749
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 62)
+  - Domain size: 295
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 62)
+  - Domain size: 534
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_37:1'], 62)
+  - Domain size: 42
+  - Outgoing transitions: 
+	(skip_24, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 0.5952
+	(skip_23, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 0.3810
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_28:1', 'p_32:1', 'p_38:1']: 0.0238
+  - Entropy: 1.1043
+
+State: (['p_4:1'], 62)
+  - Domain size: 56
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_33:1', 'p_37:1'], 62)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_31:1', 'p_38:1'], 62)
+  - Domain size: 27
+  - Outgoing transitions: 
+	(tauJoin_19, None) -> ['p_24:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_75:1'], 62)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_66:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_33:1', 'p_37:1'], 62)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 63)
+  - Domain size: 340
+  - Outgoing transitions: 
+	(skip_74, None) -> ['p_81:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 63)
+  - Domain size: 749
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 63)
+  - Domain size: 295
+  - Outgoing transitions: 
+	(skip_70, None) -> ['p_78:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 63)
+  - Domain size: 534
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 63)
+  - Domain size: 28
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['sink:1'], 63)
+  - Domain size: 56
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 63)
+  - Domain size: 19
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_24:1'], 63)
+  - Domain size: 27
+  - Outgoing transitions: 
+	(init_loop_34, None) -> ['p_40:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_70:1', 'p_75:1'], 63)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_66:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_38:1'], 63)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_28:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 64)
+  - Domain size: 340
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 64)
+  - Domain size: 749
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 64)
+  - Domain size: 295
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 64)
+  - Domain size: 534
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_38:1'], 64)
+  - Domain size: 28
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_38:1'], 64)
+  - Domain size: 19
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_40:1'], 64)
+  - Domain size: 27
+  - Outgoing transitions: 
+	(ff6bc783-4906-450b-8218-a3119922fc85, 'reject_[0]') -> ['p_41:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_75:1'], 64)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_66:1', 'p_71:1', 'p_76:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_37:1'], 64)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_23, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 65)
+  - Domain size: 340
+  - Outgoing transitions: 
+	(skip_75, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 65)
+  - Domain size: 749
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 65)
+  - Domain size: 295
+  - Outgoing transitions: 
+	(skip_71, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 65)
+  - Domain size: 534
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_71:1', 'p_74:1']: 0.8652
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.1348
+  - Entropy: 0.5705
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 65)
+  - Domain size: 28
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 65)
+  - Domain size: 20
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_41:1'], 65)
+  - Domain size: 27
+  - Outgoing transitions: 
+	(skip_36, None) -> ['p_40:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_76:1'], 65)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_67, None) -> ['p_66:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 66)
+  - Domain size: 635
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 66)
+  - Domain size: 749
+  - Outgoing transitions: 
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_65:1', 'p_70:1', 'p_76:1']: 0.8478
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_75:1']: 0.1522
+  - Entropy: 0.6153
+
+State: (['p_66:1', 'p_71:1', 'p_74:1'], 66)
+  - Domain size: 463
+  - Outgoing transitions: 
+	(tauJoin_54, None) -> ['p_62:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 66)
+  - Domain size: 72
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_38:1'], 66)
+  - Domain size: 28
+  - Outgoing transitions: 
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_26:1', 'p_33:1', 'p_38:1']: 0.8929
+	(skip_32, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 0.1071
+  - Entropy: 0.4912
+
+State: (['p_27:1', 'p_32:1', 'p_38:1'], 66)
+  - Domain size: 20
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_40:1'], 66)
+  - Domain size: 27
+  - Outgoing transitions: 
+	(ff6bc783-4906-450b-8218-a3119922fc85, 'reject_[0]') -> ['p_41:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['sink:1'], 67)
+  - Domain size: 635
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_76:1'], 67)
+  - Domain size: 635
+  - Outgoing transitions: 
+	(skip_67, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.4110
+	(skip_66, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.5890
+  - Entropy: 0.9770
+
+State: (['p_62:1'], 67)
+  - Domain size: 463
+  - Outgoing transitions: 
+	(init_loop_68, None) -> ['p_78:1']: 0.4579
+	(init_loop_72, None) -> ['p_81:1']: 0.5421
+  - Entropy: 0.9949
+
+State: (['p_66:1', 'p_70:1', 'p_74:1'], 67)
+  - Domain size: 72
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_33:1', 'p_38:1'], 67)
+  - Domain size: 25
+  - Outgoing transitions: 
+	(skip_29, None) -> ['p_26:1', 'p_31:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_70:1', 'p_75:1'], 67)
+  - Domain size: 114
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 67)
+  - Domain size: 20
+  - Outgoing transitions: 
+	(7ef13a04-90f8-4183-947b-c3ae6801583e, 'time-out X_[0]') -> ['p_28:1', 'p_32:1', 'p_37:1']: 0.9000
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_27:1', 'p_33:1', 'p_37:1']: 0.1000
+  - Entropy: 0.4690
+
+State: (['p_41:1'], 67)
+  - Domain size: 27
+  - Outgoing transitions: 
+	(skip_37, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 67)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_26:1', 'p_33:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 68)
+  - Domain size: 333
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 68)
+  - Domain size: 212
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 68)
+  - Domain size: 251
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 68)
+  - Domain size: 488
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_31:1', 'p_38:1'], 68)
+  - Domain size: 25
+  - Outgoing transitions: 
+	(tauJoin_19, None) -> ['p_24:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_37:1'], 68)
+  - Domain size: 18
+  - Outgoing transitions: 
+	(skip_24, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 0.3889
+	(skip_23, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 0.6111
+  - Entropy: 0.9641
+
+State: (['p_27:1', 'p_33:1', 'p_37:1'], 68)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 68)
+  - Domain size: 27
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_33:1', 'p_37:1'], 68)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 69)
+  - Domain size: 333
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 69)
+  - Domain size: 212
+  - Outgoing transitions: 
+	(skip_70, None) -> ['p_78:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 69)
+  - Domain size: 251
+  - Outgoing transitions: 
+	(skip_74, None) -> ['p_81:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 69)
+  - Domain size: 488
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_24:1'], 69)
+  - Domain size: 25
+  - Outgoing transitions: 
+	(init_loop_34, None) -> ['p_40:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 69)
+  - Domain size: 10
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 69)
+  - Domain size: 13
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['sink:1'], 69)
+  - Domain size: 27
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 70)
+  - Domain size: 333
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 70)
+  - Domain size: 212
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 70)
+  - Domain size: 251
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 70)
+  - Domain size: 488
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_40:1'], 70)
+  - Domain size: 25
+  - Outgoing transitions: 
+	(ff6bc783-4906-450b-8218-a3119922fc85, 'reject_[0]') -> ['p_41:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_38:1'], 70)
+  - Domain size: 10
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_38:1'], 70)
+  - Domain size: 13
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 71)
+  - Domain size: 333
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_71:1', 'p_74:1']: 0.8288
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.1712
+  - Entropy: 0.6604
+
+State: (['p_79:1'], 71)
+  - Domain size: 212
+  - Outgoing transitions: 
+	(skip_71, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 71)
+  - Domain size: 251
+  - Outgoing transitions: 
+	(skip_75, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 71)
+  - Domain size: 488
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_41:1'], 71)
+  - Domain size: 25
+  - Outgoing transitions: 
+	(skip_36, None) -> ['p_40:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 71)
+  - Domain size: 10
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 71)
+  - Domain size: 13
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_74:1'], 72)
+  - Domain size: 276
+  - Outgoing transitions: 
+	(tauJoin_54, None) -> ['p_62:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 72)
+  - Domain size: 463
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 72)
+  - Domain size: 488
+  - Outgoing transitions: 
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_65:1', 'p_70:1', 'p_76:1']: 0.8852
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_75:1']: 0.1148
+  - Entropy: 0.5141
+
+State: (['p_40:1'], 72)
+  - Domain size: 25
+  - Outgoing transitions: 
+	(ff6bc783-4906-450b-8218-a3119922fc85, 'reject_[0]') -> ['p_41:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 72)
+  - Domain size: 57
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_38:1'], 72)
+  - Domain size: 10
+  - Outgoing transitions: 
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_26:1', 'p_33:1', 'p_38:1']: 0.9000
+	(skip_32, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 0.1000
+  - Entropy: 0.4690
+
+State: (['p_27:1', 'p_32:1', 'p_38:1'], 72)
+  - Domain size: 13
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_62:1'], 73)
+  - Domain size: 276
+  - Outgoing transitions: 
+	(init_loop_72, None) -> ['p_81:1']: 0.5761
+	(init_loop_68, None) -> ['p_78:1']: 0.4239
+  - Entropy: 0.9832
+
+State: (['sink:1'], 73)
+  - Domain size: 463
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_76:1'], 73)
+  - Domain size: 432
+  - Outgoing transitions: 
+	(skip_67, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.4491
+	(skip_66, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.5509
+  - Entropy: 0.9925
+
+State: (['p_41:1'], 73)
+  - Domain size: 25
+  - Outgoing transitions: 
+	(skip_37, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_70:1', 'p_74:1'], 73)
+  - Domain size: 57
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_70:1', 'p_75:1'], 73)
+  - Domain size: 56
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.9464
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_66:1', 'p_71:1', 'p_75:1']: 0.0536
+  - Entropy: 0.3014
+
+State: (['p_26:1', 'p_33:1', 'p_38:1'], 73)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(skip_29, None) -> ['p_26:1', 'p_31:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 73)
+  - Domain size: 13
+  - Outgoing transitions: 
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_27:1', 'p_33:1', 'p_37:1']: 0.2308
+	(7ef13a04-90f8-4183-947b-c3ae6801583e, 'time-out X_[0]') -> ['p_28:1', 'p_32:1', 'p_37:1']: 0.7692
+  - Entropy: 0.7793
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 73)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_26:1', 'p_33:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 74)
+  - Domain size: 159
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 74)
+  - Domain size: 251
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 74)
+  - Domain size: 291
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 74)
+  - Domain size: 117
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 74)
+  - Domain size: 25
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_75:1'], 74)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_66:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_31:1', 'p_38:1'], 74)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(tauJoin_19, None) -> ['p_24:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_33:1', 'p_37:1'], 74)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_37:1'], 74)
+  - Domain size: 10
+  - Outgoing transitions: 
+	(skip_24, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 0.8000
+	(skip_23, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 0.2000
+  - Entropy: 0.7219
+
+State: (['p_26:1', 'p_33:1', 'p_37:1'], 74)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_28, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 75)
+  - Domain size: 159
+  - Outgoing transitions: 
+	(skip_74, None) -> ['p_81:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 75)
+  - Domain size: 251
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 75)
+  - Domain size: 291
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 75)
+  - Domain size: 117
+  - Outgoing transitions: 
+	(skip_70, None) -> ['p_78:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['sink:1'], 75)
+  - Domain size: 25
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_70:1', 'p_75:1'], 75)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_66:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_24:1'], 75)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(init_loop_34, None) -> ['p_40:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 75)
+  - Domain size: 5
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 75)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 76)
+  - Domain size: 159
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 76)
+  - Domain size: 251
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 76)
+  - Domain size: 291
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 76)
+  - Domain size: 117
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_75:1'], 76)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_66:1', 'p_71:1', 'p_76:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_40:1'], 76)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(ff6bc783-4906-450b-8218-a3119922fc85, 'reject_[0]') -> ['p_41:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_38:1'], 76)
+  - Domain size: 5
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_38:1'], 76)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 77)
+  - Domain size: 159
+  - Outgoing transitions: 
+	(skip_75, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 77)
+  - Domain size: 251
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_71:1', 'p_74:1']: 0.8367
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.1633
+  - Entropy: 0.6423
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 77)
+  - Domain size: 291
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 77)
+  - Domain size: 117
+  - Outgoing transitions: 
+	(skip_71, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_76:1'], 77)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(skip_67, None) -> ['p_66:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_41:1'], 77)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(skip_36, None) -> ['p_40:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 77)
+  - Domain size: 5
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 77)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 78)
+  - Domain size: 276
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_74:1'], 78)
+  - Domain size: 213
+  - Outgoing transitions: 
+	(tauJoin_54, None) -> ['p_62:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 78)
+  - Domain size: 291
+  - Outgoing transitions: 
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_65:1', 'p_70:1', 'p_76:1']: 0.8694
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_75:1']: 0.1306
+  - Entropy: 0.5590
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 78)
+  - Domain size: 41
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_40:1'], 78)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(ff6bc783-4906-450b-8218-a3119922fc85, 'reject_[0]') -> ['p_41:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_38:1'], 78)
+  - Domain size: 5
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_38:1'], 78)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_26:1', 'p_33:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['sink:1'], 79)
+  - Domain size: 276
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_62:1'], 79)
+  - Domain size: 213
+  - Outgoing transitions: 
+	(init_loop_68, None) -> ['p_78:1']: 0.4930
+	(init_loop_72, None) -> ['p_81:1']: 0.5070
+  - Entropy: 0.9999
+
+State: (['p_65:1', 'p_70:1', 'p_76:1'], 79)
+  - Domain size: 253
+  - Outgoing transitions: 
+	(skip_66, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.5692
+	(skip_67, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.4308
+  - Entropy: 0.9862
+
+State: (['p_66:1', 'p_70:1', 'p_75:1'], 79)
+  - Domain size: 38
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_70:1', 'p_74:1'], 79)
+  - Domain size: 41
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_41:1'], 79)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(skip_37, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 79)
+  - Domain size: 5
+  - Outgoing transitions: 
+	(7ef13a04-90f8-4183-947b-c3ae6801583e, 'time-out X_[0]') -> ['p_28:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_33:1', 'p_38:1'], 79)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(skip_29, None) -> ['p_26:1', 'p_31:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 80)
+  - Domain size: 105
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 80)
+  - Domain size: 108
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 80)
+  - Domain size: 182
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 80)
+  - Domain size: 150
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 80)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_37:1'], 80)
+  - Domain size: 5
+  - Outgoing transitions: 
+	(skip_23, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 0.6000
+	(skip_24, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 0.4000
+  - Entropy: 0.9710
+
+State: (['p_26:1', 'p_31:1', 'p_38:1'], 80)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(tauJoin_19, None) -> ['p_24:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 81)
+  - Domain size: 105
+  - Outgoing transitions: 
+	(skip_70, None) -> ['p_78:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 81)
+  - Domain size: 108
+  - Outgoing transitions: 
+	(skip_74, None) -> ['p_81:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 81)
+  - Domain size: 182
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 81)
+  - Domain size: 150
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['sink:1'], 81)
+  - Domain size: 9
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 81)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_24:1'], 81)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(init_loop_34, None) -> ['p_40:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 81)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 82)
+  - Domain size: 105
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 82)
+  - Domain size: 108
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 82)
+  - Domain size: 182
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 82)
+  - Domain size: 150
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_38:1'], 82)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_40:1'], 82)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(ff6bc783-4906-450b-8218-a3119922fc85, 'reject_[0]') -> ['p_41:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_38:1'], 82)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 83)
+  - Domain size: 105
+  - Outgoing transitions: 
+	(skip_71, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 83)
+  - Domain size: 108
+  - Outgoing transitions: 
+	(skip_75, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 83)
+  - Domain size: 182
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 83)
+  - Domain size: 150
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_71:1', 'p_74:1']: 0.8600
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.1400
+  - Entropy: 0.5842
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 83)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_27:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_41:1'], 83)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(skip_36, None) -> ['p_40:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 83)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 84)
+  - Domain size: 213
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 84)
+  - Domain size: 182
+  - Outgoing transitions: 
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_65:1', 'p_70:1', 'p_76:1']: 0.8626
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_75:1']: 0.1374
+  - Entropy: 0.5773
+
+State: (['p_66:1', 'p_71:1', 'p_74:1'], 84)
+  - Domain size: 129
+  - Outgoing transitions: 
+	(tauJoin_54, None) -> ['p_62:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 84)
+  - Domain size: 21
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_38:1'], 84)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_27:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_40:1'], 84)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(ff6bc783-4906-450b-8218-a3119922fc85, 'reject_[0]') -> ['p_41:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_38:1'], 84)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_26:1', 'p_33:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['sink:1'], 85)
+  - Domain size: 213
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_76:1'], 85)
+  - Domain size: 157
+  - Outgoing transitions: 
+	(skip_67, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.3567
+	(skip_66, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.6433
+  - Entropy: 0.9399
+
+State: (['p_62:1'], 85)
+  - Domain size: 129
+  - Outgoing transitions: 
+	(init_loop_72, None) -> ['p_81:1']: 0.5271
+	(init_loop_68, None) -> ['p_78:1']: 0.4729
+  - Entropy: 0.9979
+
+State: (['p_66:1', 'p_70:1', 'p_75:1'], 85)
+  - Domain size: 25
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_70:1', 'p_74:1'], 85)
+  - Domain size: 21
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_27:1', 'p_32:1', 'p_37:1'], 85)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(7ef13a04-90f8-4183-947b-c3ae6801583e, 'time-out X_[0]') -> ['p_28:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_41:1'], 85)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(skip_37, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_33:1', 'p_38:1'], 85)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_29, None) -> ['p_26:1', 'p_31:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 86)
+  - Domain size: 77
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 86)
+  - Domain size: 68
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 86)
+  - Domain size: 126
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 86)
+  - Domain size: 61
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_28:1', 'p_32:1', 'p_37:1'], 86)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(skip_24, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 86)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_31:1', 'p_38:1'], 86)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(tauJoin_19, None) -> ['p_24:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 87)
+  - Domain size: 77
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 87)
+  - Domain size: 68
+  - Outgoing transitions: 
+	(skip_74, None) -> ['p_81:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 87)
+  - Domain size: 126
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 87)
+  - Domain size: 61
+  - Outgoing transitions: 
+	(skip_70, None) -> ['p_78:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 87)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['sink:1'], 87)
+  - Domain size: 9
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_24:1'], 87)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(init_loop_34, None) -> ['p_40:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 88)
+  - Domain size: 77
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 88)
+  - Domain size: 68
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 88)
+  - Domain size: 126
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 88)
+  - Domain size: 61
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_38:1'], 88)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(skip_32, None) -> ['p_26:1', 'p_32:1', 'p_37:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_40:1'], 88)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(ff6bc783-4906-450b-8218-a3119922fc85, 'reject_[0]') -> ['p_41:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 89)
+  - Domain size: 77
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_71:1', 'p_74:1']: 0.8701
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.1299
+  - Entropy: 0.5571
+
+State: (['p_82:1'], 89)
+  - Domain size: 68
+  - Outgoing transitions: 
+	(skip_75, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 89)
+  - Domain size: 126
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 89)
+  - Domain size: 61
+  - Outgoing transitions: 
+	(skip_71, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_37:1'], 89)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(3356aa00-76c5-48cc-8a4f-16adc8de9180, 'invite additional reviewer_[0]') -> ['p_26:1', 'p_32:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_41:1'], 89)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_36, None) -> ['p_40:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_74:1'], 90)
+  - Domain size: 67
+  - Outgoing transitions: 
+	(tauJoin_54, None) -> ['p_62:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 90)
+  - Domain size: 129
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 90)
+  - Domain size: 126
+  - Outgoing transitions: 
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_65:1', 'p_70:1', 'p_76:1']: 0.9127
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_75:1']: 0.0873
+  - Entropy: 0.4274
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 90)
+  - Domain size: 10
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_32:1', 'p_38:1'], 90)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(95328a3b-9dca-4ab0-8d89-36f3c9f48279, 'get review X_[0]') -> ['p_26:1', 'p_33:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_40:1'], 90)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(ff6bc783-4906-450b-8218-a3119922fc85, 'reject_[0]') -> ['p_41:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_62:1'], 91)
+  - Domain size: 67
+  - Outgoing transitions: 
+	(init_loop_68, None) -> ['p_78:1']: 0.4478
+	(init_loop_72, None) -> ['p_81:1']: 0.5522
+  - Entropy: 0.9921
+
+State: (['sink:1'], 91)
+  - Domain size: 129
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_76:1'], 91)
+  - Domain size: 115
+  - Outgoing transitions: 
+	(skip_67, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.4435
+	(skip_66, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.5565
+  - Entropy: 0.9908
+
+State: (['p_66:1', 'p_70:1', 'p_75:1'], 91)
+  - Domain size: 11
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_70:1', 'p_74:1'], 91)
+  - Domain size: 10
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_33:1', 'p_38:1'], 91)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(skip_29, None) -> ['p_26:1', 'p_31:1', 'p_38:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_41:1'], 91)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_37, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 92)
+  - Domain size: 30
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 92)
+  - Domain size: 61
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 92)
+  - Domain size: 75
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 92)
+  - Domain size: 37
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_26:1', 'p_31:1', 'p_38:1'], 92)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(tauJoin_19, None) -> ['p_24:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 92)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 93)
+  - Domain size: 30
+  - Outgoing transitions: 
+	(skip_70, None) -> ['p_78:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 93)
+  - Domain size: 61
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 93)
+  - Domain size: 75
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 93)
+  - Domain size: 37
+  - Outgoing transitions: 
+	(skip_74, None) -> ['p_81:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_24:1'], 93)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(init_loop_34, None) -> ['p_40:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['sink:1'], 93)
+  - Domain size: 2
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 94)
+  - Domain size: 30
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 94)
+  - Domain size: 61
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 94)
+  - Domain size: 75
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 94)
+  - Domain size: 37
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_40:1'], 94)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(ff6bc783-4906-450b-8218-a3119922fc85, 'reject_[0]') -> ['p_41:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 95)
+  - Domain size: 30
+  - Outgoing transitions: 
+	(skip_71, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 95)
+  - Domain size: 61
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_71:1', 'p_74:1']: 0.8852
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.1148
+  - Entropy: 0.5141
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 95)
+  - Domain size: 75
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 95)
+  - Domain size: 37
+  - Outgoing transitions: 
+	(skip_75, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_41:1'], 95)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(skip_36, None) -> ['p_40:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 96)
+  - Domain size: 67
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_74:1'], 96)
+  - Domain size: 54
+  - Outgoing transitions: 
+	(tauJoin_54, None) -> ['p_62:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 96)
+  - Domain size: 75
+  - Outgoing transitions: 
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_65:1', 'p_70:1', 'p_76:1']: 0.9200
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_75:1']: 0.0800
+  - Entropy: 0.4022
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 96)
+  - Domain size: 7
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_40:1'], 96)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(ff6bc783-4906-450b-8218-a3119922fc85, 'reject_[0]') -> ['p_41:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['sink:1'], 97)
+  - Domain size: 67
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_62:1'], 97)
+  - Domain size: 54
+  - Outgoing transitions: 
+	(init_loop_68, None) -> ['p_78:1']: 0.5000
+	(init_loop_72, None) -> ['p_81:1']: 0.5000
+  - Entropy: 1.0000
+
+State: (['p_65:1', 'p_70:1', 'p_76:1'], 97)
+  - Domain size: 69
+  - Outgoing transitions: 
+	(skip_66, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.4493
+	(skip_67, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.5507
+  - Entropy: 0.9926
+
+State: (['p_66:1', 'p_70:1', 'p_74:1'], 97)
+  - Domain size: 7
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_41:1'], 97)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(skip_37, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_70:1', 'p_75:1'], 97)
+  - Domain size: 6
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 98)
+  - Domain size: 27
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 98)
+  - Domain size: 37
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 98)
+  - Domain size: 45
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 98)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 98)
+  - Domain size: 27
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 99)
+  - Domain size: 27
+  - Outgoing transitions: 
+	(skip_70, None) -> ['p_78:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 99)
+  - Domain size: 37
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 99)
+  - Domain size: 45
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['sink:1'], 99)
+  - Domain size: 3
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 99)
+  - Domain size: 27
+  - Outgoing transitions: 
+	(skip_74, None) -> ['p_81:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 100)
+  - Domain size: 27
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 100)
+  - Domain size: 37
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 100)
+  - Domain size: 45
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 100)
+  - Domain size: 27
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 101)
+  - Domain size: 27
+  - Outgoing transitions: 
+	(skip_71, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 101)
+  - Domain size: 37
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 101)
+  - Domain size: 45
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_71:1', 'p_74:1']: 0.8444
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.1556
+  - Entropy: 0.6236
+
+State: (['p_82:1'], 101)
+  - Domain size: 27
+  - Outgoing transitions: 
+	(skip_75, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 102)
+  - Domain size: 54
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 102)
+  - Domain size: 37
+  - Outgoing transitions: 
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_65:1', 'p_70:1', 'p_76:1']: 0.9459
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_75:1']: 0.0541
+  - Entropy: 0.3034
+
+State: (['p_66:1', 'p_71:1', 'p_74:1'], 102)
+  - Domain size: 38
+  - Outgoing transitions: 
+	(tauJoin_54, None) -> ['p_62:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 102)
+  - Domain size: 7
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['sink:1'], 103)
+  - Domain size: 54
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_76:1'], 103)
+  - Domain size: 35
+  - Outgoing transitions: 
+	(skip_66, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.7429
+	(skip_67, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.2571
+  - Entropy: 0.8224
+
+State: (['p_62:1'], 103)
+  - Domain size: 38
+  - Outgoing transitions: 
+	(init_loop_72, None) -> ['p_81:1']: 0.5000
+	(init_loop_68, None) -> ['p_78:1']: 0.5000
+  - Entropy: 1.0000
+
+State: (['p_66:1', 'p_70:1', 'p_74:1'], 103)
+  - Domain size: 7
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_70:1', 'p_75:1'], 103)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 104)
+  - Domain size: 28
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 104)
+  - Domain size: 19
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 104)
+  - Domain size: 19
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 104)
+  - Domain size: 16
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 105)
+  - Domain size: 28
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 105)
+  - Domain size: 19
+  - Outgoing transitions: 
+	(skip_74, None) -> ['p_81:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 105)
+  - Domain size: 19
+  - Outgoing transitions: 
+	(skip_70, None) -> ['p_78:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 105)
+  - Domain size: 16
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 106)
+  - Domain size: 28
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 106)
+  - Domain size: 19
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 106)
+  - Domain size: 19
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 106)
+  - Domain size: 16
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 107)
+  - Domain size: 28
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 107)
+  - Domain size: 19
+  - Outgoing transitions: 
+	(skip_75, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 107)
+  - Domain size: 19
+  - Outgoing transitions: 
+	(skip_71, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 107)
+  - Domain size: 16
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_71:1', 'p_74:1']: 0.7500
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.2500
+  - Entropy: 0.8113
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 108)
+  - Domain size: 28
+  - Outgoing transitions: 
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_65:1', 'p_70:1', 'p_76:1']: 0.7857
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_75:1']: 0.2143
+  - Entropy: 0.7496
+
+State: (['p_4:1'], 108)
+  - Domain size: 38
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_74:1'], 108)
+  - Domain size: 12
+  - Outgoing transitions: 
+	(tauJoin_54, None) -> ['p_62:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 108)
+  - Domain size: 4
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_76:1'], 109)
+  - Domain size: 22
+  - Outgoing transitions: 
+	(skip_66, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.5455
+	(skip_67, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.4545
+  - Entropy: 0.9940
+
+State: (['sink:1'], 109)
+  - Domain size: 38
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_62:1'], 109)
+  - Domain size: 12
+  - Outgoing transitions: 
+	(init_loop_68, None) -> ['p_78:1']: 0.5000
+	(init_loop_72, None) -> ['p_81:1']: 0.5000
+  - Entropy: 1.0000
+
+State: (['p_66:1', 'p_70:1', 'p_75:1'], 109)
+  - Domain size: 6
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.8333
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_66:1', 'p_71:1', 'p_75:1']: 0.1667
+  - Entropy: 0.6500
+
+State: (['p_66:1', 'p_70:1', 'p_74:1'], 109)
+  - Domain size: 4
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 110)
+  - Domain size: 17
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 110)
+  - Domain size: 14
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 110)
+  - Domain size: 6
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 110)
+  - Domain size: 6
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_75:1'], 110)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_66:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 111)
+  - Domain size: 17
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 111)
+  - Domain size: 14
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 111)
+  - Domain size: 6
+  - Outgoing transitions: 
+	(skip_70, None) -> ['p_78:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 111)
+  - Domain size: 6
+  - Outgoing transitions: 
+	(skip_74, None) -> ['p_81:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_70:1', 'p_75:1'], 111)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_66:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 112)
+  - Domain size: 17
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 112)
+  - Domain size: 14
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 112)
+  - Domain size: 6
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 112)
+  - Domain size: 6
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_75:1'], 112)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_66:1', 'p_71:1', 'p_76:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 113)
+  - Domain size: 17
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 113)
+  - Domain size: 14
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_71:1', 'p_74:1']: 0.8571
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.1429
+  - Entropy: 0.5917
+
+State: (['p_79:1'], 113)
+  - Domain size: 6
+  - Outgoing transitions: 
+	(skip_71, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 113)
+  - Domain size: 6
+  - Outgoing transitions: 
+	(skip_75, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_76:1'], 113)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_67, None) -> ['p_66:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 114)
+  - Domain size: 17
+  - Outgoing transitions: 
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_65:1', 'p_70:1', 'p_76:1']: 0.9412
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_75:1']: 0.0588
+  - Entropy: 0.3228
+
+State: (['p_66:1', 'p_71:1', 'p_74:1'], 114)
+  - Domain size: 13
+  - Outgoing transitions: 
+	(tauJoin_54, None) -> ['p_62:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 114)
+  - Domain size: 12
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 114)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_76:1'], 115)
+  - Domain size: 16
+  - Outgoing transitions: 
+	(skip_66, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.8125
+	(skip_67, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.1875
+  - Entropy: 0.6962
+
+State: (['p_62:1'], 115)
+  - Domain size: 13
+  - Outgoing transitions: 
+	(init_loop_72, None) -> ['p_81:1']: 0.4615
+	(init_loop_68, None) -> ['p_78:1']: 0.5385
+  - Entropy: 0.9957
+
+State: (['sink:1'], 115)
+  - Domain size: 12
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_70:1', 'p_75:1'], 115)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_70:1', 'p_74:1'], 115)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 116)
+  - Domain size: 14
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 116)
+  - Domain size: 6
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 116)
+  - Domain size: 7
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 116)
+  - Domain size: 5
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 117)
+  - Domain size: 14
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 117)
+  - Domain size: 6
+  - Outgoing transitions: 
+	(skip_74, None) -> ['p_81:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 117)
+  - Domain size: 7
+  - Outgoing transitions: 
+	(skip_70, None) -> ['p_78:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 117)
+  - Domain size: 5
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 118)
+  - Domain size: 14
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 118)
+  - Domain size: 6
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 118)
+  - Domain size: 7
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 118)
+  - Domain size: 5
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 119)
+  - Domain size: 14
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 119)
+  - Domain size: 6
+  - Outgoing transitions: 
+	(skip_75, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 119)
+  - Domain size: 7
+  - Outgoing transitions: 
+	(skip_71, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 119)
+  - Domain size: 5
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.4000
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_71:1', 'p_74:1']: 0.6000
+  - Entropy: 0.9710
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 120)
+  - Domain size: 14
+  - Outgoing transitions: 
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_65:1', 'p_70:1', 'p_76:1']: 0.8571
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_75:1']: 0.1429
+  - Entropy: 0.5917
+
+State: (['p_4:1'], 120)
+  - Domain size: 13
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 120)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_74:1'], 120)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(tauJoin_54, None) -> ['p_62:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_76:1'], 121)
+  - Domain size: 12
+  - Outgoing transitions: 
+	(skip_66, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.5833
+	(skip_67, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.4167
+  - Entropy: 0.9799
+
+State: (['sink:1'], 121)
+  - Domain size: 13
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_70:1', 'p_75:1'], 121)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_70:1', 'p_74:1'], 121)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_62:1'], 121)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(init_loop_72, None) -> ['p_81:1']: 0.3333
+	(init_loop_68, None) -> ['p_78:1']: 0.6667
+  - Entropy: 0.9183
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 122)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 122)
+  - Domain size: 7
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 122)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 122)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 123)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 123)
+  - Domain size: 7
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 123)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_74, None) -> ['p_81:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 123)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_70, None) -> ['p_78:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 124)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 124)
+  - Domain size: 7
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 124)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 124)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 125)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 125)
+  - Domain size: 7
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 125)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_75, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 125)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_71, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 126)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_65:1', 'p_70:1', 'p_76:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_74:1'], 126)
+  - Domain size: 7
+  - Outgoing transitions: 
+	(tauJoin_54, None) -> ['p_62:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 126)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_76:1'], 127)
+  - Domain size: 9
+  - Outgoing transitions: 
+	(skip_67, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.5556
+	(skip_66, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.4444
+  - Entropy: 0.9911
+
+State: (['p_62:1'], 127)
+  - Domain size: 7
+  - Outgoing transitions: 
+	(init_loop_72, None) -> ['p_81:1']: 0.5714
+	(init_loop_68, None) -> ['p_78:1']: 0.4286
+  - Entropy: 0.9852
+
+State: (['sink:1'], 127)
+  - Domain size: 3
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 128)
+  - Domain size: 5
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 128)
+  - Domain size: 4
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 128)
+  - Domain size: 4
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 128)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 129)
+  - Domain size: 5
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 129)
+  - Domain size: 4
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 129)
+  - Domain size: 4
+  - Outgoing transitions: 
+	(skip_74, None) -> ['p_81:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 129)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(skip_70, None) -> ['p_78:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 130)
+  - Domain size: 5
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 130)
+  - Domain size: 4
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 130)
+  - Domain size: 4
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 130)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 131)
+  - Domain size: 5
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 131)
+  - Domain size: 4
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 131)
+  - Domain size: 4
+  - Outgoing transitions: 
+	(skip_75, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 131)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(skip_71, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_74:1'], 132)
+  - Domain size: 5
+  - Outgoing transitions: 
+	(tauJoin_54, None) -> ['p_62:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 132)
+  - Domain size: 4
+  - Outgoing transitions: 
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_65:1', 'p_70:1', 'p_76:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 132)
+  - Domain size: 7
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_62:1'], 133)
+  - Domain size: 5
+  - Outgoing transitions: 
+	(init_loop_72, None) -> ['p_81:1']: 0.4000
+	(init_loop_68, None) -> ['p_78:1']: 0.6000
+  - Entropy: 0.9710
+
+State: (['p_65:1', 'p_70:1', 'p_76:1'], 133)
+  - Domain size: 4
+  - Outgoing transitions: 
+	(skip_67, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.5000
+	(skip_66, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.5000
+  - Entropy: 1.0000
+
+State: (['sink:1'], 133)
+  - Domain size: 7
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 134)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 134)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 134)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 134)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 135)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_74, None) -> ['p_81:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 135)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 135)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 135)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(skip_70, None) -> ['p_78:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 136)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 136)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 136)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 136)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 137)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_75, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 137)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 137)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 137)
+  - Domain size: 3
+  - Outgoing transitions: 
+	(skip_71, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 138)
+  - Domain size: 5
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_74:1'], 138)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(tauJoin_54, None) -> ['p_62:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 138)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_65:1', 'p_70:1', 'p_76:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['sink:1'], 139)
+  - Domain size: 5
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_62:1'], 139)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(init_loop_72, None) -> ['p_81:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_76:1'], 139)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_67, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 0.5000
+	(skip_66, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 0.5000
+  - Entropy: 1.0000
+
+State: (['p_81:1'], 140)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 140)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 140)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 141)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_74, None) -> ['p_81:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 141)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 141)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_81:1'], 142)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(269de3e4-f9f0-4a68-a4f5-7fbb9209eebf, 'accept_[1]') -> ['p_82:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 142)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 142)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_82:1'], 143)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(skip_75, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 143)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 143)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 144)
+  - Domain size: 2
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_74:1'], 144)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(tauJoin_54, None) -> ['p_62:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 144)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['sink:1'], 145)
+  - Domain size: 2
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_62:1'], 145)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(init_loop_68, None) -> ['p_78:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_70:1', 'p_75:1'], 145)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_57, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 146)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 146)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 147)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_70, None) -> ['p_78:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 147)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 148)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 148)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 149)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_71, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 149)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 150)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 150)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_65:1', 'p_70:1', 'p_76:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['sink:1'], 151)
+  - Domain size: 1
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_76:1'], 151)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_66, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 152)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 153)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 154)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 155)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 156)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_65:1', 'p_70:1', 'p_76:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_76:1'], 157)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_66, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 158)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 159)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 160)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_75:1'], 161)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_75:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_75:1'], 162)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(75fd73aa-0b8f-43fc-ba26-d547888ae8a5, 'time-out X_[1]') -> ['p_65:1', 'p_70:1', 'p_76:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_76:1'], 163)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_67, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 164)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 165)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_61, None) -> ['p_65:1', 'p_70:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_70:1', 'p_74:1'], 166)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(dfa79ec9-f717-46a8-9a80-847ecaac7cdc, 'invite additional reviewer_[1]') -> ['p_65:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_65:1', 'p_71:1', 'p_74:1'], 167)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(c225f42f-e0ac-4742-81e4-65a989d678ad, 'get review X_[1]') -> ['p_66:1', 'p_71:1', 'p_74:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_66:1', 'p_71:1', 'p_74:1'], 168)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(tauJoin_54, None) -> ['p_62:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_62:1'], 169)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(init_loop_68, None) -> ['p_78:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 170)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 171)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_70, None) -> ['p_78:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_78:1'], 172)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(bd9e4309-5d49-40fa-93e9-eb3d5bc38938, 'reject_[1]') -> ['p_79:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_79:1'], 173)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(skip_71, None) -> ['p_4:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['p_4:1'], 174)
+  - Domain size: 1
+  - Outgoing transitions: 
+	(tau_2, None) -> ['sink:1']: 1.0000
+  - Entropy: 0.0000
+
+State: (['sink:1'], 175)
+  - Domain size: 1
+  - Outgoing transitions: 
+	
+  - Entropy: 0.0000
+
+------------------------------
+Process Entropy: 0.6199
+------------------------------
