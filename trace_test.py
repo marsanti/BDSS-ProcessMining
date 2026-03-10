@@ -122,8 +122,11 @@ class TraceTest:
                 if self.ts is None:
                     return True
                 else:
+                    if index is None and event == x[-1]:
+                        break
+
                     past_time = past_event.get('time:timestamp')
-                    
+ 
                     if last_time and past_time:
                         diff = (last_time - past_time).total_seconds()
                         
